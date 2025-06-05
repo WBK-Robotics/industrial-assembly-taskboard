@@ -1,0 +1,30 @@
+Industrial Assembly Taskboard – Robot Task Guide
+=========================================
+
+Introduction
+------------
+
+This section describes the **robot-level task definitions** for each industrial assembly challenge module.
+Where the assembly instructions told you *how to build the hardware*, the pages listed below
+detail *what your robot must do* (task sequence, constraints and success criteria)
+when experimenting with each module.
+
+How to use
+~~~~~~~~~~
+
+1. Pick the module you want to benchmark.
+2. Read its **robotic assembly task** page to understand the required motions and tolerances.
+3. Implement and test your robot program until the success criteria are met.
+
+Robot Task Pages
+----------------
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Robot Tasks
+
+   robotic_instructions_peg_in_hole
+   robotic_instructions_pick_and_place
+   robotic_instructions_gear_tasks
+   robotic_instructions_screws_and_nuts
+   robotic_instructions_elastic_deformation

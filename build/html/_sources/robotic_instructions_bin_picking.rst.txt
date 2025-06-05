@@ -1,0 +1,26 @@
+Robotic Assembly Instructions Bin Picking
+=========================================
+
+Task 1: Bin Picking of Shafts
+-----------------------------
+
+The robot is presented with a prepared box containing 10 shafts: 5 without a hole and 5 with a drilled hole.
+The task is for the robot to detect, identify, and grasp one shaft of each type (with and without a hole), and place them next to the box for further processing.
+Success criteria: The task is considered successfully completed if the robot has correctly grasped two different shafts from the box and placed them next to the box.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Task 2: Bin Picking of Screws
+-----------------------------
+
+The robot is presented with a prepared box containing 50 M8 screws, each 30 mm in length.
+The task is for the robot to locate and grasp five individual screws from the box and place them next to it for further use.
+Success criteria: The task is considered successfully completed if the robot has correctly grasped two screws from the box and placed them next to the box.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Task 3: Bin Picking of Cables
+-----------------------------
+
+The robot is presented with a prepared box containing ten H07V-K 1x2.5 mm² cables, each approximately one meter in length.
+The task is to grasp two of the cables and place them next to the Task Board. This task specifically evaluates the robot’s ability to handle flexible and potentially entangled objects.
+Success criteria: The task is considered successfully completed if the robot has correctly grasped two cables from the box and placed them next to the box.
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
