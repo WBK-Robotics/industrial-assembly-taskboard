@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Robotic Assembly Instructions: Pick and Place &mdash; Industrial Assembly Taskboard 1.0.0 documentation</title>
+  <title>Robotic Task Descriptions: Pick and Place &mdash; Industrial Assembly Taskboard 1.0.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=92fd9be5" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -19,7 +19,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Robotic Assembly Instructions: Gear Assembly" href="robotic_instructions_gear_tasks.html" />
+    <link rel="next" title="Robotic Task Descriptions: Gear Assembly" href="robotic_instructions_gear_tasks.html" />
     <link rel="prev" title="Robotic Task Descriptions: Peg in Hole" href="robotic_instructions_peg_in_hole.html" /> 
 </head>
 
@@ -27,12 +27,13 @@
   <div class="wy-grid-for-nav">
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search"  style="background: #009682" >
+        <div class="wy-side-nav-search"  style="background: #dbe3e6" >
 
           
           
           <a href="index.html">
             
+              <img src="_static/logo.png" class="logo" alt="Logo"/>
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -49,15 +50,15 @@
 <li class="toctree-l2"><a class="reference internal" href="wbk_challenge_robot_tasks_overview.html#introduction">Introduction</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="wbk_challenge_robot_tasks_overview.html#robot-task-pages">Robot Task Pages</a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="robotic_instructions_peg_in_hole.html">Robotic Task Descriptions: Peg in Hole</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Robotic Assembly Instructions: Pick and Place</a><ul>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Robotic Task Descriptions: Pick and Place</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#task-1-housing-parts">Task 1: Housing Parts</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#task-2-feather-key">Task 2: Feather Key</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#task-3-shim-ring">Task 3: Shim Ring</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_gear_tasks.html">Robotic Assembly Instructions: Gear Assembly</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_gear_tasks.html">Robotic Task Descriptions: Gear Assembly</a></li>
 <li class="toctree-l3"><a class="reference internal" href="robotic_instructions_screws_and_nuts.html">Robotic Assembly Instructions: Screws and Nuts</a></li>
-<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_elastic_deformation.html">Robotic Assembly Instructions Elastic Deformation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_elastic_deformation.html">Robotic Task Descriptions: Elastic Deformation</a></li>
 </ul>
 </li>
 </ul>
@@ -68,7 +69,7 @@
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #009682" >
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #dbe3e6" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="index.html">Industrial Assembly Taskboard</a>
       </nav>
@@ -79,7 +80,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="wbk_challenge_robot_tasks_overview.html">Task Descriptions</a></li>
-      <li class="breadcrumb-item active">Robotic Assembly Instructions: Pick and Place</li>
+      <li class="breadcrumb-item active">Robotic Task Descriptions: Pick and Place</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/robotic_instructions_pick_and_place.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -89,17 +90,31 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="robotic-assembly-instructions-pick-and-place">
-<h1>Robotic Assembly Instructions: Pick and Place<a class="headerlink" href="#robotic-assembly-instructions-pick-and-place" title="Link to this heading"></a></h1>
+  <section id="robotic-task-descriptions-pick-and-place">
+<h1>Robotic Task Descriptions: Pick and Place<a class="headerlink" href="#robotic-task-descriptions-pick-and-place" title="Link to this heading"></a></h1>
+<p>This page provides the task descriptions for the Pick and Place task module of the industrial assembly challenge taskboard.
+The module consists of three tasks: Housing Parts, Feather Key, and Shim Ring placement.
+The focus here is on adaptivity, the robot needs to sense the assembly to determine the correct placement and alignment of parts,
+rather than reaching a fixed target pose like in the Peg-in-Hole task.</p>
+<p>A sample taskboard with all three tasks finished is shown below,
+where the robot has successfully completed all tasks by placing the parts in the correct positions and orientations.</p>
+<a class="reference internal image-reference" href="_images/pick_and_place_taskboard_finished.png"><img alt="Pick and Place Task Module" class="align-center" src="_images/pick_and_place_taskboard_finished.png" style="width: 400px;" /></a>
 <section id="task-1-housing-parts">
 <h2>Task 1: Housing Parts<a class="headerlink" href="#task-1-housing-parts" title="Link to this heading"></a></h2>
 <section id="description">
 <h3>Description:<a class="headerlink" href="#description" title="Link to this heading"></a></h3>
-<p>A housing part is placed on a flat surface next to the Taskboard. Another housing part is already mounted on the Taskboard. The robot must pick up the loose housing part and place it centrally on top of the mounted part, ensuring correct alignment.</p>
+<p>In real-world assembly, parts often need to be aligned based on subtle visual cues or features that are difficult to detect,
+rather than relying solely on fixed orientations or clearly visible holes as in simple “peg-in-hole” problems.
+This task simulates such a scenario where the robot must align two housing parts based on matching features,
+such as drill holes and flange surfaces, which may not be perfectly aligned or visible to the robot’s sensors.
+A housing part is placed on a flat surface next to the Taskboard. Another housing part is already mounted on the Taskboard.
+The robot must pick up the loose housing part and place it centrally on top of the mounted part, ensuring correct alignment.</p>
+<a class="reference internal image-reference" href="_images/pick_and_place_taskboard_housing_parts.png"><img alt="Pick and Place Task Module - Housing Parts" class="align-center" src="_images/pick_and_place_taskboard_housing_parts.png" style="width: 400px;" /></a>
 </section>
 <section id="test-objective">
 <h3>Test Objective:<a class="headerlink" href="#test-objective" title="Link to this heading"></a></h3>
-<p>This task evaluates the robot’s ability to grasp, transport, and precisely align components with matching features, simulating assembly operations that require accurate positioning and orientation.</p>
+<p>This task evaluates the robot’s ability to grasp, transport, and precisely align components with matching features,
+simulating assembly operations that require accurate positioning and orientation.</p>
 </section>
 <section id="success-criteria">
 <h3>Success Criteria:<a class="headerlink" href="#success-criteria" title="Link to this heading"></a></h3>
@@ -115,8 +130,12 @@
 <h2>Task 2: Feather Key<a class="headerlink" href="#task-2-feather-key" title="Link to this heading"></a></h2>
 <section id="id1">
 <h3>Description:<a class="headerlink" href="#id1" title="Link to this heading"></a></h3>
-<p>A feather key is placed on a flat surface next to the Taskboard.
-The robot must pick up the feather key and insert it vertically into the groove of a shaft mounted on the Taskboard.</p>
+<p>A feather key is a small, rectangular metal component used to connect rotating machine elements, such as gears or pulleys, to a shaft,
+ensuring torque transmission while allowing for easy assembly and disassembly.
+Feather keys fit into matching grooves (keyways) on both the shaft and the mating part, providing a secure, non-permanent connection.</p>
+<p>In this task, a feather key is placed on a flat surface next to the Taskboard. T
+he robot must pick up the feather key and insert it vertically into the groove of a shaft mounted on the Taskboard.</p>
+<a class="reference internal image-reference" href="_images/pick_and_place_taskboard_feather_key.png"><img alt="Pick and Place Task Module - Feather Key" class="align-center" src="_images/pick_and_place_taskboard_feather_key.png" style="width: 400px;" /></a>
 </section>
 <section id="id2">
 <h3>Test Objective:<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
@@ -142,6 +161,7 @@ wear, or assembly variations. Therefore, the robot must autonomously determine h
 up to but not covering the groove on the shaft.
 This reflects real-world scenarios where automated systems
 must adapt to part variability and ensure assemblies meet strict tolerance requirements without manual intervention.</p>
+<a class="reference internal image-reference" href="_images/pick_and_place_taskboard_shim_rings.png"><img alt="Pick and Place Task Module - Shim Rings" class="align-center" src="_images/pick_and_place_taskboard_shim_rings.png" style="width: 400px;" /></a>
 </section>
 <section id="id5">
 <h3>Test Objective:<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
@@ -156,6 +176,9 @@ In this case it autonomously determine when to stop based on a visual reference.
 <li><p>The number of shim rings is determined autonomously by the robot.</p></li>
 <li><p>All placed shim rings remain stationary after placement.</p></li>
 </ul>
+<p>A sample rendering of this state is shown below,
+where the robot has successfully placed four shim rings on the shaft, reaching the groove without covering it.</p>
+<a class="reference internal image-reference" href="_images/pick_and_place_taskboard_shim_rings_finished.png"><img alt="Pick and Place Task Module - Shim Rings" class="align-center" src="_images/pick_and_place_taskboard_shim_rings_finished.png" style="width: 400px;" /></a>
 </section>
 </section>
 </section>
@@ -165,7 +188,7 @@ In this case it autonomously determine when to stop based on a visual reference.
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="robotic_instructions_peg_in_hole.html" class="btn btn-neutral float-left" title="Robotic Task Descriptions: Peg in Hole" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="robotic_instructions_gear_tasks.html" class="btn btn-neutral float-right" title="Robotic Assembly Instructions: Gear Assembly" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="robotic_instructions_gear_tasks.html" class="btn btn-neutral float-right" title="Robotic Task Descriptions: Gear Assembly" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

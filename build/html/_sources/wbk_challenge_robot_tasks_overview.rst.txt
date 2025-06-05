@@ -4,7 +4,7 @@ Task Descriptions
 Introduction
 ------------
 
-This section describes all tasls of the industrial assembly task board.
+This section describes all tasks of the industrial assembly task board.
 Like the assembly instructions, the indiviudal tasks are organized in modules but can be mixed and matched freely to create custom benchmarks.
 
 

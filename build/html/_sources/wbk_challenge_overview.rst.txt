@@ -1,11 +1,9 @@
 Assembly Guide
 ==============
 
-Welcome
--------
 
 The *industrial assembly challenge* taskboard is a modular benchmark developed at the wbk Institute of Production Science to evaluate and compare robotic assembly strategies.  
-Each module focuses on a distinct industrial skill—from simple peg‑in‑hole insertions to belt tensioning or compliant elastic deformation.
+Each module focuses on a distinct industrial skill—from simple peg‑in‑hole insertions to assembling parts with compliant elastic deformation.
 
 This online documentation collects every set of step‑by‑step instructions you need to **3D‑print, source hardware, and assemble** the taskboard and all of its interchangeable sub‑tasks.
 
@@ -18,7 +16,7 @@ How to use this guide
 
 .. tip::
 
-   Start with :doc:`assembly_instructions_taskboard` to build the base board, then add the other skill modules in any order.
+   Start with :doc:`assembly_instructions_taskboard` to build the base board, then add tasks from the submodules as desired.
 
 
 Assembly Modules

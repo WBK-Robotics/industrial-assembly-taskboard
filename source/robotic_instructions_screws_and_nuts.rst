@@ -6,6 +6,12 @@ Screws and nuts are fundamental fasteners used to join components in industrial 
 In robotics, handling these parts requires precise manipulation, alignment, and force control to ensure reliable and repeatable assembly. 
 The following tasks evaluate the robot's ability to autonomously perform screw and nut assembly operations under realistic constraints, 
 reflecting challenges encountered in automated industrial environments.
+A task board with all three screw and nut assembly tasks completed successfully is shown below:
+
+.. image:: images/screw_nut_assembly_taskboard_finished.png
+    :alt: Screw and Nut Assembly Task Module
+    :align: center
+    :width: 400px
 
 Task 1: Vertical Screw Insertion
 -------------------------------
@@ -16,6 +22,11 @@ Description:
 A 20mm M8 screw is placed on a flat surface next to the Task Board. 
 The robot must pick up the screw, align it with a threaded insert on the Task Board, and insert it vertically. 
 The robot must ensure the screw is properly oriented and fully inserted without cross-threading or applying excessive force.
+
+.. image:: images/screw_nut_assembly_taskboard_vertical_screw_insertion.png
+    :alt: Vertical Screw Insertion Task
+    :align: center
+    :width: 400px
 
 Test Objective:
 ^^^^^^^^^^^^^^^
@@ -40,6 +51,12 @@ An M8 nut is placed on a flat surface next to the Task Board.
 The robot must pick up the nut and insert it onto a screw protruding from the side of an assembly component. 
 Due to an overhang, the last 5mm of threading is especially difficult to access, requiring the robot to regrasp and reposition the nut during assembly.
 
+.. image:: images/screw_nut_assembly_taskboard_nut_assembly.png
+    :alt: Nut Assembly with Limited Accessibility Task
+    :align: center
+    :width: 400px
+
+
 Test Objective:
 ^^^^^^^^^^^^^^^
 
@@ -62,6 +79,14 @@ The robot must pick up each screw, align it with the corresponding holes in two 
 A key challenge in this task is avoiding canting—a phenomenon where tightening a single screw fully causes the parts to tilt or misalign due to uneven force distribution. 
 Canting is highly dependent on the geometry and tolerances of the parts being assembled. 
 To prevent this, the robot must use a sequential approach, partially tightening each screw in turn and only fully tightening them once all screws are in place, ensuring the two housing parts remain parallel with a maximum alignment error of 1°.
+
+
+.. image:: images/screw_nut_assembly_taskboard_multi_screw_assembly.png
+    :alt: Multi-Screw Assembly with Alignment Constraints Task
+    :align: center
+    :width: 400px
+
+    
 
 Test Objective:
 ^^^^^^^^^^^^^^^

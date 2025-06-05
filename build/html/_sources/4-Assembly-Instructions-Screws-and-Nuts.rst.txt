@@ -1,7 +1,7 @@
 Assembly Instructions: Screws and Nuts
 ======================================
 
-This document provides step-by-step assembly instructions for tasks involving screws and nuts.
+This section provides step-by-step assembly instructions for tasks involving screws and nuts.
 Each task includes preparation of components, manual assembly steps, and fixation on the taskboard.
 Note that the assembly of this task requires a soldering iron to insert thread inserts into the 3D-printed parts.
 

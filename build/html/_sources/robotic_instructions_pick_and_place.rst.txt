@@ -1,5 +1,19 @@
-Robotic Assembly Instructions: Pick and Place
-=============================================
+Robotic Task Descriptions: Pick and Place
+=========================================
+
+This page provides the task descriptions for the Pick and Place task module of the industrial assembly challenge taskboard.
+The module consists of three tasks: Housing Parts, Feather Key, and Shim Ring placement.
+The focus here is on adaptivity, the robot needs to sense the assembly to determine the correct placement and alignment of parts, 
+rather than reaching a fixed target pose like in the Peg-in-Hole task.
+
+A sample taskboard with all three tasks finished is shown below, 
+where the robot has successfully completed all tasks by placing the parts in the correct positions and orientations.
+
+.. image:: images/pick_and_place_taskboard_finished.png
+    :alt: Pick and Place Task Module
+    :align: center
+    :width: 400px
+
 
 Task 1: Housing Parts
 ---------------------
@@ -7,12 +21,23 @@ Task 1: Housing Parts
 Description:
 ^^^^^^^^^^^^
 
-A housing part is placed on a flat surface next to the Taskboard. Another housing part is already mounted on the Taskboard. The robot must pick up the loose housing part and place it centrally on top of the mounted part, ensuring correct alignment.
+In real-world assembly, parts often need to be aligned based on subtle visual cues or features that are difficult to detect, 
+rather than relying solely on fixed orientations or clearly visible holes as in simple "peg-in-hole" problems. 
+This task simulates such a scenario where the robot must align two housing parts based on matching features,
+such as drill holes and flange surfaces, which may not be perfectly aligned or visible to the robot's sensors.
+A housing part is placed on a flat surface next to the Taskboard. Another housing part is already mounted on the Taskboard. 
+The robot must pick up the loose housing part and place it centrally on top of the mounted part, ensuring correct alignment.
+
+.. image:: images/pick_and_place_taskboard_housing_parts.png
+    :alt: Pick and Place Task Module - Housing Parts
+    :align: center
+    :width: 400px
 
 Test Objective:
 ^^^^^^^^^^^^^^^
 
-This task evaluates the robot's ability to grasp, transport, and precisely align components with matching features, simulating assembly operations that require accurate positioning and orientation.
+This task evaluates the robot's ability to grasp, transport, and precisely align components with matching features, 
+simulating assembly operations that require accurate positioning and orientation.
 
 Success Criteria:
 ^^^^^^^^^^^^^^^^^
@@ -28,8 +53,17 @@ Task 2: Feather Key
 Description:
 ^^^^^^^^^^^^
 
-A feather key is placed on a flat surface next to the Taskboard. 
-The robot must pick up the feather key and insert it vertically into the groove of a shaft mounted on the Taskboard.
+A feather key is a small, rectangular metal component used to connect rotating machine elements, such as gears or pulleys, to a shaft, 
+ensuring torque transmission while allowing for easy assembly and disassembly. 
+Feather keys fit into matching grooves (keyways) on both the shaft and the mating part, providing a secure, non-permanent connection.
+
+In this task, a feather key is placed on a flat surface next to the Taskboard. T
+he robot must pick up the feather key and insert it vertically into the groove of a shaft mounted on the Taskboard.
+
+.. image:: images/pick_and_place_taskboard_feather_key.png
+    :alt: Pick and Place Task Module - Feather Key
+    :align: center
+    :width: 400px
 
 Test Objective:
 ^^^^^^^^^^^^^^^
@@ -57,6 +91,11 @@ up to but not covering the groove on the shaft.
 This reflects real-world scenarios where automated systems 
 must adapt to part variability and ensure assemblies meet strict tolerance requirements without manual intervention.
 
+.. image:: images/pick_and_place_taskboard_shim_rings.png
+    :alt: Pick and Place Task Module - Shim Rings
+    :align: center
+    :width: 400px
+
 Test Objective:
 ^^^^^^^^^^^^^^^
 
@@ -70,3 +109,11 @@ Success Criteria:
 - Four shim rings are stacked onto the shaft, reaching the groove without covering it.
 - The number of shim rings is determined autonomously by the robot.
 - All placed shim rings remain stationary after placement.
+
+A sample rendering of this state is shown below, 
+where the robot has successfully placed four shim rings on the shaft, reaching the groove without covering it.
+
+.. image:: images/pick_and_place_taskboard_shim_rings_finished.png
+    :alt: Pick and Place Task Module - Shim Rings
+    :align: center
+    :width: 400px

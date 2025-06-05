@@ -1,7 +1,7 @@
 Assembly Instructions: Gear Assembly
 ====================================
 
-This page provides step-by-step instructions for assembling the Gear Assembly task module of the Industrial Assembly Task Board. 
+This section provides step-by-step instructions for assembling the Gear Assembly task module of the Industrial Assembly Task Board. 
 The module consists of various gear configurations that can be assembled and tested.
 
 .. image:: images/gear_assembly_taskboard.png

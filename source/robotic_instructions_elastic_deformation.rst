@@ -1,6 +1,15 @@
 Robotic Task Descriptions: Elastic Deformation
 ==============================================
 
+This section describes tasks that involve elastic deformation of components, requiring the robot to handle and manipulate parts that must be compressed or expanded during assembly.
+In contrast to limp objects such as cables or hoses, these tasks involve components that snap back to their original shape after deformation, such as snap hooks, springs, and circlips.
+A task board with all three tasks completed successfully is shown below.
+
+.. image:: images/elastic_deformation_taskboard_finished.png
+    :alt: Elastic Deformation Task Module
+    :align: center
+    :width: 400px
+
 Task 1: Snap Hook
 -----------------
 
@@ -15,6 +24,11 @@ The task challenges the robot to handle components that require elastic deformat
 The main difficulty lies in the need to apply enough force to deform the snap hook without damaging it, 
 and to ensure that the hook is fully seated and locked in place. The robot must also recognize when the snap hook is properly retained, 
 as the component cannot be removed without compressing the hooks again.
+
+.. image:: images/snap_hook_placement_finished.png
+    :alt: Snap Hook placement
+    :align: center
+    :width: 400px
 
 Test Objective:
 ^^^^^^^^^^^^^^^
@@ -38,6 +52,11 @@ A spring must be compressed and inserted into two circular holders on the assemb
 
 The difficulty for the robot is to maintain control of the spring while compressing it and to position it accurately within the holders. 
 The robot must also ensure that the spring remains in place after release, as improper placement can cause the spring to pop out or not be fully seated.
+
+.. image:: images/spring_placement_finished.png
+    :alt: Spring placement
+    :align: center
+    :width: 400px
 
 Test Objective:
 ^^^^^^^^^^^^^^^

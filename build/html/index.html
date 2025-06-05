@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Industrial Assembly Task Board Documentation &mdash; Industrial Assembly Taskboard 1.0.0 documentation</title>
+  <title>Why This Task Board? &mdash; Industrial Assembly Taskboard 1.0.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=92fd9be5" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -26,12 +26,13 @@
   <div class="wy-grid-for-nav">
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search"  style="background: #009682" >
+        <div class="wy-side-nav-search"  style="background: #dbe3e6" >
 
           
           
           <a href="#">
             
+              <img src="_static/logo.png" class="logo" alt="Logo"/>
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -51,7 +52,7 @@
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #009682" >
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #dbe3e6" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="#">Industrial Assembly Taskboard</a>
       </nav>
@@ -61,7 +62,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
-      <li class="breadcrumb-item active">Industrial Assembly Task Board Documentation</li>
+      <li class="breadcrumb-item active">Why This Task Board?</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -71,14 +72,36 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="industrial-assembly-task-board-documentation">
-<h1>Industrial Assembly Task Board Documentation<a class="headerlink" href="#industrial-assembly-task-board-documentation" title="Link to this heading"></a></h1>
-<p>Welcome to the documentation hub for the <em>Industrial Assembly Task Board</em> — a modular robotic
-benchmark started by the wbk Institute of Production Science (Karlsruhe Institute
-of Technology).  Here you will find everything needed to <strong>build the taskboard
-hardware</strong> <em>and</em> <strong>get your robot to perform each benchmark task</strong>.</p>
+  <a class="reference internal image-reference" href="_images/logo_with_text.png"><img alt="Industrial Assembly Task Board Logo" class="align-center" src="_images/logo_with_text.png" style="width: 1000px;" /></a>
+<p>Welcome to the documentation for the <em>Industrial Assembly Task Board</em>,
+a modular robotic benchmark developed by the wbk Institute of Production Science at Karlsruhe Institute of Technology.
+This resource provides comprehensive instructions for constructing the task board hardware and detailed guidelines for evaluating robotic systems
+on a variety of benchmark tasks.
+Whether you are referencing this material online or as a compiled document,
+you will find all necessary information to build, configure, and utilize the task board for research, development, or benchmarking purposes.</p>
+<section id="why-this-task-board">
+<h1>Why This Task Board?<a class="headerlink" href="#why-this-task-board" title="Link to this heading"></a></h1>
+<a class="reference internal image-reference" href="_images/sample_taskboards.png"><img alt="Industrial Assembly Task Board Overview" class="align-center" src="_images/sample_taskboards.png" style="width: 1000px;" /></a>
+<p>Robotic assembly is far more complex than the basic “peg-in-hole” tasks often used in benchmarks like the NIST taskboard.
+While such benchmarks are valuable, they assume that the only thing more complex than a simple peg-in-hole task is the geometry of the peg and hole,
+or the manipulation of cables and belts.
+In reality, industrial assembly tasks involve a wide range of challenges, including precise tolerances, compliant assembly,
+and the need for advanced planning and adaptability since different parts of an assembly may interact in unexpected ways.</p>
+<p>The goal of this task board is to provide a set of tasks that showcases these additional complexities encountered in industrial practice.
+These tasks are designed to challenge robotic agents with scenarios that require advanced planning, precision, and adaptability.
+The modular design of the board allows users to mix and match tasks depending on the specific complexities they wish to address.</p>
+<p>We provide all 3D-printable files in this repository for anyone to build their own task boards: <a class="reference external" href="https://github.com/WBK-Robotics/industrial-assembly-taskboard">https://github.com/WBK-Robotics/industrial-assembly-taskboard</a></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>This task board is not intended to be a complete benchmark for all aspects of robotic assembly.
+Instead, it serves as a starting point for exploring the complexities of industrial assembly tasks.
+We encourage users to extend the task board with their own modules and tasks that reflect real-world challenges.
+If you have ideas for new tasks, please contribute by opening a Pull Request with your files and task descriptions.</p>
+</div>
+</section>
 <section id="what-youll-find-here">
-<h2>What you’ll find here<a class="headerlink" href="#what-youll-find-here" title="Link to this heading"></a></h2>
+<h1>What you’ll find here<a class="headerlink" href="#what-youll-find-here" title="Link to this heading"></a></h1>
+<p>This documentation is split into two main sections:</p>
 <ul class="simple">
 <li><p><strong>Assembly Guide</strong> – step‑by‑step hardware build instructions (3D‑printing,
 purchased fasteners, mounting sequence).</p></li>
@@ -87,22 +110,22 @@ success criteria) for benchmarking your robot or algorithm on each module.</p></
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>If you are new to the benchmark, follow the quick‑start steps below.  Power
+<p>If you are new to the benchmark, follow the quick‑start steps below. Power
 users can jump directly to the Assembly or Robot Task guides via the sidebar.</p>
 </div>
 <section id="quickstart">
-<h3>Quick‑Start<a class="headerlink" href="#quickstart" title="Link to this heading"></a></h3>
-<ol class="arabic simple">
-<li><p>Read the <a class="reference internal" href="wbk_challenge_overview.html"><span class="doc">Assembly Guide</span></a> to build the base taskboard and all
-desired skill modules.</p></li>
-<li><p>Choose a module and open its page in the <a class="reference internal" href="wbk_challenge_robot_tasks_overview.html"><span class="doc">Task Descriptions</span></a>
-to understand the robot motions and evaluation metrics.</p></li>
+<h2>Quick‑Start<a class="headerlink" href="#quickstart" title="Link to this heading"></a></h2>
+<p>1. Read the <a class="reference internal" href="wbk_challenge_overview.html"><span class="doc">Assembly Guide</span></a> to build the base taskboard and all
+desired task modules.</p>
+<p>2. Choose a module and open its page in the <a class="reference internal" href="wbk_challenge_robot_tasks_overview.html"><span class="doc">Task Descriptions</span></a>
+to understand the robot motions and evaluation metrics.</p>
+<ol class="arabic simple" start="3">
 <li><p>Implement your robot program, run experiments, and compare results!</p></li>
 </ol>
 </section>
 </section>
 <section id="contents">
-<h2>Contents<a class="headerlink" href="#contents" title="Link to this heading"></a></h2>
+<h1>Contents<a class="headerlink" href="#contents" title="Link to this heading"></a></h1>
 <div class="toctree-wrapper compound">
 <p class="caption" role="heading"><span class="caption-text">Guides</span></p>
 <ul>
@@ -110,7 +133,6 @@ to understand the robot motions and evaluation metrics.</p></li>
 <li class="toctree-l1"><a class="reference internal" href="wbk_challenge_robot_tasks_overview.html">Task Descriptions</a></li>
 </ul>
 </div>
-</section>
 </section>
 
 

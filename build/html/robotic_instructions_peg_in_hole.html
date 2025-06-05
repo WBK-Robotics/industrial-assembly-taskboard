@@ -19,7 +19,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Robotic Assembly Instructions: Pick and Place" href="robotic_instructions_pick_and_place.html" />
+    <link rel="next" title="Robotic Task Descriptions: Pick and Place" href="robotic_instructions_pick_and_place.html" />
     <link rel="prev" title="Task Descriptions" href="wbk_challenge_robot_tasks_overview.html" /> 
 </head>
 
@@ -27,12 +27,13 @@
   <div class="wy-grid-for-nav">
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
-        <div class="wy-side-nav-search"  style="background: #009682" >
+        <div class="wy-side-nav-search"  style="background: #dbe3e6" >
 
           
           
           <a href="index.html">
             
+              <img src="_static/logo.png" class="logo" alt="Logo"/>
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
@@ -54,10 +55,10 @@
 <li class="toctree-l4"><a class="reference internal" href="#task-3-bnc-connector">Task 3: BNC-Connector</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_pick_and_place.html">Robotic Assembly Instructions: Pick and Place</a></li>
-<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_gear_tasks.html">Robotic Assembly Instructions: Gear Assembly</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_pick_and_place.html">Robotic Task Descriptions: Pick and Place</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_gear_tasks.html">Robotic Task Descriptions: Gear Assembly</a></li>
 <li class="toctree-l3"><a class="reference internal" href="robotic_instructions_screws_and_nuts.html">Robotic Assembly Instructions: Screws and Nuts</a></li>
-<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_elastic_deformation.html">Robotic Assembly Instructions Elastic Deformation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_elastic_deformation.html">Robotic Task Descriptions: Elastic Deformation</a></li>
 </ul>
 </li>
 </ul>
@@ -68,7 +69,7 @@
       </div>
     </nav>
 
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #009682" >
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu"  style="background: #dbe3e6" >
           <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
           <a href="index.html">Industrial Assembly Taskboard</a>
       </nav>
@@ -89,8 +90,14 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="robotic-assembly-task-descriptions-peg-in-hole">
-<h1>Robotic Task Descriptions: Peg in Hole<a class="headerlink" href="#robotic-assembly-task-descriptions-peg-in-hole" title="Link to this heading"></a></h1>
+  <section id="robotic-task-descriptions-peg-in-hole">
+<h1>Robotic Task Descriptions: Peg in Hole<a class="headerlink" href="#robotic-task-descriptions-peg-in-hole" title="Link to this heading"></a></h1>
+<p>While there are many different peg in hole benchmarks, these typically focus on varying the peg and hole geometries,
+but often feature large tolerances (in many cases such as the NIST taskboard, to be able to allow for the comparison of a wider range of robots since many have difficulty with tight tolerances).
+In contrast, the tasks in this section focus on tight tolerances and precise insertion of the pegs into the holes.</p>
+<p>The final state of all three tasks is shown in the taskboard image below,
+where the robot has successfully inserted the pegs into their respective holes.</p>
+<a class="reference internal image-reference" href="_images/peg_in_hole_taskboard_finished.png"><img alt="Peg-in-Hole Task Module" class="align-center" src="_images/peg_in_hole_taskboard_finished.png" style="width: 400px;" /></a>
 <section id="task-1-round-peg">
 <h2>Task 1: Round Peg<a class="headerlink" href="#task-1-round-peg" title="Link to this heading"></a></h2>
 <section id="description">
@@ -102,9 +109,13 @@ The task requires the peg to be inserted into a designated round hole in a targe
 <h3>Test Objective:<a class="headerlink" href="#test-objective" title="Link to this heading"></a></h3>
 <p>This task evaluates the robot’s ability to handle cylindrical objects, perform precise alignment,
 and execute controlled insertion motions typical in industrial assembly processes.</p>
-<p>Success Criteria:
-- The round peg is fully inserted into the designated hole.
-- No  displacement of the peg occurs after the robot releases it.</p>
+</section>
+<section id="success-criteria">
+<h3>Success Criteria:<a class="headerlink" href="#success-criteria" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>The round peg is fully inserted into the designated hole.</p></li>
+<li><p>No  displacement of the peg occurs after the robot releases it.</p></li>
+</ul>
 </section>
 </section>
 <section id="task-2-splined-shaft-peg">
@@ -118,8 +129,8 @@ The task requires the peg to be inserted into a matching splined hole in a targe
 <h3>Test Objective:<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
 <p>This task assesses the robot’s capability to recognize and align keyed or splined features, ensuring correct orientation and fit during insertion.</p>
 </section>
-<section id="success-criteria">
-<h3>Success Criteria:<a class="headerlink" href="#success-criteria" title="Link to this heading"></a></h3>
+<section id="id3">
+<h3>Success Criteria:<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
 <ul class="simple">
 <li><p>The splined shaft peg is fully inserted into the matching splined hole.</p></li>
 <li><p>No  displacement of the peg occurs after the robot releases it.</p></li>
@@ -128,18 +139,18 @@ The task requires the peg to be inserted into a matching splined hole in a targe
 </section>
 <section id="task-3-bnc-connector">
 <h2>Task 3: BNC-Connector<a class="headerlink" href="#task-3-bnc-connector" title="Link to this heading"></a></h2>
-<section id="id3">
-<h3>Description:<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<section id="id4">
+<h3>Description:<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
 <p>A male BNC connector is positioned on a flat surface next to the Taskboard.
 The task requires the connector to be inserted and locked into a corresponding female socket on the Taskboard.</p>
 </section>
-<section id="id4">
-<h3>Test Objective:<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<section id="id5">
+<h3>Test Objective:<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
 <p>This task tests the robot’s ability to perform insert-and-twist operations, requiring both translational and rotational alignment,
 as well as engagement of locking mechanisms.</p>
 </section>
-<section id="id5">
-<h3>Success Criteria:<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<section id="id6">
+<h3>Success Criteria:<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
 <ul class="simple">
 <li><p>The BNC connector is inserted such that both lugs of the plug reach the end of the guide slots in the socket.</p></li>
 <li><p>The connector is rotated to the locked position, as verified by a mechanical stop or electrical continuity check.</p></li>
@@ -153,7 +164,7 @@ as well as engagement of locking mechanisms.</p>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="wbk_challenge_robot_tasks_overview.html" class="btn btn-neutral float-left" title="Task Descriptions" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="robotic_instructions_pick_and_place.html" class="btn btn-neutral float-right" title="Robotic Assembly Instructions: Pick and Place" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="robotic_instructions_pick_and_place.html" class="btn btn-neutral float-right" title="Robotic Task Descriptions: Pick and Place" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

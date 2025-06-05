@@ -1,44 +1,108 @@
-Robotic Assembly Instructions: Gear Assembly
-============================================
+Robotic Task Descriptions: Gear Assembly
+========================================
+
+This section describes the tasks related to gear assembly on the industrial assembly task board.
+These tasks require the robot to handle various gear configurations, ensuring proper alignment, meshing, and seating of the gears on their respective shafts.
+The following image provides an overview of a task board with all three gear assembly tasks completed successfully.
+
+.. image:: images/gear_assembly_taskboard_finished.png
+    :alt: Gear Assembly Task Module
+    :align: center
+    :width: 400px
+
 
 Task 1: Two Gears
 -----------------
 
-The robot grasps the first gear, which is placed on a flat surface next to the Taskboard.
-The robot orients and rotates the gear so that it is properly aligned for insertion.
-The robot then inserts the first gear vertically onto one of the two pegs on the assembly component.
+Description:
+^^^^^^^^^^^^
 
-Next, the robot grasps the second gear.
-The robot orients and rotates the second gear so that the mounting hole is aligned with the second peg. Additionally, the robot must rotate the gear so that the teeth of both gears do not collide in the next step.
-Finally, the robot inserts the second gear vertically onto the remaining peg of the assembly component.
-Success criteria: The two gears must be mounted onto the shafts of the assembly component in such a way that their teeth engage properly with each other. If a correct gear meshing is achieved, the assembly is considered successful.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Two spur gears must be mounted onto parallel shafts of an assembly component so that their teeth mesh correctly. 
+The gears are initially placed on a flat surface next to the Taskboard. 
+The robot must ensure that the gears are positioned such that their teeth engage without interference and that each gear is fully seated on its respective shaft.
+This task is basically a 3D printable version of the gear assembly task from the NIST assembly challenge.
+
+.. image:: images/gear_assembly_taskboard_two_gears.png
+    :alt: Gear Assembly Task Module - Two Gears
+    :align: center
+    :width: 400px
+
+Test Objective:
+^^^^^^^^^^^^^^^
+
+This task evaluates the robot's ability to recognize gear orientation, align mounting holes with the shafts, and ensure proper meshing between gears. 
+
+Success Criteria:
+^^^^^^^^^^^^^^^^^
+
+- Both gears are mounted onto the shafts with their teeth properly engaged.
+- The gears are fully seated on the assembly component, with no visible gaps.
+- The teeth of the two gears mesh without interference and can rotate together.
 
 Task 2: Gear with Helical Teeth
 -------------------------------
 
-The robot grasps the gear with helical teeth, which is positioned on a flat surface next to the Taskboard.
-The robot orients and rotates the gear so that the hole in the gear is aligned with the peg of the assembly component. Additionally, the robot must ensure that the teeth do not collide.
-The robot then inserts the gear vertically onto the peg. Due to the helical teeth, one the Teeth of the two gears are gripping into each other the robot must rotate the gear while lowering it to achieve proper engagement.
-Success criteria: The robot must place the gear fully onto the shaft of the assembly component so that there is no gap between the underside of the gear and the surface of the component, ensuring that no further movement occurs once the robot releases its grip. If these conditions are met, the assembly is considered successful.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Description:
+^^^^^^^^^^^^
 
-Task 3: Three Gears
--------------------
+A lot of gears in the physical world have more complicated tooth profiles than just spur gears.
+This means that they cannot be inserted in a simple peg-in-hole manner.
+Instead the gear must be rotated as it is lowered onto the shaft to ensure that the teeth engage correctly.
+To simulate this, a helical gear with helical teeth must be mounted onto a shaft of the assembly component.
+The gear is placed on a flat surface next to the Taskboard. 
+Due to the helical design, the gear must be rotated as it is lowered onto the shaft to ensure the teeth engage correctly with an existing gear.
 
-The robot grasps one of the two gears with a groove.
-The robot orients and rotates the gear so that it is properly aligned for insertion onto one of the two outer shafts of the assembly component. The groove must align with the key on the shaft.
-The robot inserts the first gear vertically onto the shaft.
+.. image:: images/gear_assembly_taskboard_helical_gear.png
+    :alt: Gear Assembly Task Module - Helical Gear
+    :align: center
+    :width: 400px
 
-Next, the robot grasps the second grooved gear.
-The robot orients and rotates this gear so that it is properly aligned with the second outer shaft. Again, the groove must match the key orientation.
-The robot inserts the second gear vertically onto the second outer shaft.
-Then, the robot rotates the two mounted gears into a position that allows the third gear to be inserted between them without colliding.
-The robot grasps the third gear, which has no groove.
-The robot orients and rotates the gear so that both the mounting hole and the teeth align correctly with the middle peg and the two outer gears.
-Finally, the robot inserts the third gear vertically onto the middle peg of the assembly component.
-Success criteria: The instructions above describe only one possible assembly sequence; alternative approaches are also valid if they achieve the following result.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-All three gears must be mounted onto the shafts of the assembly component with their teeth properly engaged. Additionally, the underside of each gear must be in contact with the surface of the component. 								          If both conditions are met, the assembly is considered successful.
-Examples for the Start and End of the Robotic Assembly of the 3 Tasks:
+Test Objective:
+^^^^^^^^^^^^^^^
+
+This task assesses the robot's ability to handle components with non-standard tooth profiles, 
+requiring simultaneous rotation and insertion. The robot must ensure that the gear is fully seated and that the helical teeth are properly engaged.
+
+Success Criteria:
+^^^^^^^^^^^^^^^^^
+
+- The helical gear is mounted onto the shaft with its teeth correctly engaged with the mating gear.
+- The gear is fully seated, with no gap between its underside and the assembly component.
+- The gear remains stationary after placement and does not move when released.
+
+Task 3: Three Gears with Grooves
+--------------------------------
+
+Description:
+^^^^^^^^^^^^
+
+Three gears—two with grooves and one without—must be mounted onto three shafts of the assembly component. 
+The two grooved gears are placed on the outer shafts and must be aligned so that their grooves match the keys on the shafts. 
+The third gear, which does not have a groove, is mounted on the middle shaft and must be positioned so that its teeth engage with the two outer gears.
+
+In this task, the gear teeth are intentionally made larger than in the previous assemblies. 
+This means that the robot cannot simply place the gears onto the shafts in any order and expect the teeth to mesh.
+Instead, the robot must carefully plan the sequence of assembly and the orientation of each shaft and gear.
+If the gears are not inserted in the correct order, or if the shafts are not rotated appropriately during assembly,
+it may be impossible to mesh the teeth properly due to interference from the large teeth profiles. 
+The robot must therefore coordinate the rotation of the shafts and the insertion of the gears to ensure that all teeth are able to engage correctly.
+
+.. image:: images/gear_assembly_taskboard_three_gears.png
+    :alt: Gear Assembly Task Module - Three Gears
+    :align: center
+    :width: 400px
+
+Test Objective:
+^^^^^^^^^^^^^^^
+
+This task evaluates the robot's ability to recognize and align keyed components, 
+coordinate the placement of multiple gears, and ensure proper meshing among all gears.
+
+Success Criteria:
+^^^^^^^^^^^^^^^^^
+
+- All three gears are mounted onto their respective shafts with correct alignment.
+- The grooves of the outer gears are aligned with the shaft keys.
+- The teeth of all gears are properly engaged, and the gears are fully seated on the assembly component.
+- The underside of each gear is in contact with the component surface, and all gears remain stationary after placement.

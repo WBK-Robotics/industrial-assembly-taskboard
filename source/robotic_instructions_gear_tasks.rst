@@ -1,5 +1,15 @@
 Robotic Task Descriptions: Gear Assembly
-============================================
+========================================
+
+This section describes the tasks related to gear assembly on the industrial assembly task board.
+These tasks require the robot to handle various gear configurations, ensuring proper alignment, meshing, and seating of the gears on their respective shafts.
+The following image provides an overview of a task board with all three gear assembly tasks completed successfully.
+
+.. image:: images/gear_assembly_taskboard_finished.png
+    :alt: Gear Assembly Task Module
+    :align: center
+    :width: 400px
+
 
 Task 1: Two Gears
 -----------------
@@ -11,6 +21,11 @@ Two spur gears must be mounted onto parallel shafts of an assembly component so 
 The gears are initially placed on a flat surface next to the Taskboard. 
 The robot must ensure that the gears are positioned such that their teeth engage without interference and that each gear is fully seated on its respective shaft.
 This task is basically a 3D printable version of the gear assembly task from the NIST assembly challenge.
+
+.. image:: images/gear_assembly_taskboard_two_gears.png
+    :alt: Gear Assembly Task Module - Two Gears
+    :align: center
+    :width: 400px
 
 Test Objective:
 ^^^^^^^^^^^^^^^
@@ -37,6 +52,12 @@ To simulate this, a helical gear with helical teeth must be mounted onto a shaft
 The gear is placed on a flat surface next to the Taskboard. 
 Due to the helical design, the gear must be rotated as it is lowered onto the shaft to ensure the teeth engage correctly with an existing gear.
 
+.. image:: images/gear_assembly_taskboard_helical_gear.png
+    :alt: Gear Assembly Task Module - Helical Gear
+    :align: center
+    :width: 400px
+
+
 Test Objective:
 ^^^^^^^^^^^^^^^
 
@@ -62,10 +83,15 @@ The third gear, which does not have a groove, is mounted on the middle shaft and
 
 In this task, the gear teeth are intentionally made larger than in the previous assemblies. 
 This means that the robot cannot simply place the gears onto the shafts in any order and expect the teeth to mesh.
- Instead, the robot must carefully plan the sequence of assembly and the orientation of each shaft and gear.
-  If the gears are not inserted in the correct order, or if the shafts are not rotated appropriately during assembly,
-   it may be impossible to mesh the teeth properly due to interference from the large teeth profiles. 
-   The robot must therefore coordinate the rotation of the shafts and the insertion of the gears to ensure that all teeth are able to engage correctly.
+Instead, the robot must carefully plan the sequence of assembly and the orientation of each shaft and gear.
+If the gears are not inserted in the correct order, or if the shafts are not rotated appropriately during assembly,
+it may be impossible to mesh the teeth properly due to interference from the large teeth profiles. 
+The robot must therefore coordinate the rotation of the shafts and the insertion of the gears to ensure that all teeth are able to engage correctly.
+
+.. image:: images/gear_assembly_taskboard_three_gears.png
+    :alt: Gear Assembly Task Module - Three Gears
+    :align: center
+    :width: 400px
 
 Test Objective:
 ^^^^^^^^^^^^^^^

@@ -1,6 +1,19 @@
 Robotic Task Descriptions: Peg in Hole
 ======================================
 
+While there are many different peg in hole benchmarks, these typically focus on varying the peg and hole geometries,
+but often feature large tolerances (in many cases such as the NIST taskboard, to be able to allow for the comparison of a wider range of robots since many have difficulty with tight tolerances).
+In contrast, the tasks in this section focus on tight tolerances and precise insertion of the pegs into the holes.
+
+The final state of all three tasks is shown in the taskboard image below, 
+where the robot has successfully inserted the pegs into their respective holes.
+
+.. image:: images/peg_in_hole_taskboard_finished.png
+   :alt: Peg-in-Hole Task Module
+   :align: center
+   :width: 400px
+
+
 Task 1: Round Peg
 -----------------
 

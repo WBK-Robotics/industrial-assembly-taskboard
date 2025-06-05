@@ -1,46 +1,102 @@
 Robotic Assembly Instructions: Screws and Nuts
 ==============================================
 
-Task 1: Vertical Assembly of a Screw
-------------------------------------
 
-Task Description:
------------------
+Screws and nuts are fundamental fasteners used to join components in industrial assemblies. 
+In robotics, handling these parts requires precise manipulation, alignment, and force control to ensure reliable and repeatable assembly. 
+The following tasks evaluate the robot's ability to autonomously perform screw and nut assembly operations under realistic constraints, 
+reflecting challenges encountered in automated industrial environments.
+A task board with all three screw and nut assembly tasks completed successfully is shown below:
 
-The robot grasps the 20mm M8 screw, which is placed on a flat surface next to the Task Board.
-The robot orients and rotates the screw so that it is properly aligned for screwing it in.
-Then the robot rotates and lowers the screw in until it is fully screwed in.
-Success criteria: The assembly is considered successful if the screw is fully inserted into the thread insert and cannot be further tightened without applying excessive force.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. image:: images/screw_nut_assembly_taskboard_finished.png
+    :alt: Screw and Nut Assembly Task Module
+    :align: center
+    :width: 400px
 
-Task 2: Nut with Difficult Accessibility
-----------------------------------------
+Task 1: Vertical Screw Insertion
+-------------------------------
 
-Task Description:
------------------
+Description:
+^^^^^^^^^^^^
 
-The robot grasps the M8 nut, which is placed on a flat surface next to the Task Board.
-The robot inserts the nut from the side of the assembly components.
+A 20mm M8 screw is placed on a flat surface next to the Task Board. 
+The robot must pick up the screw, align it with a threaded insert on the Task Board, and insert it vertically. 
+The robot must ensure the screw is properly oriented and fully inserted without cross-threading or applying excessive force.
 
-Then the robot screws the nut on the screw of the assembly component until it is fully screwed on.
+.. image:: images/screw_nut_assembly_taskboard_vertical_screw_insertion.png
+    :alt: Vertical Screw Insertion Task
+    :align: center
+    :width: 400px
 
-The robot can’t just spin around the gripping axis to bolt the nut in but instead must rotate and regrasp as shown in figure 4. Additionally, the overhang on the assembly component makes the last 5 mm especially difficult.
-Success criteria: The assembly is considered successful if the nut is tightened to the point where the screw inserted into the thread insert can no longer be rotated.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Objective:
+^^^^^^^^^^^^^^^
 
-Task 3: Tilting of Screws
--------------------------
+This task evaluates the robot's ability to autonomously grasp, align, and insert a screw into a threaded insert, demonstrating  manipulation 
+and force control.
 
-Task Description:
------------------
+Success Criteria:
+^^^^^^^^^^^^^^^^^
 
-The robot grasps the first 20mm M8 screw, placed on a flat surface next to the Task Board.
-The robot orients and rotates the screw so that it is properly aligned for screwing it in.
-Then the robot rotates and lowers the screw in until it is fully screwed in, but not so much that the other screws cannot be inserted because of canting.
-Those steps are repeated for all four screws.
+- The screw is fully inserted into the thread insert.
+- The screw cannot be further tightened without excessive force.
+- The screw remains stationary after insertion.
 
-Once all screws are screwed into the threads the robot can fasten them without the risk of canting.
-Success criteria: For the assembly to be considered successful, the two housing parts must be screwed together with all screws fully tightened. Additionally, the two parts must be aligned parallel to each other, a maximum error of 1 ° is permitted. If both conditions are met, the assembly is considered successful.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Task 2: Nut Assembly with Limited Accessibility
+-----------------------------------------------
 
-Figure 7: Successful assembly of the three tasks
+Description:
+^^^^^^^^^^^^
+
+An M8 nut is placed on a flat surface next to the Task Board. 
+The robot must pick up the nut and insert it onto a screw protruding from the side of an assembly component. 
+Due to an overhang, the last 5mm of threading is especially difficult to access, requiring the robot to regrasp and reposition the nut during assembly.
+
+.. image:: images/screw_nut_assembly_taskboard_nut_assembly.png
+    :alt: Nut Assembly with Limited Accessibility Task
+    :align: center
+    :width: 400px
+
+
+Test Objective:
+^^^^^^^^^^^^^^^
+
+This task evaluates the robot's ability to handle nuts in constrained spaces, including regrasping and adapting its approach to overcome limited accessibility.
+
+Success Criteria:
+^^^^^^^^^^^^^^^^^
+
+- The nut is fully threaded onto the screw until it cannot be tightened further by the robot.
+- The nut remains stationary after assembly.
+
+Task 3: Multi-Screw Assembly with Alignment Constraints
+-------------------------------------------------------
+
+Description:
+^^^^^^^^^^^^
+
+Four 20mm M8 screws are placed on a flat surface next to the Task Board. 
+The robot must pick up each screw, align it with the corresponding holes in two housing parts, and insert them sequentially. 
+A key challenge in this task is avoiding canting—a phenomenon where tightening a single screw fully causes the parts to tilt or misalign due to uneven force distribution. 
+Canting is highly dependent on the geometry and tolerances of the parts being assembled. 
+To prevent this, the robot must use a sequential approach, partially tightening each screw in turn and only fully tightening them once all screws are in place, ensuring the two housing parts remain parallel with a maximum alignment error of 1°.
+
+
+.. image:: images/screw_nut_assembly_taskboard_multi_screw_assembly.png
+    :alt: Multi-Screw Assembly with Alignment Constraints Task
+    :align: center
+    :width: 400px
+
+    
+
+Test Objective:
+^^^^^^^^^^^^^^^
+
+This task evaluates the robot's ability to perform multi-point screw assembly while maintaining precise alignment between components,
+and deal with the challenges of canting during assembly.
+
+Success Criteria:
+^^^^^^^^^^^^^^^^^
+
+- All four screws are fully inserted and tightened.
+- The two housing parts are screwed together and aligned parallel within 1°.
+

@@ -1,7 +1,7 @@
 Assembly Instructions: Elastic Deformation
 ==========================================
 
-This page provides step-by-step instructions for assembling the Elastic Deformation task module of the Industrial Assembly Task Board. 
+This section provides step-by-step instructions for assembling the Elastic Deformation task module of the Industrial Assembly Task Board. 
 The module consists of three tasks: Snap Hook, Spring, and Circlip.
 
 .. image:: images/elastic_deformation_taskboard.png

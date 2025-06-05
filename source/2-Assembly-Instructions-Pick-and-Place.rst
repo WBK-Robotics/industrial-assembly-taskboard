@@ -1,7 +1,7 @@
 Assembly Instructions: Pick and Place
 =====================================
 
-This page describes the assembly instructions for the Pick and Place task module of the industrial assembly challenge taskboard. 
+This section describes the assembly instructions for the Pick and Place task module of the industrial assembly challenge taskboard. 
 The module consists of three tasks: Housing Parts, Feather Key, and Shim Ring placement.
 
 .. image:: images/pick_and_place_taskboard.png

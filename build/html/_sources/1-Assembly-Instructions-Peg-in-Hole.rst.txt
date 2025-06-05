@@ -1,7 +1,7 @@
 Assembly Instructions: Peg-in-Hole
 ==================================
 
-This page provides step-by-step instructions for assembling the Peg-in-Hole task module of the Industrial Assembly Task Board. T
+This section provides step-by-step instructions for assembling the Peg-in-Hole task module of the Industrial Assembly Task Board. T
 he module consists of a round peg and a splined shaft peg that need to be inserted into their respective holes.
 In contrast to other boards such as the NIST peg-in-hole tasks the focus here is on tight tolerances and precise insertion of the pegs into the holes, 
 rather than on complex peg and hole geometries.
