@@ -1,5 +1,5 @@
-Robotic Assembly Instructions Elastic Deformation
-=================================================
+Robotic Task Descriptions: Elastic Deformation
+==============================================
 
 Task 1: Snap Hook
 -----------------

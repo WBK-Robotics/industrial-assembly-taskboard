@@ -4,44 +4,69 @@ Robotic Assembly Instructions: Pick and Place
 Task 1: Housing Parts
 ---------------------
 
-Task Description:
------------------
+Description:
+^^^^^^^^^^^^
 
-The first housing part is firmly screwed onto the Taskboard, while the second housing part lies on a flat surface next to the board.
-First the robot must grasp the housing part laying next to the Taskboard.
-Then the robot must position it centrally above the first housing part mounted on the Taskboard and place it down.
-In doing so, the robot must ensure that the holes provided - symbolizing screw connections - are congruent on both housing parts. The assembly can only be considered successful if this fit is ensured.
-Success criteria: The housing part must be placed on top of the component fixed to the Taskboard, ensuring parallel alignment. The distance between the two flange surfaces must be exactly 2 mm; otherwise, the part is not correctly centered.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+A housing part is placed on a flat surface next to the Taskboard. Another housing part is already mounted on the Taskboard. The robot must pick up the loose housing part and place it centrally on top of the mounted part, ensuring correct alignment.
 
-Additionally, the center axes of the aligned drill holes must match, with a maximum allowable rotational deviation of 1° from the housing parts’ central axis.
-If both conditions are met, the assembly is considered successful.
+Test Objective:
+^^^^^^^^^^^^^^^
+
+This task evaluates the robot's ability to grasp, transport, and precisely align components with matching features, simulating assembly operations that require accurate positioning and orientation.
+
+Success Criteria:
+^^^^^^^^^^^^^^^^^
+
+- The housing part is placed on top of the mounted component with parallel alignment.
+- The distance between the two flange surfaces is exactly 2 mm.
+- The center axes of the aligned drill holes match, with a maximum rotational deviation of 1°.
+- The housing part remains stationary after placement.
 
 Task 2: Feather Key
 -------------------
 
-Task Description:
------------------
+Description:
+^^^^^^^^^^^^
 
-The shaft is firmly screwed onto the task board, while the feather key lies on a flat surface next to the board.
-The robot grasps the feather key and brings it into position for inserting it into the groove on the shaft.
-The robot then lowers the feather key vertically into the groove, while considering that the key can’t be grasped over its complete height and inserted at the same time.
+A feather key is placed on a flat surface next to the Taskboard. 
+The robot must pick up the feather key and insert it vertically into the groove of a shaft mounted on the Taskboard.
 
-Success criteria: The robot must fully insert the feather key into the groove on the assembly component on the Taskboard without dropping it, ensuring that there is no vertical movement once the robot releases its grip. If this condition is met, the assembly is considered successful.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Objective:
+^^^^^^^^^^^^^^^
+
+This task evaluates the robot's ability to handle small parts, 
+perform precise insertions, and maintain control during placement.
+
+Success Criteria:
+^^^^^^^^^^^^^^^^^
+
+- The feather key is fully inserted into the groove on the shaft.
+- The feather key remains stationary after the robot releases it.
 
 Task 3: Shim Ring
 -----------------
 
-Task Description:
------------------
+Description:
+^^^^^^^^^^^^
 
-The shaft on which the shims are to be mounted later by the robot is firmly screwed to the task board. The magazine containing the shim rings is placed on a flat surface next to the task board.
-The robot first picks a shim ring out of the magazine.
-Then the robot must align and place the shim ring on the assembly shaft mounted on the Task board.
+Shim rings are thin, precisely manufactured rings used in industry to adjust the axial position or spacing between machine components, 
+ensuring correct alignment, preload, or clearance. 
+In industrial settings, the required number of shim rings can vary depending on component tolerances, 
+wear, or assembly variations. Therefore, the robot must autonomously determine how many shim rings to stack to reach the correct height—specifically, 
+up to but not covering the groove on the shaft. 
+This reflects real-world scenarios where automated systems 
+must adapt to part variability and ensure assemblies meet strict tolerance requirements without manual intervention.
 
-The robot must repeat these actions and stack the shim rings until the placement of another shim ring, would obstructs the visibility of the groove in the assembly component after a theoretical placement. Once this stage is reached the task is completed successfully.
-Success criteria: The robot must place 4 out of the 5 provided shim rings onto the shaft of the assembly component, so that the stacked shim rings then reach the groove that marks the target height without covering it. The required number must be determined autonomously by the robot and should not be predefined.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Objective:
+^^^^^^^^^^^^^^^
 
-If these conditions are met, the assembly is considered successful.
+This task evaluates the robot's ability to not just perform repetitive pick-and-place operations, 
+but follow them to reach a specified target height as required in many industrial assembly tasks.
+In this case it autonomously determine when to stop based on a visual reference.
+
+Success Criteria:
+^^^^^^^^^^^^^^^^^
+
+- Four shim rings are stacked onto the shaft, reaching the groove without covering it.
+- The number of shim rings is determined autonomously by the robot.
+- All placed shim rings remain stationary after placement.

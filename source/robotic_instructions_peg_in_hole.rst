@@ -1,31 +1,63 @@
-Robotic Assembly Instructions: Peg in Hole
-==========================================
+Robotic Task Descriptions: Peg in Hole
+======================================
 
 Task 1: Round Peg
 -----------------
 
-The robot grasps the round peg, which is positioned standing on a flat surface next to the Taskboard.
-The robot then orients and rotates the peg so that it is properly aligned for insertion.
+Description:
+^^^^^^^^^^^^
 
-Finally, the robot inserts the peg vertically into the designated hole of the target component in a controlled manner, without simply dropping it.
+A round peg is positioned upright on a flat surface adjacent to the Taskboard. 
+The task requires the peg to be inserted into a designated round hole in a target component.
 
-Success criteria: The robot must fully insert the peg without dropping it, ensuring that there is no vertical movement once the robot releases its grip. If this condition is met, the assembly is considered successful.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Test Objective:
+^^^^^^^^^^^^^^^
+
+This task evaluates the robot's ability to handle cylindrical objects, perform precise alignment, 
+and execute controlled insertion motions typical in industrial assembly processes.
+
+Success Criteria:
+^^^^^^^^^^^^^^^^^
+
+- The round peg is fully inserted into the designated hole.
+- No  displacement of the peg occurs after the robot releases it.
 
 Task 2: Splined Shaft Peg
 -------------------------
 
-The robot grasps the splined shaft peg, which is positioned standing on a flat surface next to the Taskboard.
-The robot then orients and rotates the peg so that it is properly aligned for insertion.
-Finally, the robot inserts the peg vertically into the designated hole of the target component in a controlled manner, without simply dropping it.
-Success criteria: The robot must fully insert the peg without dropping it, ensuring that there is no vertical movement once the robot releases its grip. If this condition is met, the assembly is considered successful.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Description:
+^^^^^^^^^^^^
+
+A splined shaft peg is positioned upright on a flat surface next to the Taskboard. 
+The task requires the peg to be inserted into a matching splined hole in a target component.
+
+Test Objective:
+^^^^^^^^^^^^^^^
+
+This task assesses the robot's capability to recognize and align keyed or splined features, ensuring correct orientation and fit during insertion.
+
+Success Criteria:
+^^^^^^^^^^^^^^^^^
+
+- The splined shaft peg is fully inserted into the matching splined hole.
+- No  displacement of the peg occurs after the robot releases it.
 
 Task 3: BNC-Connector
 ---------------------
 
-The robot must grasp the male part of the BNC connector positioned on a flat surface next to the Taskboard.
-The robot then orients and rotates the connector so that it is properly aligned for insertion into the part on the Taskboard.
-Finally, the robot inserts the peg vertically into the designated hole of the target component while also turning it, so that the path specified by the female part of the BNC connector is achieved.
-Success criteria: The BNC connector must be inserted such that the two lugs of the plug reach the end of the guide slots on the socket. Only then can the assembly be considered successful.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Description:
+^^^^^^^^^^^^
+A male BNC connector is positioned on a flat surface next to the Taskboard. 
+The task requires the connector to be inserted and locked into a corresponding female socket on the Taskboard.
+
+Test Objective:
+^^^^^^^^^^^^^^^
+
+This task tests the robot's ability to perform insert-and-twist operations, requiring both translational and rotational alignment, 
+as well as engagement of locking mechanisms.
+
+Success Criteria:
+^^^^^^^^^^^^^^^^^
+
+- The BNC connector is inserted such that both lugs of the plug reach the end of the guide slots in the socket.
+- The connector is rotated to the locked position, as verified by a mechanical stop or electrical continuity check.

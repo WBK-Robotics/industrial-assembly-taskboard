@@ -20,7 +20,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Robotic Assembly Instructions: Gear Assembly" href="robotic_instructions_gear_tasks.html" />
-    <link rel="prev" title="Robotic Assembly Instructions: Peg in Hole" href="robotic_instructions_peg_in_hole.html" /> 
+    <link rel="prev" title="Robotic Task Descriptions: Peg in Hole" href="robotic_instructions_peg_in_hole.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -44,25 +44,20 @@
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
               <p class="caption" role="heading"><span class="caption-text">Guides</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="wbk_challenge_overview.html">Industrial Assembly Taskboard – Assembly Guide</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="wbk_challenge_robot_tasks_overview.html">Industrial Assembly Taskboard – Robot Task Guide</a><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="wbk_challenge_overview.html">Assembly Guide</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="wbk_challenge_robot_tasks_overview.html">Task Descriptions</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="wbk_challenge_robot_tasks_overview.html#introduction">Introduction</a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="wbk_challenge_robot_tasks_overview.html#robot-task-pages">Robot Task Pages</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_peg_in_hole.html">Robotic Assembly Instructions: Peg in Hole</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_peg_in_hole.html">Robotic Task Descriptions: Peg in Hole</a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Robotic Assembly Instructions: Pick and Place</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#task-1-housing-parts">Task 1: Housing Parts</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#task-description">Task Description:</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#task-2-feather-key">Task 2: Feather Key</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id1">Task Description:</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#task-3-shim-ring">Task 3: Shim Ring</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#id2">Task Description:</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="robotic_instructions_gear_tasks.html">Robotic Assembly Instructions: Gear Assembly</a></li>
 <li class="toctree-l3"><a class="reference internal" href="robotic_instructions_screws_and_nuts.html">Robotic Assembly Instructions: Screws and Nuts</a></li>
 <li class="toctree-l3"><a class="reference internal" href="robotic_instructions_elastic_deformation.html">Robotic Assembly Instructions Elastic Deformation</a></li>
-<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_flexible_components.html">Robotic Assembly Instructions Flexible Components</a></li>
-<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_bin_picking.html">Robotic Assembly Instructions Bin Picking</a></li>
 </ul>
 </li>
 </ul>
@@ -83,7 +78,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
-          <li class="breadcrumb-item"><a href="wbk_challenge_robot_tasks_overview.html">Industrial Assembly Taskboard – Robot Task Guide</a></li>
+          <li class="breadcrumb-item"><a href="wbk_challenge_robot_tasks_overview.html">Task Descriptions</a></li>
       <li class="breadcrumb-item active">Robotic Assembly Instructions: Pick and Place</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/robotic_instructions_pick_and_place.rst.txt" rel="nofollow"> View page source</a>
@@ -98,42 +93,70 @@
 <h1>Robotic Assembly Instructions: Pick and Place<a class="headerlink" href="#robotic-assembly-instructions-pick-and-place" title="Link to this heading"></a></h1>
 <section id="task-1-housing-parts">
 <h2>Task 1: Housing Parts<a class="headerlink" href="#task-1-housing-parts" title="Link to this heading"></a></h2>
+<section id="description">
+<h3>Description:<a class="headerlink" href="#description" title="Link to this heading"></a></h3>
+<p>A housing part is placed on a flat surface next to the Taskboard. Another housing part is already mounted on the Taskboard. The robot must pick up the loose housing part and place it centrally on top of the mounted part, ensuring correct alignment.</p>
 </section>
-<section id="task-description">
-<h2>Task Description:<a class="headerlink" href="#task-description" title="Link to this heading"></a></h2>
-<p>The first housing part is firmly screwed onto the Taskboard, while the second housing part lies on a flat surface next to the board.
-First the robot must grasp the housing part laying next to the Taskboard.
-Then the robot must position it centrally above the first housing part mounted on the Taskboard and place it down.
-In doing so, the robot must ensure that the holes provided - symbolizing screw connections - are congruent on both housing parts. The assembly can only be considered successful if this fit is ensured.
-Success criteria: The housing part must be placed on top of the component fixed to the Taskboard, ensuring parallel alignment. The distance between the two flange surfaces must be exactly 2 mm; otherwise, the part is not correctly centered.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</p>
-<p>Additionally, the center axes of the aligned drill holes must match, with a maximum allowable rotational deviation of 1° from the housing parts’ central axis.
-If both conditions are met, the assembly is considered successful.</p>
+<section id="test-objective">
+<h3>Test Objective:<a class="headerlink" href="#test-objective" title="Link to this heading"></a></h3>
+<p>This task evaluates the robot’s ability to grasp, transport, and precisely align components with matching features, simulating assembly operations that require accurate positioning and orientation.</p>
+</section>
+<section id="success-criteria">
+<h3>Success Criteria:<a class="headerlink" href="#success-criteria" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>The housing part is placed on top of the mounted component with parallel alignment.</p></li>
+<li><p>The distance between the two flange surfaces is exactly 2 mm.</p></li>
+<li><p>The center axes of the aligned drill holes match, with a maximum rotational deviation of 1°.</p></li>
+<li><p>The housing part remains stationary after placement.</p></li>
+</ul>
+</section>
 </section>
 <section id="task-2-feather-key">
 <h2>Task 2: Feather Key<a class="headerlink" href="#task-2-feather-key" title="Link to this heading"></a></h2>
-</section>
 <section id="id1">
-<h2>Task Description:<a class="headerlink" href="#id1" title="Link to this heading"></a></h2>
-<p>The shaft is firmly screwed onto the task board, while the feather key lies on a flat surface next to the board.
-The robot grasps the feather key and brings it into position for inserting it into the groove on the shaft.
-The robot then lowers the feather key vertically into the groove, while considering that the key can’t be grasped over its complete height and inserted at the same time.</p>
-<section id="success-criteria-the-robot-must-fully-insert-the-feather-key-into-the-groove-on-the-assembly-component-on-the-taskboard-without-dropping-it-ensuring-that-there-is-no-vertical-movement-once-the-robot-releases-its-grip-if-this-condition-is-met-the-assembly-is-considered-successful">
-<h3>Success criteria: The robot must fully insert the feather key into the groove on the assembly component on the Taskboard without dropping it, ensuring that there is no vertical movement once the robot releases its grip. If this condition is met, the assembly is considered successful.<a class="headerlink" href="#success-criteria-the-robot-must-fully-insert-the-feather-key-into-the-groove-on-the-assembly-component-on-the-taskboard-without-dropping-it-ensuring-that-there-is-no-vertical-movement-once-the-robot-releases-its-grip-if-this-condition-is-met-the-assembly-is-considered-successful" title="Link to this heading"></a></h3>
+<h3>Description:<a class="headerlink" href="#id1" title="Link to this heading"></a></h3>
+<p>A feather key is placed on a flat surface next to the Taskboard.
+The robot must pick up the feather key and insert it vertically into the groove of a shaft mounted on the Taskboard.</p>
+</section>
+<section id="id2">
+<h3>Test Objective:<a class="headerlink" href="#id2" title="Link to this heading"></a></h3>
+<p>This task evaluates the robot’s ability to handle small parts,
+perform precise insertions, and maintain control during placement.</p>
+</section>
+<section id="id3">
+<h3>Success Criteria:<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>The feather key is fully inserted into the groove on the shaft.</p></li>
+<li><p>The feather key remains stationary after the robot releases it.</p></li>
+</ul>
 </section>
 </section>
 <section id="task-3-shim-ring">
 <h2>Task 3: Shim Ring<a class="headerlink" href="#task-3-shim-ring" title="Link to this heading"></a></h2>
+<section id="id4">
+<h3>Description:<a class="headerlink" href="#id4" title="Link to this heading"></a></h3>
+<p>Shim rings are thin, precisely manufactured rings used in industry to adjust the axial position or spacing between machine components,
+ensuring correct alignment, preload, or clearance.
+In industrial settings, the required number of shim rings can vary depending on component tolerances,
+wear, or assembly variations. Therefore, the robot must autonomously determine how many shim rings to stack to reach the correct height—specifically,
+up to but not covering the groove on the shaft.
+This reflects real-world scenarios where automated systems
+must adapt to part variability and ensure assemblies meet strict tolerance requirements without manual intervention.</p>
 </section>
-<section id="id2">
-<h2>Task Description:<a class="headerlink" href="#id2" title="Link to this heading"></a></h2>
-<p>The shaft on which the shims are to be mounted later by the robot is firmly screwed to the task board. The magazine containing the shim rings is placed on a flat surface next to the task board.
-The robot first picks a shim ring out of the magazine.
-Then the robot must align and place the shim ring on the assembly shaft mounted on the Task board.</p>
-<p>The robot must repeat these actions and stack the shim rings until the placement of another shim ring, would obstructs the visibility of the groove in the assembly component after a theoretical placement. Once this stage is reached the task is completed successfully.
-Success criteria: The robot must place 4 out of the 5 provided shim rings onto the shaft of the assembly component, so that the stacked shim rings then reach the groove that marks the target height without covering it. The required number must be determined autonomously by the robot and should not be predefined.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</p>
-<p>If these conditions are met, the assembly is considered successful.</p>
+<section id="id5">
+<h3>Test Objective:<a class="headerlink" href="#id5" title="Link to this heading"></a></h3>
+<p>This task evaluates the robot’s ability to not just perform repetitive pick-and-place operations,
+but follow them to reach a specified target height as required in many industrial assembly tasks.
+In this case it autonomously determine when to stop based on a visual reference.</p>
+</section>
+<section id="id6">
+<h3>Success Criteria:<a class="headerlink" href="#id6" title="Link to this heading"></a></h3>
+<ul class="simple">
+<li><p>Four shim rings are stacked onto the shaft, reaching the groove without covering it.</p></li>
+<li><p>The number of shim rings is determined autonomously by the robot.</p></li>
+<li><p>All placed shim rings remain stationary after placement.</p></li>
+</ul>
+</section>
 </section>
 </section>
 
@@ -141,7 +164,7 @@ Success criteria: The robot must place 4 out of the 5 provided shim rings onto t
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="robotic_instructions_peg_in_hole.html" class="btn btn-neutral float-left" title="Robotic Assembly Instructions: Peg in Hole" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="robotic_instructions_peg_in_hole.html" class="btn btn-neutral float-left" title="Robotic Task Descriptions: Peg in Hole" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="robotic_instructions_gear_tasks.html" class="btn btn-neutral float-right" title="Robotic Assembly Instructions: Gear Assembly" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 

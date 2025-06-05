@@ -1,18 +1,17 @@
-Industrial Assembly Taskboard – Robot Task Guide
-=========================================
+Task Descriptions
+=================
 
 Introduction
 ------------
 
-This section describes the **robot-level task definitions** for each industrial assembly challenge module.
-Where the assembly instructions told you *how to build the hardware*, the pages listed below
-detail *what your robot must do* (task sequence, constraints and success criteria)
-when experimenting with each module.
+This section describes all tasls of the industrial assembly task board.
+Like the assembly instructions, the indiviudal tasks are organized in modules but can be mixed and matched freely to create custom benchmarks.
+
 
 How to use
 ~~~~~~~~~~
 
-1. Pick the module you want to benchmark.
+1. Pick the tasks you want to benchmark.
 2. Read its **robotic assembly task** page to understand the required motions and tolerances.
 3. Implement and test your robot program until the success criteria are met.
 
