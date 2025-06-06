@@ -1,5 +1,5 @@
-Robotic Assembly Instructions: Screws and Nuts
-==============================================
+Tasks involving Screws and Nuts
+===============================
 
 
 Screws and nuts are fundamental fasteners used to join components in industrial assemblies. 
@@ -86,7 +86,7 @@ To prevent this, the robot must use a sequential approach, partially tightening 
     :align: center
     :width: 400px
 
-    
+
 
 Test Objective:
 ^^^^^^^^^^^^^^^

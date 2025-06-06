@@ -18,15 +18,15 @@ Step 1: Prepare the Components
 .. list-table::
     :header-rows: 1
 
-    * - 3D-printed parts
-      - Purchased components
-    * - Snap Hook × 1 (Material: PETG)
-      - M8 Nut × 2
-    * - Snap Hook Assembly × 1 (Material: PETG)
-      - 30mm M8 Screw × 2
+ * - 3D-printed parts
+ - Purchased components
+ * - Snap Hook × 1 (Material: PETG)
+ - M8 Nut × 2
+ * - Snap Hook Assembly × 1 (Material: PETG)
+ - 30mm M8 Screw × 2
 
 
-Step 2: Manual fixation of the housing on the Task-Board
+Step 2: Manual fixation of the housing on the Task Board
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Align the two holes on the side of the Snap Hook Assembly component with any two suitable holes on the Taskboard. Then push two 30mm M8 screws through the aligned holes and secure them from the bottom of the Taskboard with M8 nuts.
@@ -47,16 +47,16 @@ Step 1: Prepare the Components
 .. list-table::
     :header-rows: 1
 
-    * - 3D-printed parts
-      - Purchased components
-    * - Pressure Spring Assembly × 1 (Material: PETG)
-      - M8 Nut × 2
-    * -
-      - 30mm M8 Screw × 2
-    * -
-      - Spring WF20-80 × 1
+ * - 3D-printed parts
+ - Purchased components
+ * - Pressure Spring Assembly × 1 (Material: PETG)
+ - M8 Nut × 2
+ * -
+ - 30mm M8 Screw × 2
+ * -
+ - Spring WF20-80 × 1
 
-Step 2: Manual fixation of the housing on the Task-Board
+Step 2: Manual fixation of the housing on the Task Board
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Align the two holes on the side of the Pressure Spring Assembly component with any two suitable holes on the Taskboard. Then, push two 30mm M8 Screws through the aligned holes and secure them from the bottom of the Taskboard with M8 Nuts.
@@ -68,7 +68,7 @@ Task 3: Circlip
 Step 1: Prepare the Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Step 2: Manual fixation of the housing on the Task-Board
+Step 2: Manual fixation of the housing on the Task Board
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Align the two holes on the side of the Circlip Assembly component with any two suitable holes on the Taskboard. Then push two 30mm M8 screws through the aligned holes and secure them from the bottom of the Taskboard with M8 nuts.
@@ -77,11 +77,11 @@ Place the circlip on a flat surface next to the Taskboard to allow the robot to 
 .. list-table::
     :header-rows: 1
 
-    * - 3D-printed parts
-      - Purchased components
-    * - Circlip Assembly × 1 (Material: PETG)
-      - M8 Nut × 2
-    * -
-      - 30mm M8 Screw × 2
-    * -
-      - 30 Circlip × 1
+ * - 3D-printed parts
+ - Purchased components
+ * - Circlip Assembly × 1 (Material: PETG)
+ - M8 Nut × 2
+ * -
+ - 30mm M8 Screw × 2
+ * -
+ - 30 Circlip × 1

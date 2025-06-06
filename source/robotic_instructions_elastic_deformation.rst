@@ -1,5 +1,5 @@
-Robotic Task Descriptions: Elastic Deformation
-==============================================
+Tasks with Elastic Deformation
+==============================
 
 This section describes tasks that involve elastic deformation of components, requiring the robot to handle and manipulate parts that must be compressed or expanded during assembly.
 In contrast to limp objects such as cables or hoses, these tasks involve components that snap back to their original shape after deformation, such as snap hooks, springs, and circlips.
@@ -50,7 +50,7 @@ Description:
 
 A spring must be compressed and inserted into two circular holders on the assembly component. The relaxed length of the spring is longer than the available space, so the spring must be compressed during placement. This task introduces the challenge of manipulating compliant objects that resist deformation and may slip or move unpredictably when compressed.
 
-The difficulty for the robot is to maintain control of the spring while compressing it and to position it accurately within the holders. 
+The difficulty for the robot is to maintain control of the spring while compressing it and positioning it accurately within the holders. 
 The robot must also ensure that the spring remains in place after release, as improper placement can cause the spring to pop out or not be fully seated.
 
 .. image:: images/spring_placement_finished.png
@@ -81,7 +81,7 @@ Circlips are typically made of spring steel and are designed to be elastically d
 They provide a removable shoulder that prevents lateral movement of parts, such as bearings or gears, along a shaft.
 
 In this task, a circlip must be expanded and placed into a retaining ring groove on a shaft of the assembly component. 
-The circlip is a flexible ring that must be elastically deformed (expanded) to fit over the shaft, then released so it contracts into the groove. 
+The circlip is a flexible ring that must be elastically deformed (expanded) to fit over the shaft, and then released so it contracts into the groove. 
 This task highlights the challenge of manipulating small, flexible parts that require precise deformation and alignment.
 
 The main difficulty is expanding the circlip enough to clear the shaft without overstretching or dropping it, and then aligning it accurately with the groove before releasing. 

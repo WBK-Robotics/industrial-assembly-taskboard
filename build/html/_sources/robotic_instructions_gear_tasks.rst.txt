@@ -1,5 +1,5 @@
-Robotic Task Descriptions: Gear Assembly
-========================================
+Gear Assembly Tasks
+===================
 
 This section describes the tasks related to gear assembly on the industrial assembly task board.
 These tasks require the robot to handle various gear configurations, ensuring proper alignment, meshing, and seating of the gears on their respective shafts.

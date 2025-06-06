@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Robotic Task Descriptions: Elastic Deformation &mdash; Industrial Assembly Taskboard 1.0.0 documentation</title>
+  <title>Tasks with Elastic Deformation &mdash; Industrial Assembly Taskboard 1.0.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=92fd9be5" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -19,7 +19,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="prev" title="Robotic Assembly Instructions: Screws and Nuts" href="robotic_instructions_screws_and_nuts.html" /> 
+    <link rel="prev" title="Tasks involving Screws and Nuts" href="robotic_instructions_screws_and_nuts.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -42,17 +42,16 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption" role="heading"><span class="caption-text">Guides</span></p>
-<ul class="current">
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="wbk_challenge_overview.html">Assembly Guide</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="wbk_challenge_robot_tasks_overview.html">Task Descriptions</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="wbk_challenge_robot_tasks_overview.html#introduction">Introduction</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="wbk_challenge_robot_tasks_overview.html#robot-task-pages">Robot Task Pages</a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_peg_in_hole.html">Robotic Task Descriptions: Peg in Hole</a></li>
-<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_pick_and_place.html">Robotic Task Descriptions: Pick and Place</a></li>
-<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_gear_tasks.html">Robotic Task Descriptions: Gear Assembly</a></li>
-<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_screws_and_nuts.html">Robotic Assembly Instructions: Screws and Nuts</a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Robotic Task Descriptions: Elastic Deformation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="wbk_challenge_robot_tasks_overview.html#how-to-use-this-guide">How to use this guide</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="wbk_challenge_robot_tasks_overview.html#assembly-task">Assembly Task</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_peg_in_hole.html">Peg in Hole Tasks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_pick_and_place.html">Pick and Place Tasks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_gear_tasks.html">Gear Assembly Tasks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_screws_and_nuts.html">Tasks involving Screws and Nuts</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Tasks with Elastic Deformation</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#task-1-snap-hook">Task 1: Snap Hook</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#task-2-spring">Task 2: Spring</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#task-3-circlip-assembly">Task 3: Circlip Assembly</a></li>
@@ -80,7 +79,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="wbk_challenge_robot_tasks_overview.html">Task Descriptions</a></li>
-      <li class="breadcrumb-item active">Robotic Task Descriptions: Elastic Deformation</li>
+      <li class="breadcrumb-item active">Tasks with Elastic Deformation</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/robotic_instructions_elastic_deformation.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -90,8 +89,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="robotic-task-descriptions-elastic-deformation">
-<h1>Robotic Task Descriptions: Elastic Deformation<a class="headerlink" href="#robotic-task-descriptions-elastic-deformation" title="Link to this heading"></a></h1>
+  <section id="tasks-with-elastic-deformation">
+<h1>Tasks with Elastic Deformation<a class="headerlink" href="#tasks-with-elastic-deformation" title="Link to this heading"></a></h1>
 <p>This section describes tasks that involve elastic deformation of components, requiring the robot to handle and manipulate parts that must be compressed or expanded during assembly.
 In contrast to limp objects such as cables or hoses, these tasks involve components that snap back to their original shape after deformation, such as snap hooks, springs, and circlips.
 A task board with all three tasks completed successfully is shown below.</p>
@@ -127,7 +126,7 @@ as the component cannot be removed without compressing the hooks again.</p>
 <section id="id1">
 <h3>Description:<a class="headerlink" href="#id1" title="Link to this heading"></a></h3>
 <p>A spring must be compressed and inserted into two circular holders on the assembly component. The relaxed length of the spring is longer than the available space, so the spring must be compressed during placement. This task introduces the challenge of manipulating compliant objects that resist deformation and may slip or move unpredictably when compressed.</p>
-<p>The difficulty for the robot is to maintain control of the spring while compressing it and to position it accurately within the holders.
+<p>The difficulty for the robot is to maintain control of the spring while compressing it and positioning it accurately within the holders.
 The robot must also ensure that the spring remains in place after release, as improper placement can cause the spring to pop out or not be fully seated.</p>
 <a class="reference internal image-reference" href="_images/spring_placement_finished.png"><img alt="Spring placement" class="align-center" src="_images/spring_placement_finished.png" style="width: 400px;" /></a>
 </section>
@@ -152,7 +151,7 @@ The robot must also ensure that the spring remains in place after release, as im
 Circlips are typically made of spring steel and are designed to be elastically deformed during installation or removal.
 They provide a removable shoulder that prevents lateral movement of parts, such as bearings or gears, along a shaft.</p>
 <p>In this task, a circlip must be expanded and placed into a retaining ring groove on a shaft of the assembly component.
-The circlip is a flexible ring that must be elastically deformed (expanded) to fit over the shaft, then released so it contracts into the groove.
+The circlip is a flexible ring that must be elastically deformed (expanded) to fit over the shaft, and then released so it contracts into the groove.
 This task highlights the challenge of manipulating small, flexible parts that require precise deformation and alignment.</p>
 <p>The main difficulty is expanding the circlip enough to clear the shaft without overstretching or dropping it, and then aligning it accurately with the groove before releasing.
 The robot must also verify that the circlip is fully seated in the groove, as improper placement can result in incomplete assembly.</p>
@@ -196,7 +195,7 @@ Difficulties lie not only in controlling the expansion of the circlip but also e
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="robotic_instructions_screws_and_nuts.html" class="btn btn-neutral float-left" title="Robotic Assembly Instructions: Screws and Nuts" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="robotic_instructions_screws_and_nuts.html" class="btn btn-neutral float-left" title="Tasks involving Screws and Nuts" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

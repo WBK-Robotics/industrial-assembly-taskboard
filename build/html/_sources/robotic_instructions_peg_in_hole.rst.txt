@@ -1,7 +1,7 @@
-Robotic Task Descriptions: Peg in Hole
-======================================
+Peg in Hole Tasks
+=================
 
-While there are many different peg in hole benchmarks, these typically focus on varying the peg and hole geometries,
+While there are many different peg-in-hole benchmarks, these typically focus on varying the peg and hole geometries,
 but often feature large tolerances (in many cases such as the NIST taskboard, to be able to allow for the comparison of a wider range of robots since many have difficulty with tight tolerances).
 In contrast, the tasks in this section focus on tight tolerances and precise insertion of the pegs into the holes.
 
@@ -33,7 +33,7 @@ Success Criteria:
 ^^^^^^^^^^^^^^^^^
 
 - The round peg is fully inserted into the designated hole.
-- No  displacement of the peg occurs after the robot releases it.
+- No displacement of the peg occurs after the robot releases it.
 
 Task 2: Splined Shaft Peg
 -------------------------
@@ -53,7 +53,7 @@ Success Criteria:
 ^^^^^^^^^^^^^^^^^
 
 - The splined shaft peg is fully inserted into the matching splined hole.
-- No  displacement of the peg occurs after the robot releases it.
+- No displacement of the peg occurs after the robot releases it.
 
 Task 3: BNC-Connector
 ---------------------

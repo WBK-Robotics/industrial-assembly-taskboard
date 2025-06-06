@@ -6,7 +6,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Robotic Task Descriptions: Peg in Hole &mdash; Industrial Assembly Taskboard 1.0.0 documentation</title>
+  <title>Peg in Hole Tasks &mdash; Industrial Assembly Taskboard 1.0.0 documentation</title>
       <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=92fd9be5" />
       <link rel="stylesheet" type="text/css" href="_static/css/theme.css?v=e59714d7" />
 
@@ -19,7 +19,7 @@
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Robotic Task Descriptions: Pick and Place" href="robotic_instructions_pick_and_place.html" />
+    <link rel="next" title="Pick and Place Tasks" href="robotic_instructions_pick_and_place.html" />
     <link rel="prev" title="Task Descriptions" href="wbk_challenge_robot_tasks_overview.html" /> 
 </head>
 
@@ -43,22 +43,21 @@
   </form>
 </div>
         </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
-              <p class="caption" role="heading"><span class="caption-text">Guides</span></p>
-<ul class="current">
+              <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="wbk_challenge_overview.html">Assembly Guide</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="wbk_challenge_robot_tasks_overview.html">Task Descriptions</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="wbk_challenge_robot_tasks_overview.html#introduction">Introduction</a></li>
-<li class="toctree-l2 current"><a class="reference internal" href="wbk_challenge_robot_tasks_overview.html#robot-task-pages">Robot Task Pages</a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Robotic Task Descriptions: Peg in Hole</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="wbk_challenge_robot_tasks_overview.html#how-to-use-this-guide">How to use this guide</a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="wbk_challenge_robot_tasks_overview.html#assembly-task">Assembly Task</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Peg in Hole Tasks</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#task-1-round-peg">Task 1: Round Peg</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#task-2-splined-shaft-peg">Task 2: Splined Shaft Peg</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#task-3-bnc-connector">Task 3: BNC-Connector</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_pick_and_place.html">Robotic Task Descriptions: Pick and Place</a></li>
-<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_gear_tasks.html">Robotic Task Descriptions: Gear Assembly</a></li>
-<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_screws_and_nuts.html">Robotic Assembly Instructions: Screws and Nuts</a></li>
-<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_elastic_deformation.html">Robotic Task Descriptions: Elastic Deformation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_pick_and_place.html">Pick and Place Tasks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_gear_tasks.html">Gear Assembly Tasks</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_screws_and_nuts.html">Tasks involving Screws and Nuts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="robotic_instructions_elastic_deformation.html">Tasks with Elastic Deformation</a></li>
 </ul>
 </li>
 </ul>
@@ -80,7 +79,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="wbk_challenge_robot_tasks_overview.html">Task Descriptions</a></li>
-      <li class="breadcrumb-item active">Robotic Task Descriptions: Peg in Hole</li>
+      <li class="breadcrumb-item active">Peg in Hole Tasks</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/robotic_instructions_peg_in_hole.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -90,9 +89,9 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="robotic-task-descriptions-peg-in-hole">
-<h1>Robotic Task Descriptions: Peg in Hole<a class="headerlink" href="#robotic-task-descriptions-peg-in-hole" title="Link to this heading"></a></h1>
-<p>While there are many different peg in hole benchmarks, these typically focus on varying the peg and hole geometries,
+  <section id="peg-in-hole-tasks">
+<h1>Peg in Hole Tasks<a class="headerlink" href="#peg-in-hole-tasks" title="Link to this heading"></a></h1>
+<p>While there are many different peg-in-hole benchmarks, these typically focus on varying the peg and hole geometries,
 but often feature large tolerances (in many cases such as the NIST taskboard, to be able to allow for the comparison of a wider range of robots since many have difficulty with tight tolerances).
 In contrast, the tasks in this section focus on tight tolerances and precise insertion of the pegs into the holes.</p>
 <p>The final state of all three tasks is shown in the taskboard image below,
@@ -114,7 +113,7 @@ and execute controlled insertion motions typical in industrial assembly processe
 <h3>Success Criteria:<a class="headerlink" href="#success-criteria" title="Link to this heading"></a></h3>
 <ul class="simple">
 <li><p>The round peg is fully inserted into the designated hole.</p></li>
-<li><p>No  displacement of the peg occurs after the robot releases it.</p></li>
+<li><p>No displacement of the peg occurs after the robot releases it.</p></li>
 </ul>
 </section>
 </section>
@@ -133,7 +132,7 @@ The task requires the peg to be inserted into a matching splined hole in a targe
 <h3>Success Criteria:<a class="headerlink" href="#id3" title="Link to this heading"></a></h3>
 <ul class="simple">
 <li><p>The splined shaft peg is fully inserted into the matching splined hole.</p></li>
-<li><p>No  displacement of the peg occurs after the robot releases it.</p></li>
+<li><p>No displacement of the peg occurs after the robot releases it.</p></li>
 </ul>
 </section>
 </section>
@@ -164,7 +163,7 @@ as well as engagement of locking mechanisms.</p>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="wbk_challenge_robot_tasks_overview.html" class="btn btn-neutral float-left" title="Task Descriptions" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="robotic_instructions_pick_and_place.html" class="btn btn-neutral float-right" title="Robotic Task Descriptions: Pick and Place" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="robotic_instructions_pick_and_place.html" class="btn btn-neutral float-right" title="Pick and Place Tasks" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

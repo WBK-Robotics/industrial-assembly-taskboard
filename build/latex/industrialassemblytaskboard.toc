@@ -1,0 +1,143 @@
+\babel@toc {english}{}\relax 
+\contentsline {chapter}{\numberline {1}What you’ll find here}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Quick‑Start}{3}{section.1.1}%
+\contentsline {chapter}{\numberline {2}Contents}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Assembly Guide}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}How to use this guide}{5}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Build Instructions}{5}{subsection.2.1.2}%
+\contentsline {subsubsection}{Assembling Instructions: Task board}{5}{subsubsection*.3}%
+\contentsline {paragraph}{Step 1: Prepare the Components}{5}{paragraph*.4}%
+\contentsline {paragraph}{Step 2: Position the Task Board}{5}{paragraph*.5}%
+\contentsline {paragraph}{Step 3: Placing the Feet}{6}{paragraph*.6}%
+\contentsline {paragraph}{Step 4: Secure the Feet with Screws}{6}{paragraph*.7}%
+\contentsline {subsubsection}{Assembly Instructions: Peg\sphinxhyphen {}in\sphinxhyphen {}Hole}{7}{subsubsection*.8}%
+\contentsline {paragraph}{Task 1: Round Peg in Hole}{8}{paragraph*.9}%
+\contentsline {subparagraph}{Step 1: Prepare the Components}{8}{subparagraph*.10}%
+\contentsline {subparagraph}{Step 2: Inserting the Plain Bearing into the Hole component}{8}{subparagraph*.11}%
+\contentsline {subparagraph}{Step 3: Manual Fixation of the Assembly on the Task\sphinxhyphen {}Board}{8}{subparagraph*.12}%
+\contentsline {subparagraph}{Step 4: Placing the Round Shaft}{9}{subparagraph*.13}%
+\contentsline {paragraph}{Task 2: Splined Shaft Peg in Hole}{9}{paragraph*.14}%
+\contentsline {subparagraph}{Step 1: Prepare the Components}{9}{subparagraph*.15}%
+\contentsline {subparagraph}{Step 2: Inserting the Plain Bearing into the Hole component}{9}{subparagraph*.16}%
+\contentsline {subparagraph}{Step 3: Manual Fixation of the Assembly on the Task\sphinxhyphen {}Board}{9}{subparagraph*.17}%
+\contentsline {subparagraph}{Step 4: Placing the Splined Shaft}{9}{subparagraph*.18}%
+\contentsline {paragraph}{Task 3: BNC Connector}{9}{paragraph*.19}%
+\contentsline {subparagraph}{Step 1: Prepare the Components}{9}{subparagraph*.20}%
+\contentsline {subparagraph}{Step 2: Inserting the Female BNC\sphinxhyphen {}Connector into the Mounting Component}{9}{subparagraph*.21}%
+\contentsline {subparagraph}{Step 3: Manual Fixation of the Assembly on the Task\sphinxhyphen {}Board}{9}{subparagraph*.22}%
+\contentsline {subparagraph}{Step 4: Placing the Splined Shaft}{9}{subparagraph*.23}%
+\contentsline {subsubsection}{Assembly Instructions: Pick and Place}{10}{subsubsection*.24}%
+\contentsline {paragraph}{Task 1: Housing Parts}{10}{paragraph*.25}%
+\contentsline {subparagraph}{Step 1: Prepare the Components}{10}{subparagraph*.26}%
+\contentsline {subparagraph}{Step 2: Manual Fixation of the Housing Part1 on the Taskboard}{10}{subparagraph*.27}%
+\contentsline {paragraph}{Task 2: Feather Key}{11}{paragraph*.28}%
+\contentsline {subparagraph}{Step 1: Prepare the Components}{11}{subparagraph*.29}%
+\contentsline {subparagraph}{Step 2: Manual Fixation of the Feather Key Assembly on the Taskboard}{11}{subparagraph*.30}%
+\contentsline {paragraph}{Task 3: Shim Ring}{11}{paragraph*.31}%
+\contentsline {subparagraph}{Step 1: Prepare the Components}{11}{subparagraph*.32}%
+\contentsline {subparagraph}{Step 2: Manual Assembly of the Shim Ring Task}{11}{subparagraph*.33}%
+\contentsline {subsubsection}{Assembly Instructions: Gear Assembly}{11}{subsubsection*.34}%
+\contentsline {paragraph}{Task 1: 2 Gears}{12}{paragraph*.35}%
+\contentsline {subparagraph}{Step 1: Prepare the Components}{12}{subparagraph*.36}%
+\contentsline {subparagraph}{Step 2: Manual Assembly of the 2 Gears Task}{12}{subparagraph*.37}%
+\contentsline {paragraph}{Task 2: Helical Gear}{12}{paragraph*.38}%
+\contentsline {subparagraph}{Step 1: Prepare the Components}{12}{subparagraph*.39}%
+\contentsline {subparagraph}{Step 2: Manual Assembly of the helical Gear Task}{12}{subparagraph*.40}%
+\contentsline {paragraph}{Task 3: 3 Gears}{13}{paragraph*.41}%
+\contentsline {subparagraph}{Step 1: Prepare the Components}{13}{subparagraph*.42}%
+\contentsline {subparagraph}{Step 2: Manual Assembly of the 3 Gears Task Assembly}{13}{subparagraph*.43}%
+\contentsline {subsubsection}{Assembly Instructions: Screws and Nuts}{13}{subsubsection*.44}%
+\contentsline {paragraph}{Task 1: Hexagon Socket Screw}{14}{paragraph*.45}%
+\contentsline {subparagraph}{Step 1: Prepare the Components}{14}{subparagraph*.46}%
+\contentsline {subparagraph}{Step 2: Manual Assembly of the Hexagonal Socket Screw Task}{15}{subparagraph*.47}%
+\contentsline {subparagraph}{Step 3: Manual Fixation of the Assembly on the Taskboard}{15}{subparagraph*.48}%
+\contentsline {paragraph}{Task 2: Nut Assembly with Difficult Accessibility}{16}{paragraph*.49}%
+\contentsline {subparagraph}{Step 1: Prepare the Components}{16}{subparagraph*.50}%
+\contentsline {subparagraph}{Step 2: Manual Assembly of the Nut Assembly Task}{16}{subparagraph*.51}%
+\contentsline {subparagraph}{Step 3: Manual Fixation of the Assembly on the Taskboard}{17}{subparagraph*.52}%
+\contentsline {paragraph}{Task 3: Multiple Screws with the Risk of Tilting}{17}{paragraph*.53}%
+\contentsline {subparagraph}{Step 1: Prepare the Components}{17}{subparagraph*.54}%
+\contentsline {subparagraph}{Step 2: Manual Assembly of the Hexagonal Socket Screw Task}{17}{subparagraph*.55}%
+\contentsline {subsubsection}{Assembly Instructions: Elastic Deformation}{18}{subsubsection*.56}%
+\contentsline {paragraph}{Task 1: Snap Hook}{19}{paragraph*.57}%
+\contentsline {subparagraph}{Step 1: Prepare the Components}{19}{subparagraph*.58}%
+\contentsline {subparagraph}{Step 2: Manual fixation of the housing on the Task Board}{19}{subparagraph*.59}%
+\contentsline {paragraph}{Task 2: Spring}{19}{paragraph*.60}%
+\contentsline {subparagraph}{Step 1: Prepare the Components}{19}{subparagraph*.61}%
+\contentsline {subparagraph}{Step 2: Manual fixation of the housing on the Task Board}{19}{subparagraph*.62}%
+\contentsline {paragraph}{Task 3: Circlip}{19}{paragraph*.63}%
+\contentsline {subparagraph}{Step 1: Prepare the Components}{19}{subparagraph*.64}%
+\contentsline {subparagraph}{Step 2: Manual fixation of the housing on the Task Board}{19}{subparagraph*.65}%
+\contentsline {subsubsection}{List of required Components}{20}{subsubsection*.66}%
+\contentsline {section}{\numberline {2.2}Task Descriptions}{20}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}How to use this guide}{20}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Assembly Task}{21}{subsection.2.2.2}%
+\contentsline {subsubsection}{Peg in Hole Tasks}{21}{subsubsection*.67}%
+\contentsline {paragraph}{Task 1: Round Peg}{21}{paragraph*.68}%
+\contentsline {subparagraph}{Description:}{21}{subparagraph*.69}%
+\contentsline {subparagraph}{Test Objective:}{22}{subparagraph*.70}%
+\contentsline {subparagraph}{Success Criteria:}{22}{subparagraph*.71}%
+\contentsline {paragraph}{Task 2: Splined Shaft Peg}{22}{paragraph*.72}%
+\contentsline {subparagraph}{Description:}{22}{subparagraph*.73}%
+\contentsline {subparagraph}{Test Objective:}{22}{subparagraph*.74}%
+\contentsline {subparagraph}{Success Criteria:}{22}{subparagraph*.75}%
+\contentsline {paragraph}{Task 3: BNC\sphinxhyphen {}Connector}{22}{paragraph*.76}%
+\contentsline {subparagraph}{Description:}{22}{subparagraph*.77}%
+\contentsline {subparagraph}{Test Objective:}{22}{subparagraph*.78}%
+\contentsline {subparagraph}{Success Criteria:}{23}{subparagraph*.79}%
+\contentsline {subsubsection}{Pick and Place Tasks}{23}{subsubsection*.80}%
+\contentsline {paragraph}{Task 1: Housing Parts}{23}{paragraph*.81}%
+\contentsline {subparagraph}{Description:}{23}{subparagraph*.82}%
+\contentsline {subparagraph}{Test Objective:}{24}{subparagraph*.83}%
+\contentsline {subparagraph}{Success Criteria:}{24}{subparagraph*.84}%
+\contentsline {paragraph}{Task 2: Feather Key}{24}{paragraph*.85}%
+\contentsline {subparagraph}{Description:}{24}{subparagraph*.86}%
+\contentsline {subparagraph}{Test Objective:}{25}{subparagraph*.87}%
+\contentsline {subparagraph}{Success Criteria:}{25}{subparagraph*.88}%
+\contentsline {paragraph}{Task 3: Shim Ring}{25}{paragraph*.89}%
+\contentsline {subparagraph}{Description:}{25}{subparagraph*.90}%
+\contentsline {subparagraph}{Test Objective:}{26}{subparagraph*.91}%
+\contentsline {subparagraph}{Success Criteria:}{26}{subparagraph*.92}%
+\contentsline {subsubsection}{Gear Assembly Tasks}{26}{subsubsection*.93}%
+\contentsline {paragraph}{Task 1: Two Gears}{27}{paragraph*.94}%
+\contentsline {subparagraph}{Description:}{27}{subparagraph*.95}%
+\contentsline {subparagraph}{Test Objective:}{28}{subparagraph*.96}%
+\contentsline {subparagraph}{Success Criteria:}{28}{subparagraph*.97}%
+\contentsline {paragraph}{Task 2: Gear with Helical Teeth}{28}{paragraph*.98}%
+\contentsline {subparagraph}{Description:}{28}{subparagraph*.99}%
+\contentsline {subparagraph}{Test Objective:}{29}{subparagraph*.100}%
+\contentsline {subparagraph}{Success Criteria:}{29}{subparagraph*.101}%
+\contentsline {paragraph}{Task 3: Three Gears with Grooves}{29}{paragraph*.102}%
+\contentsline {subparagraph}{Description:}{29}{subparagraph*.103}%
+\contentsline {subparagraph}{Test Objective:}{30}{subparagraph*.104}%
+\contentsline {subparagraph}{Success Criteria:}{30}{subparagraph*.105}%
+\contentsline {subsubsection}{Tasks involving Screws and Nuts}{30}{subsubsection*.106}%
+\contentsline {paragraph}{Task 1: Vertical Screw Insertion}{30}{paragraph*.107}%
+\contentsline {subparagraph}{Description:}{30}{subparagraph*.108}%
+\contentsline {subparagraph}{Test Objective:}{31}{subparagraph*.109}%
+\contentsline {subparagraph}{Success Criteria:}{31}{subparagraph*.110}%
+\contentsline {paragraph}{Task 2: Nut Assembly with Limited Accessibility}{31}{paragraph*.111}%
+\contentsline {subparagraph}{Description:}{31}{subparagraph*.112}%
+\contentsline {subparagraph}{Test Objective:}{32}{subparagraph*.113}%
+\contentsline {subparagraph}{Success Criteria:}{32}{subparagraph*.114}%
+\contentsline {paragraph}{Task 3: Multi\sphinxhyphen {}Screw Assembly with Alignment Constraints}{32}{paragraph*.115}%
+\contentsline {subparagraph}{Description:}{32}{subparagraph*.116}%
+\contentsline {subparagraph}{Test Objective:}{32}{subparagraph*.117}%
+\contentsline {subparagraph}{Success Criteria:}{33}{subparagraph*.118}%
+\contentsline {subsubsection}{Tasks with Elastic Deformation}{33}{subsubsection*.119}%
+\contentsline {paragraph}{Task 1: Snap Hook}{33}{paragraph*.120}%
+\contentsline {subparagraph}{Description:}{33}{subparagraph*.121}%
+\contentsline {subparagraph}{Test Objective:}{34}{subparagraph*.122}%
+\contentsline {subparagraph}{Success Criteria:}{34}{subparagraph*.123}%
+\contentsline {paragraph}{Task 2: Spring}{34}{paragraph*.124}%
+\contentsline {subparagraph}{Description:}{34}{subparagraph*.125}%
+\contentsline {subparagraph}{Test Objective:}{35}{subparagraph*.126}%
+\contentsline {subparagraph}{Success Criteria:}{35}{subparagraph*.127}%
+\contentsline {paragraph}{Task 3: Circlip Assembly}{35}{paragraph*.128}%
+\contentsline {subparagraph}{Description:}{35}{subparagraph*.129}%
+\contentsline {subparagraph}{Test Objective:}{36}{subparagraph*.130}%
+\contentsline {subparagraph}{Success Criteria:}{36}{subparagraph*.131}%
+\contentsline {paragraph}{Task 3.1: Circlip Removal}{36}{paragraph*.132}%
+\contentsline {subparagraph}{Description:}{36}{subparagraph*.133}%
+\contentsline {subparagraph}{Test Objective:}{36}{subparagraph*.134}%
+\contentsline {subparagraph}{Success Criteria:}{36}{subparagraph*.135}%

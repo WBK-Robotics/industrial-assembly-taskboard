@@ -1,7 +1,7 @@
-Robotic Task Descriptions: Pick and Place
-=========================================
+Pick and Place Tasks
+====================
 
-This page provides the task descriptions for the Pick and Place task module of the industrial assembly challenge taskboard.
+This section provides the task descriptions for the Pick and Place task module of the industrial assembly challenge taskboard.
 The module consists of three tasks: Housing Parts, Feather Key, and Shim Ring placement.
 The focus here is on adaptivity, the robot needs to sense the assembly to determine the correct placement and alignment of parts, 
 rather than reaching a fixed target pose like in the Peg-in-Hole task.

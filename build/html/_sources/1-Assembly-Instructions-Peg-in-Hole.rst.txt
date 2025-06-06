@@ -1,8 +1,7 @@
 Assembly Instructions: Peg-in-Hole
 ==================================
 
-This section provides step-by-step instructions for assembling the Peg-in-Hole task module of the Industrial Assembly Task Board. T
-he module consists of a round peg and a splined shaft peg that need to be inserted into their respective holes.
+This section provides step-by-step instructions for assembling the Peg-in-Hole task module of the Industrial Assembly Task Board. The module consists of a round peg and a splined shaft peg that need to be inserted into their respective holes.
 In contrast to other boards such as the NIST peg-in-hole tasks the focus here is on tight tolerances and precise insertion of the pegs into the holes, 
 rather than on complex peg and hole geometries.
 
@@ -22,12 +21,12 @@ Step 1: Prepare the Components
     :header-rows: 1
     :widths: 50 50
 
-    * - 3D-printed parts:
-      - Purchased hardware:
-    * - Taskboard × 1 (Material: PETG)
-      - M8 Nut × 4
-    * - Taskboard Foot × 4 (Material: PETG)
-      - 30mm M8 Screw × 4
+ * - 3D-printed parts:
+ - Purchased hardware:
+ * - Taskboard × 1 (Material: PETG)
+ - M8 Nut × 4
+ * - Taskboard Foot × 4 (Material: PETG)
+ - 30mm M8 Screw × 4
 
 
 
@@ -57,7 +56,7 @@ Align the two side holes of the Assembly part with two suitable holes on the Tas
 Step 4: Placing the Round Shaft
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Place the Shaft standing on a flat surface next to the Taskboard, so that the robot can grasp it.
+Place the Shaft standing on a flat surface next to the task board so that the robot can grasp it.
 
 Task 2: Splined Shaft Peg in Hole
 ---------------------------------
@@ -68,16 +67,16 @@ Step 1: Prepare the Components
     :header-rows: 1
     :widths: 50 50
 
-    * - 3D-printed parts:
-      - Purchased components:
-    * - Hole Splined Shaft × 1 (PETG)
-      - M8 Nut × 2
-    * -
-      - 30mm M8 Screw × 2
-    * -
-      - Splined Shaft Sleeve 64821500 × 1
-    * -
-      - Splined Shaft 64811510 × 1
+ * - 3D-printed parts:
+ - Purchased components:
+ * - Hole Splined Shaft × 1 (PETG)
+ - M8 Nut × 2
+ * -
+ - 30mm M8 Screw × 2
+ * -
+ - Splined Shaft Sleeve 64821500 × 1
+ * -
+ - Splined Shaft 64811510 × 1
 
 
 Step 2: Inserting the Plain Bearing into the Hole component
@@ -105,16 +104,16 @@ Step 1: Prepare the Components
     :header-rows: 1
     :widths: 50 50
 
-    * - 3D-printed parts:
-      - Purchased components:
-    * - Mounting BNC Connector × 1 (PETG)
-      - M8 Nut × 2
-    * -
-      - 30mm M8 Screw × 2
-    * -
-      - BNC-Connector female BNC9025-BJ
-    * -
-      - BNC-Connector male BNC-LP-3DW
+ * - 3D-printed parts:
+ - Purchased components:
+ * - Mounting BNC Connector × 1 (PETG)
+ - M8 Nut × 2
+ * -
+ - 30mm M8 Screw × 2
+ * -
+ - BNC-Connector female BNC9025-BJ
+ * -
+ - BNC-Connector male BNC-LP-3DW
 
 Step 2: Inserting the Female BNC-Connector into the Mounting Component
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

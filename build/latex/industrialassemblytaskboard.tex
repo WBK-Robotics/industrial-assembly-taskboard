@@ -56,15 +56,14 @@
 % Set up styles of URL: it should be placed after hyperref.
 \urlstyle{same}
 
-\addto\captionsenglish{\renewcommand{\contentsname}{Guides}}
 
 \usepackage{sphinxmessages}
-\setcounter{tocdepth}{0}
+
 
 
 
 \title{Industrial Assembly Taskboard}
-\date{Jun 05, 2025}
+\date{Jun 06, 2025}
 \release{1.0.0}
 \author{Jan Baumgärtner, Laurin Kreft}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -83,17 +82,20 @@
 \sphinxtableofcontents
 \pagestyle{normal}
 \phantomsection\label{\detokenize{index::doc}}
-
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=1000\sphinxpxdimen]{{logo_with_text}.png}\hspace*{\fill}}
 
 \sphinxAtStartPar
-Welcome to the documentation hub for the \sphinxstyleemphasis{Industrial Assembly Task Board} — a modular robotic
-benchmark started by the wbk Institute of Production Science (Karlsruhe Institute
-of Technology). Here you will find everything needed to \sphinxstylestrong{build the taskboard
-hardware} \sphinxstyleemphasis{and} \sphinxstylestrong{get your robot to perform each benchmark task}.
+Welcome to the documentation for the \sphinxstyleemphasis{Industrial Assembly Task Board},
+a modular robotic benchmark developed by the wbk Institute of Production Science at Karlsruhe Institute of Technology.
+This resource provides comprehensive instructions for constructing the task board hardware and detailed guidelines for evaluating robotic systems
+on a variety of benchmark tasks.
+Whether you are referencing this material online or as a compiled document,
+you will find all the necessary information to build, configure, and utilize the task board for research, development, or benchmarking purposes.
 
 
-\chapter{Why This Task Board?}
-\label{\detokenize{index:why-this-task-board}}
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=1000\sphinxpxdimen]{{sample_taskboards}.png}\hspace*{\fill}}
+
 \sphinxAtStartPar
 Robotic assembly is far more complex than the basic “peg\sphinxhyphen{}in\sphinxhyphen{}hole” tasks often used in benchmarks like the NIST taskboard.
 While such benchmarks are valuable, they assume that the only thing more complex than a simple peg\sphinxhyphen{}in\sphinxhyphen{}hole task is the geometry of the peg and hole,
@@ -126,14 +128,24 @@ This documentation is split into two main sections:
 \item {} 
 \sphinxAtStartPar
 \sphinxstylestrong{Assembly Guide} \textendash{} step‑by‑step hardware build instructions (3D‑printing,
-purchased fasteners, mounting sequence).
 
+\end{itemize}
+\begin{quote}
+
+\sphinxAtStartPar
+purchased fasteners, mounting sequence).
+\end{quote}
+\begin{itemize}
 \item {} 
 \sphinxAtStartPar
 \sphinxstylestrong{Robot Task Guide} \textendash{} formal task definitions (motion sequence, tolerances and
-success criteria) for benchmarking your robot or algorithm on each module.
 
 \end{itemize}
+\begin{quote}
+
+\sphinxAtStartPar
+success criteria) for benchmarking your robot or algorithm on each module.
+\end{quote}
 
 \begin{sphinxadmonition}{note}{Note:}
 \sphinxAtStartPar
@@ -150,7 +162,7 @@ desired task modules.
 
 \sphinxAtStartPar
 2. Choose a module and open its page in the {\hyperref[\detokenize{wbk_challenge_robot_tasks_overview::doc}]{\sphinxcrossref{\DUrole{doc}{Task Descriptions}}}}
-to understand the robot motions and evaluation metrics.
+to understand the robot’s motions and evaluation metrics.
 \begin{enumerate}
 \sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \setcounter{enumi}{2}
@@ -185,11 +197,11 @@ This online documentation collects every set of step‑by‑step instructions yo
 
 \item {} 
 \sphinxAtStartPar
-\sphinxstylestrong{Follow the illustrated assembly sequence} described in the corresponding page.
+\sphinxstylestrong{Follow the illustrated assembly sequence} described on the corresponding page.
 
 \item {} 
 \sphinxAtStartPar
-\sphinxstylestrong{Mount the finished module} onto the taskboard base or use it stand‑alone for experiments.
+\sphinxstylestrong{Mount the finished module} onto the taskboard base or use it stand\sphinxhyphen{}alone for experiments.
 
 \end{enumerate}
 
@@ -199,54 +211,21 @@ Start with \DUrole{xref,std,std-doc}{assembly\_instructions\_taskboard} to build
 \end{sphinxadmonition}
 
 
-\subsection{Assembly Modules}
-\label{\detokenize{wbk_challenge_overview:assembly-modules}}
+\subsection{Build Instructions}
+\label{\detokenize{wbk_challenge_overview:build-instructions}}
 \sphinxstepscope
 
 
-\subsubsection{Assembling Instructions: Taskboard}
-\label{\detokenize{0-Assembly_Instructions_Taskboard:assembling-instructions-taskboard}}\label{\detokenize{0-Assembly_Instructions_Taskboard::doc}}
+\subsubsection{Assembling Instructions: Task board}
+\label{\detokenize{0-Assembly_Instructions_Taskboard:assembling-instructions-task-board}}\label{\detokenize{0-Assembly_Instructions_Taskboard::doc}}
 
 \paragraph{Step 1: Prepare the Components}
 \label{\detokenize{0-Assembly_Instructions_Taskboard:step-1-prepare-the-components}}
 
-\begin{savenotes}\sphinxattablestart
-\sphinxthistablewithglobalstyle
-\centering
-\begin{tabular}[t]{\X{50}{100}\X{50}{100}}
-\sphinxtoprule
-\sphinxstyletheadfamily 
-\sphinxAtStartPar
-3D\sphinxhyphen{}printed parts:
-&\sphinxstyletheadfamily 
-\sphinxAtStartPar
-Purchased hardware:
-\\
-\sphinxmidrule
-\sphinxtableatstartofbodyhook
-\sphinxAtStartPar
-Taskboard × 1 (Material: PETG)
-&
-\sphinxAtStartPar
-M8 Nut × 4
-\\
-\sphinxhline
-\sphinxAtStartPar
-Taskboard Foot × 4 (Material: PETG)
-&
-\sphinxAtStartPar
-30mm M8 Screw × 4
-\\
-\sphinxbottomrule
-\end{tabular}
-\sphinxtableafterendhook\par
-\sphinxattableend\end{savenotes}
-
-
 \paragraph{Step 2: Position the Task Board}
 \label{\detokenize{0-Assembly_Instructions_Taskboard:step-2-position-the-task-board}}
 \sphinxAtStartPar
-Place the 3D\sphinxhyphen{}printed Taskboard upside down.
+Place the 3D\sphinxhyphen{}printed task board upside down.
 Ensure that the four rectangular holes are visible.
 
 \noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{taskboard_foot_placement}.png}\hspace*{\fill}}
@@ -255,7 +234,7 @@ Ensure that the four rectangular holes are visible.
 \paragraph{Step 3: Placing the Feet}
 \label{\detokenize{0-Assembly_Instructions_Taskboard:step-3-placing-the-feet}}
 \sphinxAtStartPar
-Insert each Taskboard Foot into one of the rectangular holes.
+Insert each task board foot into one of the rectangular holes.
 Make sure the small bar for fixation is pointing away from the center.
 
 \noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{taskboard_foot_fixation}.png}\hspace*{\fill}}
@@ -277,8 +256,7 @@ Repeat this process for all four feet.
 \subsubsection{Assembly Instructions: Peg\sphinxhyphen{}in\sphinxhyphen{}Hole}
 \label{\detokenize{1-Assembly-Instructions-Peg-in-Hole:assembly-instructions-peg-in-hole}}\label{\detokenize{1-Assembly-Instructions-Peg-in-Hole::doc}}
 \sphinxAtStartPar
-This page provides step\sphinxhyphen{}by\sphinxhyphen{}step instructions for assembling the Peg\sphinxhyphen{}in\sphinxhyphen{}Hole task module of the Industrial Assembly Task Board. T
-he module consists of a round peg and a splined shaft peg that need to be inserted into their respective holes.
+This section provides step\sphinxhyphen{}by\sphinxhyphen{}step instructions for assembling the Peg\sphinxhyphen{}in\sphinxhyphen{}Hole task module of the Industrial Assembly Task Board. The module consists of a round peg and a splined shaft peg that need to be inserted into their respective holes.
 In contrast to other boards such as the NIST peg\sphinxhyphen{}in\sphinxhyphen{}hole tasks the focus here is on tight tolerances and precise insertion of the pegs into the holes,
 rather than on complex peg and hole geometries.
 
@@ -290,39 +268,6 @@ rather than on complex peg and hole geometries.
 
 \subparagraph{Step 1: Prepare the Components}
 \label{\detokenize{1-Assembly-Instructions-Peg-in-Hole:step-1-prepare-the-components}}
-
-\begin{savenotes}\sphinxattablestart
-\sphinxthistablewithglobalstyle
-\centering
-\begin{tabular}[t]{\X{50}{100}\X{50}{100}}
-\sphinxtoprule
-\sphinxstyletheadfamily 
-\sphinxAtStartPar
-3D\sphinxhyphen{}printed parts:
-&\sphinxstyletheadfamily 
-\sphinxAtStartPar
-Purchased hardware:
-\\
-\sphinxmidrule
-\sphinxtableatstartofbodyhook
-\sphinxAtStartPar
-Taskboard × 1 (Material: PETG)
-&
-\sphinxAtStartPar
-M8 Nut × 4
-\\
-\sphinxhline
-\sphinxAtStartPar
-Taskboard Foot × 4 (Material: PETG)
-&
-\sphinxAtStartPar
-30mm M8 Screw × 4
-\\
-\sphinxbottomrule
-\end{tabular}
-\sphinxtableafterendhook\par
-\sphinxattableend\end{savenotes}
-
 
 \subparagraph{Step 2: Inserting the Plain Bearing into the Hole component}
 \label{\detokenize{1-Assembly-Instructions-Peg-in-Hole:step-2-inserting-the-plain-bearing-into-the-hole-component}}
@@ -343,7 +288,7 @@ Align the two side holes of the Assembly part with two suitable holes on the Tas
 \subparagraph{Step 4: Placing the Round Shaft}
 \label{\detokenize{1-Assembly-Instructions-Peg-in-Hole:step-4-placing-the-round-shaft}}
 \sphinxAtStartPar
-Place the Shaft standing on a flat surface next to the Taskboard, so that the robot can grasp it.
+Place the Shaft standing on a flat surface next to the task board so that the robot can grasp it.
 
 
 \paragraph{Task 2: Splined Shaft Peg in Hole}
@@ -351,44 +296,6 @@ Place the Shaft standing on a flat surface next to the Taskboard, so that the ro
 
 \subparagraph{Step 1: Prepare the Components}
 \label{\detokenize{1-Assembly-Instructions-Peg-in-Hole:id1}}
-
-\begin{savenotes}\sphinxattablestart
-\sphinxthistablewithglobalstyle
-\centering
-\begin{tabular}[t]{\X{50}{100}\X{50}{100}}
-\sphinxtoprule
-\sphinxstyletheadfamily 
-\sphinxAtStartPar
-3D\sphinxhyphen{}printed parts:
-&\sphinxstyletheadfamily 
-\sphinxAtStartPar
-Purchased components:
-\\
-\sphinxmidrule
-\sphinxtableatstartofbodyhook
-\sphinxAtStartPar
-Hole Splined Shaft × 1 (PETG)
-&
-\sphinxAtStartPar
-M8 Nut × 2
-\\
-\sphinxhline&
-\sphinxAtStartPar
-30mm M8 Screw × 2
-\\
-\sphinxhline&
-\sphinxAtStartPar
-Splined Shaft Sleeve 64821500 × 1
-\\
-\sphinxhline&
-\sphinxAtStartPar
-Splined Shaft 64811510 × 1
-\\
-\sphinxbottomrule
-\end{tabular}
-\sphinxtableafterendhook\par
-\sphinxattableend\end{savenotes}
-
 
 \subparagraph{Step 2: Inserting the Plain Bearing into the Hole component}
 \label{\detokenize{1-Assembly-Instructions-Peg-in-Hole:id2}}
@@ -415,44 +322,6 @@ Place the Splined Shaft on a flat surface next to the Taskboard, so that the rob
 \subparagraph{Step 1: Prepare the Components}
 \label{\detokenize{1-Assembly-Instructions-Peg-in-Hole:id4}}
 
-\begin{savenotes}\sphinxattablestart
-\sphinxthistablewithglobalstyle
-\centering
-\begin{tabular}[t]{\X{50}{100}\X{50}{100}}
-\sphinxtoprule
-\sphinxstyletheadfamily 
-\sphinxAtStartPar
-3D\sphinxhyphen{}printed parts:
-&\sphinxstyletheadfamily 
-\sphinxAtStartPar
-Purchased components:
-\\
-\sphinxmidrule
-\sphinxtableatstartofbodyhook
-\sphinxAtStartPar
-Mounting BNC Connector × 1 (PETG)
-&
-\sphinxAtStartPar
-M8 Nut × 2
-\\
-\sphinxhline&
-\sphinxAtStartPar
-30mm M8 Screw × 2
-\\
-\sphinxhline&
-\sphinxAtStartPar
-BNC\sphinxhyphen{}Connector female BNC9025\sphinxhyphen{}BJ
-\\
-\sphinxhline&
-\sphinxAtStartPar
-BNC\sphinxhyphen{}Connector male BNC\sphinxhyphen{}LP\sphinxhyphen{}3DW
-\\
-\sphinxbottomrule
-\end{tabular}
-\sphinxtableafterendhook\par
-\sphinxattableend\end{savenotes}
-
-
 \subparagraph{Step 2: Inserting the Female BNC\sphinxhyphen{}Connector into the Mounting Component}
 \label{\detokenize{1-Assembly-Instructions-Peg-in-Hole:step-2-inserting-the-female-bnc-connector-into-the-mounting-component}}
 \sphinxAtStartPar
@@ -477,7 +346,7 @@ Place the Male BNC\sphinxhyphen{}Connector on a flat surface next to the Taskboa
 \subsubsection{Assembly Instructions: Pick and Place}
 \label{\detokenize{2-Assembly-Instructions-Pick-and-Place:assembly-instructions-pick-and-place}}\label{\detokenize{2-Assembly-Instructions-Pick-and-Place::doc}}
 \sphinxAtStartPar
-This page describes the assembly instructions for the Pick and Place task module of the industrial assembly challenge taskboard.
+This section describes the assembly instructions for the Pick and Place task module of the industrial assembly challenge taskboard.
 The module consists of three tasks: Housing Parts, Feather Key, and Shim Ring placement.
 
 \noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{pick_and_place_taskboard}.png}\hspace*{\fill}}
@@ -489,48 +358,15 @@ The module consists of three tasks: Housing Parts, Feather Key, and Shim Ring pl
 \subparagraph{Step 1: Prepare the Components}
 \label{\detokenize{2-Assembly-Instructions-Pick-and-Place:step-1-prepare-the-components}}
 
-\begin{savenotes}\sphinxattablestart
-\sphinxthistablewithglobalstyle
-\centering
-\begin{tabular}[t]{\X{50}{100}\X{50}{100}}
-\sphinxtoprule
-\sphinxstyletheadfamily 
-\sphinxAtStartPar
-3D\sphinxhyphen{}printed parts
-&\sphinxstyletheadfamily 
-\sphinxAtStartPar
-Purchased components
-\\
-\sphinxmidrule
-\sphinxtableatstartofbodyhook
-\sphinxAtStartPar
-Housing Part1 × 1 (Material: PETG)
-&
-\sphinxAtStartPar
-M8 Nut × 2
-\\
-\sphinxhline
-\sphinxAtStartPar
-Housing Part2 × 1 (Material: PETG)
-&
-\sphinxAtStartPar
-30mm M8 Screw × 2
-\\
-\sphinxbottomrule
-\end{tabular}
-\sphinxtableafterendhook\par
-\sphinxattableend\end{savenotes}
-
-
 \subparagraph{Step 2: Manual Fixation of the Housing Part1 on the Taskboard}
 \label{\detokenize{2-Assembly-Instructions-Pick-and-Place:step-2-manual-fixation-of-the-housing-part1-on-the-taskboard}}
 \sphinxAtStartPar
-Align the two side holes of the Housing Part1 component with any two suitable holes on the Taskboard. Then push two 30mm M8 screws through the aligned holes and secure them from the bottom of the Taskboard with M8 nuts.
+Align the two side holes of the Housing Part 1 component with any two suitable holes on the Taskboard. Then push two 30mm M8 screws through the aligned holes and secure them from the bottom of the Taskboard with M8 nuts.
 
 \noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{housing_part1_placement}.png}\hspace*{\fill}}
 
 \sphinxAtStartPar
-Place the Housing Part2 on a flat surface next to the Taskboard, so that the Robot can grasp it.
+Place the Housing Part 2 on a flat surface next to the Taskboard, so that the Robot can grasp it.
 
 
 \paragraph{Task 2: Feather Key}
@@ -538,39 +374,6 @@ Place the Housing Part2 on a flat surface next to the Taskboard, so that the Rob
 
 \subparagraph{Step 1: Prepare the Components}
 \label{\detokenize{2-Assembly-Instructions-Pick-and-Place:id1}}
-
-\begin{savenotes}\sphinxattablestart
-\sphinxthistablewithglobalstyle
-\centering
-\begin{tabular}[t]{\X{50}{100}\X{50}{100}}
-\sphinxtoprule
-\sphinxstyletheadfamily 
-\sphinxAtStartPar
-3D\sphinxhyphen{}printed parts
-&\sphinxstyletheadfamily 
-\sphinxAtStartPar
-Purchased components
-\\
-\sphinxmidrule
-\sphinxtableatstartofbodyhook
-\sphinxAtStartPar
-Feather Key Assembly × 1 (Material: PETG)
-&
-\sphinxAtStartPar
-M8 Nut × 2
-\\
-\sphinxhline
-\sphinxAtStartPar
-Feather key × 1 (Material: PETG)
-&
-\sphinxAtStartPar
-30mm M8 Screw × 2
-\\
-\sphinxbottomrule
-\end{tabular}
-\sphinxtableafterendhook\par
-\sphinxattableend\end{savenotes}
-
 
 \subparagraph{Step 2: Manual Fixation of the Feather Key Assembly on the Taskboard}
 \label{\detokenize{2-Assembly-Instructions-Pick-and-Place:step-2-manual-fixation-of-the-feather-key-assembly-on-the-taskboard}}
@@ -584,43 +387,6 @@ Place the Feather Key on a flat surface next to the Taskboard.
 
 \subparagraph{Step 1: Prepare the Components}
 \label{\detokenize{2-Assembly-Instructions-Pick-and-Place:id2}}
-
-\begin{savenotes}\sphinxattablestart
-\sphinxthistablewithglobalstyle
-\centering
-\begin{tabular}[t]{\X{50}{100}\X{50}{100}}
-\sphinxtoprule
-\sphinxstyletheadfamily 
-\sphinxAtStartPar
-3D\sphinxhyphen{}printed parts
-&\sphinxstyletheadfamily 
-\sphinxAtStartPar
-Purchased components
-\\
-\sphinxmidrule
-\sphinxtableatstartofbodyhook
-\sphinxAtStartPar
-Shim Ring Assembly × 1 (Material: PETG)
-&
-\sphinxAtStartPar
-M8 Nut × 2
-\\
-\sphinxhline
-\sphinxAtStartPar
-Shim Ring Magazine × 1 (Material: PETG)
-&
-\sphinxAtStartPar
-30mm M8 Screw × 2
-\\
-\sphinxhline
-\sphinxAtStartPar
-Shim Ring × 5
-&\\
-\sphinxbottomrule
-\end{tabular}
-\sphinxtableafterendhook\par
-\sphinxattableend\end{savenotes}
-
 
 \subparagraph{Step 2: Manual Assembly of the Shim Ring Task}
 \label{\detokenize{2-Assembly-Instructions-Pick-and-Place:step-2-manual-assembly-of-the-shim-ring-task}}
@@ -638,7 +404,7 @@ Place the Shim Ring Magazine next to the Taskboard and place a shim ring in each
 \subsubsection{Assembly Instructions: Gear Assembly}
 \label{\detokenize{3-Assembly-Instructions-Gear-Assembly:assembly-instructions-gear-assembly}}\label{\detokenize{3-Assembly-Instructions-Gear-Assembly::doc}}
 \sphinxAtStartPar
-This page provides step\sphinxhyphen{}by\sphinxhyphen{}step instructions for assembling the Gear Assembly task module of the Industrial Assembly Task Board.
+This section provides step\sphinxhyphen{}by\sphinxhyphen{}step instructions for assembling the Gear Assembly task module of the Industrial Assembly Task Board.
 The module consists of various gear configurations that can be assembled and tested.
 
 \noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{gear_assembly_taskboard}.png}\hspace*{\fill}}
@@ -649,39 +415,6 @@ The module consists of various gear configurations that can be assembled and tes
 
 \subparagraph{Step 1: Prepare the Components}
 \label{\detokenize{3-Assembly-Instructions-Gear-Assembly:step-1-prepare-the-components}}
-
-\begin{savenotes}\sphinxattablestart
-\sphinxthistablewithglobalstyle
-\centering
-\begin{tabulary}{\linewidth}[t]{TT}
-\sphinxtoprule
-\sphinxstyletheadfamily 
-\sphinxAtStartPar
-3D\sphinxhyphen{}printed parts:
-&\sphinxstyletheadfamily 
-\sphinxAtStartPar
-Purchased components:
-\\
-\sphinxmidrule
-\sphinxtableatstartofbodyhook
-\sphinxAtStartPar
-2 Gears Mounting × 1 (Material: PETG)
-&
-\sphinxAtStartPar
-M8 Nut × 2
-\\
-\sphinxhline
-\sphinxAtStartPar
-Gear 1 × 2 (Material: PETG)
-&
-\sphinxAtStartPar
-30mm M8 Screw × 2
-\\
-\sphinxbottomrule
-\end{tabulary}
-\sphinxtableafterendhook\par
-\sphinxattableend\end{savenotes}
-
 
 \subparagraph{Step 2: Manual Assembly of the 2 Gears Task}
 \label{\detokenize{3-Assembly-Instructions-Gear-Assembly:step-2-manual-assembly-of-the-2-gears-task}}
@@ -696,44 +429,11 @@ Place the two Gear 1 parts next to the Taskboard.
 \subparagraph{Step 1: Prepare the Components}
 \label{\detokenize{3-Assembly-Instructions-Gear-Assembly:id1}}
 
-\begin{savenotes}\sphinxattablestart
-\sphinxthistablewithglobalstyle
-\centering
-\begin{tabulary}{\linewidth}[t]{TT}
-\sphinxtoprule
-\sphinxstyletheadfamily 
-\sphinxAtStartPar
-3D\sphinxhyphen{}printed parts:
-&\sphinxstyletheadfamily 
-\sphinxAtStartPar
-Purchased components:
-\\
-\sphinxmidrule
-\sphinxtableatstartofbodyhook
-\sphinxAtStartPar
-Helical Gear Assembly × 1 (Material: PETG)
-&
-\sphinxAtStartPar
-M8 Nut × 2
-\\
-\sphinxhline
-\sphinxAtStartPar
-Helical Gear × 1 (Material: PETG)
-&
-\sphinxAtStartPar
-30mm M8 Screw × 2
-\\
-\sphinxbottomrule
-\end{tabulary}
-\sphinxtableafterendhook\par
-\sphinxattableend\end{savenotes}
-
-
 \subparagraph{Step 2: Manual Assembly of the helical Gear Task}
 \label{\detokenize{3-Assembly-Instructions-Gear-Assembly:step-2-manual-assembly-of-the-helical-gear-task}}
 \sphinxAtStartPar
 Align the two side holes of the Helical Gear Assembly with two suitable holes on the Taskboard. Then insert two 30mm M8 Screws through the aligned holes and secure them from the bottom of the Taskboard with M8 Nuts.
-Finally place the Helical Gear next to the Taskboard.
+Finally, place the Helical Gear next to the Taskboard.
 
 
 \paragraph{Task 3: 3 Gears}
@@ -742,58 +442,13 @@ Finally place the Helical Gear next to the Taskboard.
 \subparagraph{Step 1: Prepare the Components}
 \label{\detokenize{3-Assembly-Instructions-Gear-Assembly:id2}}
 
-\begin{savenotes}\sphinxattablestart
-\sphinxthistablewithglobalstyle
-\centering
-\begin{tabulary}{\linewidth}[t]{TT}
-\sphinxtoprule
-\sphinxstyletheadfamily 
-\sphinxAtStartPar
-3D\sphinxhyphen{}printed parts:
-&\sphinxstyletheadfamily 
-\sphinxAtStartPar
-Purchased components:
-\\
-\sphinxmidrule
-\sphinxtableatstartofbodyhook
-\sphinxAtStartPar
-3 Gears Mounting Part 1 × 1 (Material: PETG)
-&
-\sphinxAtStartPar
-M8 Nut × 2
-\\
-\sphinxhline
-\sphinxAtStartPar
-3 Gears Mounting Part 2 × 1 (Material: PETG)
-&
-\sphinxAtStartPar
-40mm M8 Screw × 2
-\\
-\sphinxhline
-\sphinxAtStartPar
-Shaft with key × 2 (Material: PETG)
-&\\
-\sphinxhline
-\sphinxAtStartPar
-Gear 3 × 1 (Material: PETG)
-&\\
-\sphinxhline
-\sphinxAtStartPar
-Gear 3 with Groove × 2 (Material: PETG)
-&\\
-\sphinxbottomrule
-\end{tabulary}
-\sphinxtableafterendhook\par
-\sphinxattableend\end{savenotes}
-
-
 \subparagraph{Step 2: Manual Assembly of the 3 Gears Task Assembly}
 \label{\detokenize{3-Assembly-Instructions-Gear-Assembly:step-2-manual-assembly-of-the-3-gears-task-assembly}}
 \sphinxAtStartPar
 Place Mounting Part 2 facing down like shown in the picture.
 
 \sphinxAtStartPar
-Then place the two Shaft with Key parts into the two holes of Mounting Part 2.
+Then place the two Shafts with Key parts into the two holes of Mounting Part 2.
 
 \noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{3_gears_mounting_part_2}.png}\hspace*{\fill}}
 
@@ -812,11 +467,16 @@ Place the 3D\sphinxhyphen{}printed Gears, two with groove and one without next t
 \subsubsection{Assembly Instructions: Screws and Nuts}
 \label{\detokenize{4-Assembly-Instructions-Screws-and-Nuts:assembly-instructions-screws-and-nuts}}\label{\detokenize{4-Assembly-Instructions-Screws-and-Nuts::doc}}
 \sphinxAtStartPar
-This document provides step\sphinxhyphen{}by\sphinxhyphen{}step assembly instructions for tasks involving screws and nuts.
-Each task includes preparation of components, manual assembly steps, and fixation on the taskboard.
+This section provides step\sphinxhyphen{}by\sphinxhyphen{}step assembly instructions for tasks involving screws and nuts.
+Each task includes the preparation of components, manual assembly steps, and fixation on the taskboard.
 Note that the assembly of this task requires a soldering iron to insert thread inserts into the 3D\sphinxhyphen{}printed parts.
 
-\noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{screws_and_nuts_taskboard}.png}\hspace*{\fill}}
+\noindent\sphinxincludegraphics{{screws_and_nuts_taskboard}.png}
+
+\sphinxAtStartPar
+    :alt: Screws and Nuts Task Module
+    :align: center
+    :width: 400px
 
 
 \paragraph{Task 1: Hexagon Socket Screw}
@@ -824,43 +484,76 @@ Note that the assembly of this task requires a soldering iron to insert thread i
 
 \subparagraph{Step 1: Prepare the Components}
 \label{\detokenize{4-Assembly-Instructions-Screws-and-Nuts:step-1-prepare-the-components}}
-
-\begin{savenotes}\sphinxattablestart
-\sphinxthistablewithglobalstyle
-\centering
-\begin{tabulary}{\linewidth}[t]{TT}
-\sphinxtoprule
-\sphinxstyletheadfamily 
+\sphinxAtStartPar
+    :header\sphinxhyphen{}rows: 1
+\begin{quote}
+\begin{itemize}
+\item {} \begin{itemize}
+\item {} 
 \sphinxAtStartPar
 3D\sphinxhyphen{}printed parts:
-&\sphinxstyletheadfamily 
+
+\end{itemize}
+
+\end{itemize}
+\begin{itemize}
+\item {} 
 \sphinxAtStartPar
 Purchased components:
-\\
-\sphinxmidrule
-\sphinxtableatstartofbodyhook
+
+\end{itemize}
+\begin{itemize}
+\item {} \begin{itemize}
+\item {} 
 \sphinxAtStartPar
 Screw Assembly × 1 (Material: PETG)
-&
+
+\end{itemize}
+
+\end{itemize}
+\begin{itemize}
+\item {} 
 \sphinxAtStartPar
 30mm M8 Screw × 2
-\\
-\sphinxhline&
+
+\end{itemize}
+\begin{itemize}
+\item {} \begin{itemize}
+\item {} 
+\end{itemize}
+
+\end{itemize}
+\begin{itemize}
+\item {} 
 \sphinxAtStartPar
 20mm M8 Screw × 1
-\\
-\sphinxhline&
+
+\end{itemize}
+\begin{itemize}
+\item {} \begin{itemize}
+\item {} 
+\end{itemize}
+
+\end{itemize}
+\begin{itemize}
+\item {} 
 \sphinxAtStartPar
 M8 Nut × 2
-\\
-\sphinxhline&
+
+\end{itemize}
+\begin{itemize}
+\item {} \begin{itemize}
+\item {} 
+\end{itemize}
+
+\end{itemize}
+\begin{itemize}
+\item {} 
 \sphinxAtStartPar
 M8 Thread Insert × 1
-\\
-\sphinxbottomrule
-\end{tabulary}
-\sphinxtableafterendhook\par
-\sphinxattableend\end{savenotes}
+
+\end{itemize}
+\end{quote}
 
 
 \subparagraph{Step 2: Manual Assembly of the Hexagonal Socket Screw Task}
@@ -872,7 +565,7 @@ Proceed with the following steps:
 \sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 \sphinxAtStartPar
-Heat the insert \textendash{} Use a soldering iron with a M8 tip that fits into the insert. Heat the insert until it reaches a temperature where it can melt the surrounding plastic.
+Heat the insert \textendash{} Use a soldering iron with an M8 tip that fits into the insert. Heat the insert until it reaches a temperature where it can melt the surrounding plastic.
 
 \item {} 
 \sphinxAtStartPar
@@ -884,7 +577,12 @@ Allow cooling \textendash{} Once in place, let the plastic cool and solidify, en
 
 \end{enumerate}
 
-\noindent{\hspace*{\fill}\sphinxincludegraphics[width=200\sphinxpxdimen]{{screw_assembly_heat_insert}.png}\hspace*{\fill}}
+\noindent\sphinxincludegraphics{{screw_assembly_heat_insert}.png}
+
+\sphinxAtStartPar
+    :alt: Screw Assembly
+    :align: center
+    :width: 200px
 
 
 \subparagraph{Step 3: Manual Fixation of the Assembly on the Taskboard}
@@ -899,39 +597,64 @@ Additionally, place the 20mm M8 screw on a horizontal surface next to the board,
 
 \subparagraph{Step 1: Prepare the Components}
 \label{\detokenize{4-Assembly-Instructions-Screws-and-Nuts:id1}}
-
-\begin{savenotes}\sphinxattablestart
-\sphinxthistablewithglobalstyle
-\centering
-\begin{tabulary}{\linewidth}[t]{TT}
-\sphinxtoprule
-\sphinxstyletheadfamily 
+\sphinxAtStartPar
+    :header\sphinxhyphen{}rows: 1
+\begin{quote}
+\begin{itemize}
+\item {} \begin{itemize}
+\item {} 
 \sphinxAtStartPar
 3D\sphinxhyphen{}printed parts:
-&\sphinxstyletheadfamily 
+
+\end{itemize}
+
+\end{itemize}
+\begin{itemize}
+\item {} 
 \sphinxAtStartPar
 Purchased components:
-\\
-\sphinxmidrule
-\sphinxtableatstartofbodyhook
+
+\end{itemize}
+\begin{itemize}
+\item {} \begin{itemize}
+\item {} 
 \sphinxAtStartPar
 Nut Assembly × 1 (Material: PETG)
-&
+
+\end{itemize}
+
+\end{itemize}
+\begin{itemize}
+\item {} 
 \sphinxAtStartPar
 M8 Nut × 3
-\\
-\sphinxhline&
+
+\end{itemize}
+\begin{itemize}
+\item {} \begin{itemize}
+\item {} 
+\end{itemize}
+
+\end{itemize}
+\begin{itemize}
+\item {} 
 \sphinxAtStartPar
 30mm M8 Screw × 3
-\\
-\sphinxhline&
+
+\end{itemize}
+\begin{itemize}
+\item {} \begin{itemize}
+\item {} 
+\end{itemize}
+
+\end{itemize}
+\begin{itemize}
+\item {} 
 \sphinxAtStartPar
 M8 Thread Inserts × 1
-\\
-\sphinxbottomrule
-\end{tabulary}
-\sphinxtableafterendhook\par
-\sphinxattableend\end{savenotes}
+
+\end{itemize}
+\end{quote}
 
 
 \subparagraph{Step 2: Manual Assembly of the Nut Assembly Task}
@@ -943,7 +666,7 @@ Proceed with the following steps:
 \sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 \sphinxAtStartPar
-Heat the insert \textendash{} Use a soldering iron with a M8 tip that fits into the insert. Heat the insert until it reaches a temperature where it can melt the surrounding plastic.
+Heat the insert \textendash{} Use a soldering iron with an M8 tip that fits into the insert. Heat the insert until it reaches a temperature where it can melt the surrounding plastic.
 
 \item {} 
 \sphinxAtStartPar
@@ -958,7 +681,12 @@ Allow cooling \textendash{} Once in place, let the plastic cool and solidify, en
 \sphinxAtStartPar
 Next, screw a 30mm M8 screw into the thread insert.
 
-\noindent{\hspace*{\fill}\sphinxincludegraphics[width=200\sphinxpxdimen]{{nut_assembly_heat_insert}.png}\hspace*{\fill}}
+\noindent\sphinxincludegraphics{{nut_assembly_heat_insert}.png}
+
+\sphinxAtStartPar
+    :alt: Nut Assembly
+    :align: center
+    :width: 200px
 
 
 \subparagraph{Step 3: Manual Fixation of the Assembly on the Taskboard}
@@ -974,46 +702,79 @@ Additionally, place the M8 screw on a horizontal surface next to the board, ensu
 
 \subparagraph{Step 1: Prepare the Components}
 \label{\detokenize{4-Assembly-Instructions-Screws-and-Nuts:id3}}
-
-\begin{savenotes}\sphinxattablestart
-\sphinxthistablewithglobalstyle
-\centering
-\begin{tabulary}{\linewidth}[t]{TT}
-\sphinxtoprule
-\sphinxstyletheadfamily 
+\sphinxAtStartPar
+    :header\sphinxhyphen{}rows: 1
+\begin{quote}
+\begin{itemize}
+\item {} \begin{itemize}
+\item {} 
 \sphinxAtStartPar
 3D\sphinxhyphen{}printed parts:
-&\sphinxstyletheadfamily 
+
+\end{itemize}
+
+\end{itemize}
+\begin{itemize}
+\item {} 
 \sphinxAtStartPar
 Purchased components:
-\\
-\sphinxmidrule
-\sphinxtableatstartofbodyhook
+
+\end{itemize}
+\begin{itemize}
+\item {} \begin{itemize}
+\item {} 
 \sphinxAtStartPar
 Screws Tilting Part1 × 1 (Material: PETG)
-&
+
+\end{itemize}
+
+\end{itemize}
+\begin{itemize}
+\item {} 
 \sphinxAtStartPar
 M8 Nut × 2
-\\
-\sphinxhline
+
+\end{itemize}
+\begin{itemize}
+\item {} \begin{itemize}
+\item {} 
 \sphinxAtStartPar
 Screws Tilting Part2 × 1 (Material: PETG)
-&
+
+\end{itemize}
+
+\end{itemize}
+\begin{itemize}
+\item {} 
 \sphinxAtStartPar
 30mm M8 Screw × 2
-\\
-\sphinxhline&
+
+\end{itemize}
+\begin{itemize}
+\item {} \begin{itemize}
+\item {} 
+\end{itemize}
+
+\end{itemize}
+\begin{itemize}
+\item {} 
 \sphinxAtStartPar
 20mm M8 Screw × 4
-\\
-\sphinxhline&
+
+\end{itemize}
+\begin{itemize}
+\item {} \begin{itemize}
+\item {} 
+\end{itemize}
+
+\end{itemize}
+\begin{itemize}
+\item {} 
 \sphinxAtStartPar
 M8 Thread Insert × 4
-\\
-\sphinxbottomrule
-\end{tabulary}
-\sphinxtableafterendhook\par
-\sphinxattableend\end{savenotes}
+
+\end{itemize}
+\end{quote}
 
 
 \subparagraph{Step 2: Manual Assembly of the Hexagonal Socket Screw Task}
@@ -1025,7 +786,7 @@ Proceed with the following steps for each of the four thread inserts:
 \sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 \sphinxAtStartPar
-Heat the insert \textendash{} Use a soldering iron with a M8 tip that fits into the insert. Heat the insert until it reaches a temperature where it can melt the surrounding plastic.
+Heat the insert \textendash{} Use a soldering iron with an M8 tip that fits into the insert. Heat the insert until it reaches a temperature where it can melt the surrounding plastic.
 
 \item {} 
 \sphinxAtStartPar
@@ -1038,10 +799,15 @@ Allow cooling \textendash{} Once in place, let the plastic cool and solidify, en
 \end{enumerate}
 
 \sphinxAtStartPar
-Then place the Screws Tilting Part2 on top of part 1 lining up with the holes, that have the thread inserts. Step 3: Manual Fixation of the Assembly on the Taskboard Align the two side holes of the Screws Tilting Part1 with two suitable holes on the Taskboard. Insert two 30mm M8 screws through the aligned holes and secure them from the bottom of the Board with M8 nuts.
+Then place the Screws Tilting Part 2 on top of Part 1 lining up with the holes, that have the thread inserts. Step 3: Manual Fixation of the Assembly on the Taskboard Align the two side holes of the Screws Tilting Part 1 with two suitable holes on the Taskboard. Insert two 30mm M8 screws through the aligned holes and secure them from the bottom of the Board with M8 nuts.
 Additionally, place the four 20mm M8 screws on a horizontal surface next to the board, ensuring they are positioned for the robot to grasp.
 
-\noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{screws_tilting_assembly}.png}\hspace*{\fill}}
+\noindent\sphinxincludegraphics{{screws_tilting_assembly}.png}
+
+\sphinxAtStartPar
+    :alt: Screws Tilting Assembly
+    :align: center
+    :width: 400px
 
 \sphinxstepscope
 
@@ -1049,7 +815,7 @@ Additionally, place the four 20mm M8 screws on a horizontal surface next to the 
 \subsubsection{Assembly Instructions: Elastic Deformation}
 \label{\detokenize{5-Assembly-Instructions-Elastic-Deformation:assembly-instructions-elastic-deformation}}\label{\detokenize{5-Assembly-Instructions-Elastic-Deformation::doc}}
 \sphinxAtStartPar
-This page provides step\sphinxhyphen{}by\sphinxhyphen{}step instructions for assembling the Elastic Deformation task module of the Industrial Assembly Task Board.
+This section provides step\sphinxhyphen{}by\sphinxhyphen{}step instructions for assembling the Elastic Deformation task module of the Industrial Assembly Task Board.
 The module consists of three tasks: Snap Hook, Spring, and Circlip.
 
 \noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{elastic_deformation_taskboard}.png}\hspace*{\fill}}
@@ -1061,40 +827,7 @@ The module consists of three tasks: Snap Hook, Spring, and Circlip.
 \subparagraph{Step 1: Prepare the Components}
 \label{\detokenize{5-Assembly-Instructions-Elastic-Deformation:step-1-prepare-the-components}}
 
-\begin{savenotes}\sphinxattablestart
-\sphinxthistablewithglobalstyle
-\centering
-\begin{tabulary}{\linewidth}[t]{TT}
-\sphinxtoprule
-\sphinxstyletheadfamily 
-\sphinxAtStartPar
-3D\sphinxhyphen{}printed parts
-&\sphinxstyletheadfamily 
-\sphinxAtStartPar
-Purchased components
-\\
-\sphinxmidrule
-\sphinxtableatstartofbodyhook
-\sphinxAtStartPar
-Snap Hook × 1 (Material: PETG)
-&
-\sphinxAtStartPar
-M8 Nut × 2
-\\
-\sphinxhline
-\sphinxAtStartPar
-Snap Hook Assembly × 1 (Material: PETG)
-&
-\sphinxAtStartPar
-30mm M8 Screw × 2
-\\
-\sphinxbottomrule
-\end{tabulary}
-\sphinxtableafterendhook\par
-\sphinxattableend\end{savenotes}
-
-
-\subparagraph{Step 2: Manual fixation of the housing on the Task\sphinxhyphen{}Board}
+\subparagraph{Step 2: Manual fixation of the housing on the Task Board}
 \label{\detokenize{5-Assembly-Instructions-Elastic-Deformation:step-2-manual-fixation-of-the-housing-on-the-task-board}}
 \sphinxAtStartPar
 Align the two holes on the side of the Snap Hook Assembly component with any two suitable holes on the Taskboard. Then push two 30mm M8 screws through the aligned holes and secure them from the bottom of the Taskboard with M8 nuts.
@@ -1111,41 +844,7 @@ Place the Snap Hook on a flat surface next to the Taskboard so that the Robot ca
 \subparagraph{Step 1: Prepare the Components}
 \label{\detokenize{5-Assembly-Instructions-Elastic-Deformation:id1}}
 
-\begin{savenotes}\sphinxattablestart
-\sphinxthistablewithglobalstyle
-\centering
-\begin{tabulary}{\linewidth}[t]{TT}
-\sphinxtoprule
-\sphinxstyletheadfamily 
-\sphinxAtStartPar
-3D\sphinxhyphen{}printed parts
-&\sphinxstyletheadfamily 
-\sphinxAtStartPar
-Purchased components
-\\
-\sphinxmidrule
-\sphinxtableatstartofbodyhook
-\sphinxAtStartPar
-Pressure Spring Assembly × 1 (Material: PETG)
-&
-\sphinxAtStartPar
-M8 Nut × 2
-\\
-\sphinxhline&
-\sphinxAtStartPar
-30mm M8 Screw × 2
-\\
-\sphinxhline&
-\sphinxAtStartPar
-Spring WF20\sphinxhyphen{}80 × 1
-\\
-\sphinxbottomrule
-\end{tabulary}
-\sphinxtableafterendhook\par
-\sphinxattableend\end{savenotes}
-
-
-\subparagraph{Step 2: Manual fixation of the housing on the Task\sphinxhyphen{}Board}
+\subparagraph{Step 2: Manual fixation of the housing on the Task Board}
 \label{\detokenize{5-Assembly-Instructions-Elastic-Deformation:id2}}
 \sphinxAtStartPar
 Align the two holes on the side of the Pressure Spring Assembly component with any two suitable holes on the Taskboard. Then, push two 30mm M8 Screws through the aligned holes and secure them from the bottom of the Taskboard with M8 Nuts.
@@ -1158,45 +857,11 @@ Place the Spring on a flat surface next to the Taskboard to allow the robot to g
 \subparagraph{Step 1: Prepare the Components}
 \label{\detokenize{5-Assembly-Instructions-Elastic-Deformation:id3}}
 
-\subparagraph{Step 2: Manual fixation of the housing on the Task\sphinxhyphen{}Board}
+\subparagraph{Step 2: Manual fixation of the housing on the Task Board}
 \label{\detokenize{5-Assembly-Instructions-Elastic-Deformation:id4}}
 \sphinxAtStartPar
 Align the two holes on the side of the Circlip Assembly component with any two suitable holes on the Taskboard. Then push two 30mm M8 screws through the aligned holes and secure them from the bottom of the Taskboard with M8 nuts.
 Place the circlip on a flat surface next to the Taskboard to allow the robot to grasp it.
-
-
-\begin{savenotes}\sphinxattablestart
-\sphinxthistablewithglobalstyle
-\centering
-\begin{tabulary}{\linewidth}[t]{TT}
-\sphinxtoprule
-\sphinxstyletheadfamily 
-\sphinxAtStartPar
-3D\sphinxhyphen{}printed parts
-&\sphinxstyletheadfamily 
-\sphinxAtStartPar
-Purchased components
-\\
-\sphinxmidrule
-\sphinxtableatstartofbodyhook
-\sphinxAtStartPar
-Circlip Assembly × 1 (Material: PETG)
-&
-\sphinxAtStartPar
-M8 Nut × 2
-\\
-\sphinxhline&
-\sphinxAtStartPar
-30mm M8 Screw × 2
-\\
-\sphinxhline&
-\sphinxAtStartPar
-30 Circlip × 1
-\\
-\sphinxbottomrule
-\end{tabulary}
-\sphinxtableafterendhook\par
-\sphinxattableend\end{savenotes}
 
 \sphinxstepscope
 
@@ -1407,16 +1072,13 @@ Can be 3D\sphinxhyphen{}printed, bore min. 8mm
 
 \section{Task Descriptions}
 \label{\detokenize{wbk_challenge_robot_tasks_overview:task-descriptions}}\label{\detokenize{wbk_challenge_robot_tasks_overview::doc}}
-
-\subsection{Introduction}
-\label{\detokenize{wbk_challenge_robot_tasks_overview:introduction}}
 \sphinxAtStartPar
 This section describes all tasks of the industrial assembly task board.
-Like the assembly instructions, the indiviudal tasks are organized in modules but can be mixed and matched freely to create custom benchmarks.
+Like the assembly instructions, the individual tasks are organized in modules but can be mixed and matched freely to create custom benchmarks.
 
 
-\subsubsection{How to use}
-\label{\detokenize{wbk_challenge_robot_tasks_overview:how-to-use}}\begin{enumerate}
+\subsection{How to use this guide}
+\label{\detokenize{wbk_challenge_robot_tasks_overview:how-to-use-this-guide}}\begin{enumerate}
 \sphinxsetlistlabels{\arabic}{enumi}{enumii}{}{.}%
 \item {} 
 \sphinxAtStartPar
@@ -1433,13 +1095,24 @@ Implement and test your robot program until the success criteria are met.
 \end{enumerate}
 
 
-\subsection{Robot Task Pages}
-\label{\detokenize{wbk_challenge_robot_tasks_overview:robot-task-pages}}
+\subsection{Assembly Task}
+\label{\detokenize{wbk_challenge_robot_tasks_overview:assembly-task}}
 \sphinxstepscope
 
 
-\subsubsection{Robotic Task Descriptions: Peg in Hole}
-\label{\detokenize{robotic_instructions_peg_in_hole:robotic-task-descriptions-peg-in-hole}}\label{\detokenize{robotic_instructions_peg_in_hole::doc}}
+\subsubsection{Peg in Hole Tasks}
+\label{\detokenize{robotic_instructions_peg_in_hole:peg-in-hole-tasks}}\label{\detokenize{robotic_instructions_peg_in_hole::doc}}
+\sphinxAtStartPar
+While there are many different peg\sphinxhyphen{}in\sphinxhyphen{}hole benchmarks, these typically focus on varying the peg and hole geometries,
+but often feature large tolerances (in many cases such as the NIST taskboard, to be able to allow for the comparison of a wider range of robots since many have difficulty with tight tolerances).
+In contrast, the tasks in this section focus on tight tolerances and precise insertion of the pegs into the holes.
+
+\sphinxAtStartPar
+The final state of all three tasks is shown in the taskboard image below,
+where the robot has successfully inserted the pegs into their respective holes.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{peg_in_hole_taskboard_finished}.png}\hspace*{\fill}}
+
 
 \paragraph{Task 1: Round Peg}
 \label{\detokenize{robotic_instructions_peg_in_hole:task-1-round-peg}}
@@ -1466,7 +1139,7 @@ The round peg is fully inserted into the designated hole.
 
 \item {} 
 \sphinxAtStartPar
-No  displacement of the peg occurs after the robot releases it.
+No displacement of the peg occurs after the robot releases it.
 
 \end{itemize}
 
@@ -1495,7 +1168,7 @@ The splined shaft peg is fully inserted into the matching splined hole.
 
 \item {} 
 \sphinxAtStartPar
-No  displacement of the peg occurs after the robot releases it.
+No displacement of the peg occurs after the robot releases it.
 
 \end{itemize}
 
@@ -1532,8 +1205,20 @@ The connector is rotated to the locked position, as verified by a mechanical sto
 \sphinxstepscope
 
 
-\subsubsection{Robotic Task Descriptions: Pick and Place}
-\label{\detokenize{robotic_instructions_pick_and_place:robotic-task-descriptions-pick-and-place}}\label{\detokenize{robotic_instructions_pick_and_place::doc}}
+\subsubsection{Pick and Place Tasks}
+\label{\detokenize{robotic_instructions_pick_and_place:pick-and-place-tasks}}\label{\detokenize{robotic_instructions_pick_and_place::doc}}
+\sphinxAtStartPar
+This section provides the task descriptions for the Pick and Place task module of the industrial assembly challenge taskboard.
+The module consists of three tasks: Housing Parts, Feather Key, and Shim Ring placement.
+The focus here is on adaptivity, the robot needs to sense the assembly to determine the correct placement and alignment of parts,
+rather than reaching a fixed target pose like in the Peg\sphinxhyphen{}in\sphinxhyphen{}Hole task.
+
+\sphinxAtStartPar
+A sample taskboard with all three tasks finished is shown below,
+where the robot has successfully completed all tasks by placing the parts in the correct positions and orientations.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{pick_and_place_taskboard_finished}.png}\hspace*{\fill}}
+
 
 \paragraph{Task 1: Housing Parts}
 \label{\detokenize{robotic_instructions_pick_and_place:task-1-housing-parts}}
@@ -1547,6 +1232,8 @@ This task simulates such a scenario where the robot must align two housing parts
 such as drill holes and flange surfaces, which may not be perfectly aligned or visible to the robot’s sensors.
 A housing part is placed on a flat surface next to the Taskboard. Another housing part is already mounted on the Taskboard.
 The robot must pick up the loose housing part and place it centrally on top of the mounted part, ensuring correct alignment.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{pick_and_place_taskboard_housing_parts}.png}\hspace*{\fill}}
 
 
 \subparagraph{Test Objective:}
@@ -1591,6 +1278,8 @@ Feather keys fit into matching grooves (keyways) on both the shaft and the matin
 In this task, a feather key is placed on a flat surface next to the Taskboard. T
 he robot must pick up the feather key and insert it vertically into the groove of a shaft mounted on the Taskboard.
 
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{pick_and_place_taskboard_feather_key}.png}\hspace*{\fill}}
+
 
 \subparagraph{Test Objective:}
 \label{\detokenize{robotic_instructions_pick_and_place:id2}}
@@ -1626,6 +1315,8 @@ up to but not covering the groove on the shaft.
 This reflects real\sphinxhyphen{}world scenarios where automated systems
 must adapt to part variability and ensure assemblies meet strict tolerance requirements without manual intervention.
 
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{pick_and_place_taskboard_shim_rings}.png}\hspace*{\fill}}
+
 
 \subparagraph{Test Objective:}
 \label{\detokenize{robotic_instructions_pick_and_place:id5}}
@@ -1651,11 +1342,24 @@ All placed shim rings remain stationary after placement.
 
 \end{itemize}
 
+\sphinxAtStartPar
+A sample rendering of this state is shown below,
+where the robot has successfully placed four shim rings on the shaft, reaching the groove without covering it.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{pick_and_place_taskboard_shim_rings_finished}.png}\hspace*{\fill}}
+
 \sphinxstepscope
 
 
-\subsubsection{Robotic Task Descriptions: Gear Assembly}
-\label{\detokenize{robotic_instructions_gear_tasks:robotic-task-descriptions-gear-assembly}}\label{\detokenize{robotic_instructions_gear_tasks::doc}}
+\subsubsection{Gear Assembly Tasks}
+\label{\detokenize{robotic_instructions_gear_tasks:gear-assembly-tasks}}\label{\detokenize{robotic_instructions_gear_tasks::doc}}
+\sphinxAtStartPar
+This section describes the tasks related to gear assembly on the industrial assembly task board.
+These tasks require the robot to handle various gear configurations, ensuring proper alignment, meshing, and seating of the gears on their respective shafts.
+The following image provides an overview of a task board with all three gear assembly tasks completed successfully.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{gear_assembly_taskboard_finished}.png}\hspace*{\fill}}
+
 
 \paragraph{Task 1: Two Gears}
 \label{\detokenize{robotic_instructions_gear_tasks:task-1-two-gears}}
@@ -1667,6 +1371,8 @@ Two spur gears must be mounted onto parallel shafts of an assembly component so 
 The gears are initially placed on a flat surface next to the Taskboard.
 The robot must ensure that the gears are positioned such that their teeth engage without interference and that each gear is fully seated on its respective shaft.
 This task is basically a 3D printable version of the gear assembly task from the NIST assembly challenge.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{gear_assembly_taskboard_two_gears}.png}\hspace*{\fill}}
 
 
 \subparagraph{Test Objective:}
@@ -1704,6 +1410,8 @@ Instead the gear must be rotated as it is lowered onto the shaft to ensure that 
 To simulate this, a helical gear with helical teeth must be mounted onto a shaft of the assembly component.
 The gear is placed on a flat surface next to the Taskboard.
 Due to the helical design, the gear must be rotated as it is lowered onto the shaft to ensure the teeth engage correctly with an existing gear.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{gear_assembly_taskboard_helical_gear}.png}\hspace*{\fill}}
 
 
 \subparagraph{Test Objective:}
@@ -1743,18 +1451,12 @@ The third gear, which does not have a groove, is mounted on the middle shaft and
 \sphinxAtStartPar
 In this task, the gear teeth are intentionally made larger than in the previous assemblies.
 This means that the robot cannot simply place the gears onto the shafts in any order and expect the teeth to mesh.
-\begin{quote}
-\begin{description}
-\sphinxlineitem{Instead, the robot must carefully plan the sequence of assembly and the orientation of each shaft and gear.}\begin{description}
-\sphinxlineitem{If the gears are not inserted in the correct order, or if the shafts are not rotated appropriately during assembly,}
-\sphinxAtStartPar
+Instead, the robot must carefully plan the sequence of assembly and the orientation of each shaft and gear.
+If the gears are not inserted in the correct order, or if the shafts are not rotated appropriately during assembly,
 it may be impossible to mesh the teeth properly due to interference from the large teeth profiles.
 The robot must therefore coordinate the rotation of the shafts and the insertion of the gears to ensure that all teeth are able to engage correctly.
 
-\end{description}
-
-\end{description}
-\end{quote}
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{gear_assembly_taskboard_three_gears}.png}\hspace*{\fill}}
 
 
 \subparagraph{Test Objective:}
@@ -1787,13 +1489,16 @@ The underside of each gear is in contact with the component surface, and all gea
 \sphinxstepscope
 
 
-\subsubsection{Robotic Assembly Instructions: Screws and Nuts}
-\label{\detokenize{robotic_instructions_screws_and_nuts:robotic-assembly-instructions-screws-and-nuts}}\label{\detokenize{robotic_instructions_screws_and_nuts::doc}}
+\subsubsection{Tasks involving Screws and Nuts}
+\label{\detokenize{robotic_instructions_screws_and_nuts:tasks-involving-screws-and-nuts}}\label{\detokenize{robotic_instructions_screws_and_nuts::doc}}
 \sphinxAtStartPar
 Screws and nuts are fundamental fasteners used to join components in industrial assemblies.
 In robotics, handling these parts requires precise manipulation, alignment, and force control to ensure reliable and repeatable assembly.
 The following tasks evaluate the robot’s ability to autonomously perform screw and nut assembly operations under realistic constraints,
 reflecting challenges encountered in automated industrial environments.
+A task board with all three screw and nut assembly tasks completed successfully is shown below:
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{screw_nut_assembly_taskboard_finished}.png}\hspace*{\fill}}
 
 
 \paragraph{Task 1: Vertical Screw Insertion}
@@ -1805,6 +1510,8 @@ reflecting challenges encountered in automated industrial environments.
 A 20mm M8 screw is placed on a flat surface next to the Task Board.
 The robot must pick up the screw, align it with a threaded insert on the Task Board, and insert it vertically.
 The robot must ensure the screw is properly oriented and fully inserted without cross\sphinxhyphen{}threading or applying excessive force.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{screw_nut_assembly_taskboard_vertical_screw_insertion}.png}\hspace*{\fill}}
 
 
 \subparagraph{Test Objective:}
@@ -1841,6 +1548,8 @@ An M8 nut is placed on a flat surface next to the Task Board.
 The robot must pick up the nut and insert it onto a screw protruding from the side of an assembly component.
 Due to an overhang, the last 5mm of threading is especially difficult to access, requiring the robot to regrasp and reposition the nut during assembly.
 
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{screw_nut_assembly_taskboard_nut_assembly}.png}\hspace*{\fill}}
+
 
 \subparagraph{Test Objective:}
 \label{\detokenize{robotic_instructions_screws_and_nuts:id2}}
@@ -1873,6 +1582,8 @@ A key challenge in this task is avoiding canting—a phenomenon where tightening
 Canting is highly dependent on the geometry and tolerances of the parts being assembled.
 To prevent this, the robot must use a sequential approach, partially tightening each screw in turn and only fully tightening them once all screws are in place, ensuring the two housing parts remain parallel with a maximum alignment error of 1°.
 
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{screw_nut_assembly_taskboard_multi_screw_assembly}.png}\hspace*{\fill}}
+
 
 \subparagraph{Test Objective:}
 \label{\detokenize{robotic_instructions_screws_and_nuts:id5}}
@@ -1896,8 +1607,15 @@ The two housing parts are screwed together and aligned parallel within 1°.
 \sphinxstepscope
 
 
-\subsubsection{Robotic Task Descriptions: Elastic Deformation}
-\label{\detokenize{robotic_instructions_elastic_deformation:robotic-task-descriptions-elastic-deformation}}\label{\detokenize{robotic_instructions_elastic_deformation::doc}}
+\subsubsection{Tasks with Elastic Deformation}
+\label{\detokenize{robotic_instructions_elastic_deformation:tasks-with-elastic-deformation}}\label{\detokenize{robotic_instructions_elastic_deformation::doc}}
+\sphinxAtStartPar
+This section describes tasks that involve elastic deformation of components, requiring the robot to handle and manipulate parts that must be compressed or expanded during assembly.
+In contrast to limp objects such as cables or hoses, these tasks involve components that snap back to their original shape after deformation, such as snap hooks, springs, and circlips.
+A task board with all three tasks completed successfully is shown below.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{elastic_deformation_taskboard_finished}.png}\hspace*{\fill}}
+
 
 \paragraph{Task 1: Snap Hook}
 \label{\detokenize{robotic_instructions_elastic_deformation:task-1-snap-hook}}
@@ -1914,6 +1632,8 @@ The task challenges the robot to handle components that require elastic deformat
 The main difficulty lies in the need to apply enough force to deform the snap hook without damaging it,
 and to ensure that the hook is fully seated and locked in place. The robot must also recognize when the snap hook is properly retained,
 as the component cannot be removed without compressing the hooks again.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{snap_hook_placement_finished}.png}\hspace*{\fill}}
 
 
 \subparagraph{Test Objective:}
@@ -1948,8 +1668,10 @@ The snap hook is fully seated and locked in place.
 A spring must be compressed and inserted into two circular holders on the assembly component. The relaxed length of the spring is longer than the available space, so the spring must be compressed during placement. This task introduces the challenge of manipulating compliant objects that resist deformation and may slip or move unpredictably when compressed.
 
 \sphinxAtStartPar
-The difficulty for the robot is to maintain control of the spring while compressing it and to position it accurately within the holders.
+The difficulty for the robot is to maintain control of the spring while compressing it and positioning it accurately within the holders.
 The robot must also ensure that the spring remains in place after release, as improper placement can cause the spring to pop out or not be fully seated.
+
+\noindent{\hspace*{\fill}\sphinxincludegraphics[width=400\sphinxpxdimen]{{spring_placement_finished}.png}\hspace*{\fill}}
 
 
 \subparagraph{Test Objective:}
@@ -1987,7 +1709,7 @@ They provide a removable shoulder that prevents lateral movement of parts, such 
 
 \sphinxAtStartPar
 In this task, a circlip must be expanded and placed into a retaining ring groove on a shaft of the assembly component.
-The circlip is a flexible ring that must be elastically deformed (expanded) to fit over the shaft, then released so it contracts into the groove.
+The circlip is a flexible ring that must be elastically deformed (expanded) to fit over the shaft, and then released so it contracts into the groove.
 This task highlights the challenge of manipulating small, flexible parts that require precise deformation and alignment.
 
 \sphinxAtStartPar

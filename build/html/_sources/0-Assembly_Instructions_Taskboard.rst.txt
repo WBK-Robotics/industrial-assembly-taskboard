@@ -1,4 +1,4 @@
-Assembling Instructions: Taskboard
+Assembling Instructions: Task board
 ==================================
 
 
@@ -9,18 +9,18 @@ Step 1: Prepare the Components
     :header-rows: 1
     :widths: 50 50
 
-    * - 3D-printed parts:
-      - Purchased hardware:
-    * - Taskboard × 1 (Material: PETG)
-      - M8 Nut × 4
-    * - Taskboard Foot × 4 (Material: PETG)
-      - 30mm M8 Screw × 4
+ * - 3D-printed parts:
+ - Purchased hardware:
+ * - Taskboard × 1 (Material: PETG)
+ - M8 Nut × 4
+ * - Taskboard Foot × 4 (Material: PETG)
+ - 30mm M8 Screw × 4
 
 
 Step 2: Position the Task Board
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Place the 3D-printed Taskboard upside down.
+Place the 3D-printed task board upside down.
 Ensure that the four rectangular holes are visible.
 
 .. image:: images/taskboard_foot_placement.png
@@ -31,7 +31,7 @@ Ensure that the four rectangular holes are visible.
 Step 3: Placing the Feet
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
-Insert each Taskboard Foot into one of the rectangular holes.
+Insert each task board foot into one of the rectangular holes.
 Make sure the small bar for fixation is pointing away from the center.
 
 .. image:: images/taskboard_foot_fixation.png
