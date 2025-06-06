@@ -21,12 +21,12 @@ Step 1: Prepare the Components
     :header-rows: 1
     :widths: 50 50
 
- * - 3D-printed parts
- - Purchased components
- * - Housing Part1 × 1 (Material: PETG)
- - M8 Nut × 2
- * - Housing Part2 × 1 (Material: PETG)
- - 30mm M8 Screw × 2
+    * - 3D-printed parts
+      - Purchased components
+    * - Housing Part1 x 1 (Material: PETG)
+      - M8 Nut x 2
+    * - Housing Part2 x 1 (Material: PETG)
+      - 30mm M8 Screw x 2
 
 
 Step 2: Manual Fixation of the Housing Part1 on the Taskboard
@@ -51,12 +51,12 @@ Step 1: Prepare the Components
     :header-rows: 1
     :widths: 50 50
 
- * - 3D-printed parts
- - Purchased components
- * - Feather Key Assembly × 1 (Material: PETG)
- - M8 Nut × 2
- * - Feather key × 1 (Material: PETG)
- - 30mm M8 Screw × 2
+    * - 3D-printed parts
+      - Purchased components
+    * - Feather Key Assembly x 1 (Material: PETG)
+      - M8 Nut x 2
+    * - Feather key x 1 (Material: PETG)
+      - 30mm M8 Screw x 2
 
 
 Step 2: Manual Fixation of the Feather Key Assembly on the Taskboard
@@ -75,14 +75,14 @@ Step 1: Prepare the Components
     :header-rows: 1
     :widths: 50 50
 
- * - 3D-printed parts
- - Purchased components
- * - Shim Ring Assembly × 1 (Material: PETG)
- - M8 Nut × 2
- * - Shim Ring Magazine × 1 (Material: PETG)
- - 30mm M8 Screw × 2
- * - Shim Ring × 5
- - 
+    * - 3D-printed parts
+      - Purchased components
+    * - Shim Ring Assembly x 1 (Material: PETG)
+      - M8 Nut x 2
+    * - Shim Ring Magazine x 1 (Material: PETG)
+      - 30mm M8 Screw x 2
+    * - Shim Ring x 5
+      - 
 
 Step 2: Manual Assembly of the Shim Ring Task
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -21,12 +21,12 @@ Step 1: Prepare the Components
     :header-rows: 1
     :widths: 50 50
 
- * - 3D-printed parts:
- - Purchased hardware:
- * - Taskboard × 1 (Material: PETG)
- - M8 Nut × 4
- * - Taskboard Foot × 4 (Material: PETG)
- - 30mm M8 Screw × 4
+    * - 3D-printed parts:
+      - Purchased hardware:
+    * - Taskboard x 1 (Material: PETG)
+      - M8 Nut x 4
+    * - Taskboard Foot x 4 (Material: PETG)
+      - 30mm M8 Screw x 4
 
 
 
@@ -67,16 +67,16 @@ Step 1: Prepare the Components
     :header-rows: 1
     :widths: 50 50
 
- * - 3D-printed parts:
- - Purchased components:
- * - Hole Splined Shaft × 1 (PETG)
- - M8 Nut × 2
- * -
- - 30mm M8 Screw × 2
- * -
- - Splined Shaft Sleeve 64821500 × 1
- * -
- - Splined Shaft 64811510 × 1
+    * - 3D-printed parts:
+      - Purchased components:
+    * - Hole Splined Shaft x 1 (PETG)
+      - M8 Nut x 2
+    * -
+      - 30mm M8 Screw x 2
+    * -
+      - Splined Shaft Sleeve 64821500 x 1
+    * -
+      - Splined Shaft 64811510 x 1
 
 
 Step 2: Inserting the Plain Bearing into the Hole component
@@ -104,16 +104,16 @@ Step 1: Prepare the Components
     :header-rows: 1
     :widths: 50 50
 
- * - 3D-printed parts:
- - Purchased components:
- * - Mounting BNC Connector × 1 (PETG)
- - M8 Nut × 2
- * -
- - 30mm M8 Screw × 2
- * -
- - BNC-Connector female BNC9025-BJ
- * -
- - BNC-Connector male BNC-LP-3DW
+    * - 3D-printed parts:
+      - Purchased components:
+    * - Mounting BNC Connector x 1 (PETG)
+      - M8 Nut x 2
+    * -
+      - 30mm M8 Screw x 2
+    * -
+      - BNC-Connector female BNC9025-BJ
+    * -
+      - BNC-Connector male BNC-LP-3DW
 
 Step 2: Inserting the Female BNC-Connector into the Mounting Component
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.29)  6 JUN 2025 09:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.29)  6 JUN 2025 09:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -907,196 +907,201 @@ File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
 
 ]
 Chapter 2.
-<taskboard_foot_placement.png, id=635, 241.776pt x 138.9555pt>
-File: taskboard_foot_placement.png Graphic file (type png)
-<use taskboard_foot_placement.png>
-Package pdftex.def Info: taskboard_foot_placement.png  used on input line 231.
-(pdftex.def)             Requested size: 301.12305pt x 173.08118pt.
 
 
 [5]
-<taskboard_foot_fixation.png, id=643, 161.2935pt x 125.487pt>
+<taskboard_foot_placement.png, id=643, 241.776pt x 138.9555pt>
+File: taskboard_foot_placement.png Graphic file (type png)
+<use taskboard_foot_placement.png>
+Package pdftex.def Info: taskboard_foot_placement.png  used on input line 264.
+(pdftex.def)             Requested size: 301.12305pt x 173.08118pt.
+<taskboard_foot_fixation.png, id=644, 161.2935pt x 125.487pt>
 File: taskboard_foot_fixation.png Graphic file (type png)
 <use taskboard_foot_fixation.png>
-Package pdftex.def Info: taskboard_foot_fixation.png  used on input line 240.
+Package pdftex.def Info: taskboard_foot_fixation.png  used on input line 273.
 (pdftex.def)             Requested size: 301.12305pt x 234.29184pt.
-<taskboard_final.png, id=644, 936.49875pt x 754.31813pt>
-File: taskboard_final.png Graphic file (type png)
-<use taskboard_final.png>
-Package pdftex.def Info: taskboard_final.png  used on input line 251.
-(pdftex.def)             Requested size: 301.12305pt x 242.54924pt.
 
 
 [6 <./taskboard_foot_placement.png> <./taskboard_foot_fixation.png>]
-<peg_in_hole_taskboard.png, id=651, 639.89063pt x 569.62813pt>
+<taskboard_final.png, id=651, 936.49875pt x 754.31813pt>
+File: taskboard_final.png Graphic file (type png)
+<use taskboard_final.png>
+Package pdftex.def Info: taskboard_final.png  used on input line 284.
+(pdftex.def)             Requested size: 301.12305pt x 242.54924pt.
+<peg_in_hole_taskboard.png, id=652, 639.89063pt x 569.62813pt>
 File: peg_in_hole_taskboard.png Graphic file (type png)
 <use peg_in_hole_taskboard.png>
-Package pdftex.def Info: peg_in_hole_taskboard.png  used on input line 263.
+Package pdftex.def Info: peg_in_hole_taskboard.png  used on input line 296.
 (pdftex.def)             Requested size: 301.12305pt x 268.06424pt.
 
 
-[7 <./taskboard_final.png> <./peg_in_hole_taskboard.png>]
+[7 <./taskboard_final.png>]
 <bearing_in_hole.png, id=658, 95.5935pt x 151.4385pt>
 File: bearing_in_hole.png Graphic file (type png)
 <use bearing_in_hole.png>
-Package pdftex.def Info: bearing_in_hole.png  used on input line 277.
+Package pdftex.def Info: bearing_in_hole.png  used on input line 343.
 (pdftex.def)             Requested size: 150.56152pt x 238.55617pt.
-<round_peg_in_hole_assembly_on_taskboard.png, id=659, 307.476pt x 164.907pt>
+
+
+[8 <./peg_in_hole_taskboard.png>]
+<round_peg_in_hole_assembly_on_taskboard.png, id=664, 307.476pt x 164.907pt>
 File: round_peg_in_hole_assembly_on_taskboard.png Graphic file (type png)
 <use round_peg_in_hole_assembly_on_taskboard.png>
 Package pdftex.def Info: round_peg_in_hole_assembly_on_taskboard.png  used on i
-nput line 285.
+nput line 351.
 (pdftex.def)             Requested size: 301.12305pt x 161.50206pt.
 
 
-[8 <./bearing_in_hole.png> <./round_peg_in_hole_assembly_on_taskboard.png>]
+[9 <./bearing_in_hole.png> <./round_peg_in_hole_assembly_on_taskboard.png>]
 
-[9]
-<pick_and_place_taskboard.png, id=671, 357.7365pt x 226.3365pt>
+[10]
+<pick_and_place_taskboard.png, id=676, 357.7365pt x 226.3365pt>
 File: pick_and_place_taskboard.png Graphic file (type png)
 <use pick_and_place_taskboard.png>
-Package pdftex.def Info: pick_and_place_taskboard.png  used on input line 352.
+Package pdftex.def Info: pick_and_place_taskboard.png  used on input line 494.
 (pdftex.def)             Requested size: 301.12305pt x 190.52542pt.
-<housing_part1_placement.png, id=672, 357.0795pt x 147.825pt>
+
+
+[11 <./pick_and_place_taskboard.png>]
+<housing_part1_placement.png, id=682, 357.0795pt x 147.825pt>
 File: housing_part1_placement.png Graphic file (type png)
 <use housing_part1_placement.png>
-Package pdftex.def Info: housing_part1_placement.png  used on input line 366.
+Package pdftex.def Info: housing_part1_placement.png  used on input line 541.
 (pdftex.def)             Requested size: 301.12305pt x 124.66385pt.
 
 
-[10 <./pick_and_place_taskboard.png> <./housing_part1_placement.png>]
-<shim_ring_assembly_placement.png, id=679, 342.27875pt x 203.25937pt>
+[12 <./housing_part1_placement.png>]
+<shim_ring_assembly_placement.png, id=688, 342.27875pt x 203.25937pt>
 File: shim_ring_assembly_placement.png Graphic file (type png)
 <use shim_ring_assembly_placement.png>
-Package pdftex.def Info: shim_ring_assembly_placement.png  used on input line 3
-96.
+Package pdftex.def Info: shim_ring_assembly_placement.png  used on input line 6
+41.
 (pdftex.def)             Requested size: 301.12305pt x 178.83157pt.
-<gear_assembly_taskboard.png, id=680, 213.8535pt x 165.2355pt>
+<gear_assembly_taskboard.png, id=689, 213.8535pt x 165.2355pt>
 File: gear_assembly_taskboard.png Graphic file (type png)
 <use gear_assembly_taskboard.png>
-Package pdftex.def Info: gear_assembly_taskboard.png  used on input line 410.
+Package pdftex.def Info: gear_assembly_taskboard.png  used on input line 655.
 (pdftex.def)             Requested size: 301.12305pt x 232.67448pt.
 
 
-[11 <./shim_ring_assembly_placement.png>]
+[13 <./shim_ring_assembly_placement.png> <./gear_assembly_taskboard.png>]
 
-[12 <./gear_assembly_taskboard.png>]
-<3_gears_mounting_part_2.png, id=691, 309.1185pt x 170.163pt>
+[14]
+<3_gears_mounting_part_2.png, id=700, 309.1185pt x 170.163pt>
 File: 3_gears_mounting_part_2.png Graphic file (type png)
 <use 3_gears_mounting_part_2.png>
-Package pdftex.def Info: 3_gears_mounting_part_2.png  used on input line 453.
+Package pdftex.def Info: 3_gears_mounting_part_2.png  used on input line 809.
 (pdftex.def)             Requested size: 301.12305pt x 165.77452pt.
-<3_gears_mounting_part_1.png, id=692, 244.0755pt x 104.463pt>
+<3_gears_mounting_part_1.png, id=701, 244.0755pt x 104.463pt>
 File: 3_gears_mounting_part_1.png Graphic file (type png)
 <use 3_gears_mounting_part_1.png>
-Package pdftex.def Info: 3_gears_mounting_part_1.png  used on input line 458.
+Package pdftex.def Info: 3_gears_mounting_part_1.png  used on input line 814.
 (pdftex.def)             Requested size: 301.12305pt x 128.884pt.
-<screws_and_nuts_taskboard.png, id=693, 591.71063pt x 552.56438pt>
+<screws_and_nuts_taskboard.png, id=702, 591.71063pt x 552.56438pt>
 File: screws_and_nuts_taskboard.png Graphic file (type png)
 <use screws_and_nuts_taskboard.png>
-Package pdftex.def Info: screws_and_nuts_taskboard.png  used on input line 474.
+Package pdftex.def Info: screws_and_nuts_taskboard.png  used on input line 830.
 
-(pdftex.def)             Requested size: 469.76666pt x 438.67108pt.
+(pdftex.def)             Requested size: 301.12305pt x 281.20546pt.
 
 
-[13 <./3_gears_mounting_part_2.png> <./3_gears_mounting_part_1.png>]
+[15 <./3_gears_mounting_part_2.png> <./3_gears_mounting_part_1.png>]
 
-[14 <./screws_and_nuts_taskboard.png>]
-<screw_assembly_heat_insert.png, id=706, 147.168pt x 158.6655pt>
+[16 <./screws_and_nuts_taskboard.png>]
+<screw_assembly_heat_insert.png, id=718, 147.168pt x 158.6655pt>
 File: screw_assembly_heat_insert.png Graphic file (type png)
 <use screw_assembly_heat_insert.png>
-Package pdftex.def Info: screw_assembly_heat_insert.png  used on input line 580
+Package pdftex.def Info: screw_assembly_heat_insert.png  used on input line 898
 .
-(pdftex.def)             Requested size: 147.16762pt x 158.66508pt.
-
-
-[15 <./screw_assembly_heat_insert.png>]
-<nut_assembly_heat_insert.png, id=716, 201.3705pt x 139.6125pt>
+(pdftex.def)             Requested size: 150.56152pt x 162.33537pt.
+<nut_assembly_heat_insert.png, id=719, 201.3705pt x 139.6125pt>
 File: nut_assembly_heat_insert.png Graphic file (type png)
 <use nut_assembly_heat_insert.png>
-Package pdftex.def Info: nut_assembly_heat_insert.png  used on input line 684.
-(pdftex.def)             Requested size: 201.37pt x 139.61214pt.
+Package pdftex.def Info: nut_assembly_heat_insert.png  used on input line 972.
+(pdftex.def)             Requested size: 150.56152pt x 104.38954pt.
 
 
-[16 <./nut_assembly_heat_insert.png>]
-<screws_tilting_assembly.png, id=725, 292.365pt x 159.651pt>
+[17 <./screw_assembly_heat_insert.png>]
+<screws_tilting_assembly.png, id=729, 292.365pt x 159.651pt>
 File: screws_tilting_assembly.png Graphic file (type png)
 <use screws_tilting_assembly.png>
-Package pdftex.def Info: screws_tilting_assembly.png  used on input line 805.
-(pdftex.def)             Requested size: 292.36429pt x 159.6506pt.
+Package pdftex.def Info: screws_tilting_assembly.png  used on input line 1055.
+(pdftex.def)             Requested size: 301.12305pt x 164.4448pt.
 
 
-[17]
-<elastic_deformation_taskboard.png, id=733, 644.4075pt x 584.1825pt>
+[18 <./nut_assembly_heat_insert.png>]
+<elastic_deformation_taskboard.png, id=738, 644.4075pt x 584.1825pt>
 File: elastic_deformation_taskboard.png Graphic file (type png)
 <use elastic_deformation_taskboard.png>
 Package pdftex.def Info: elastic_deformation_taskboard.png  used on input line 
-821.
+1066.
 (pdftex.def)             Requested size: 301.12305pt x 272.98804pt.
 
 
-[18 <./screws_tilting_assembly.png> <./elastic_deformation_taskboard.png>]
-<snap_hook_placement.png, id=740, 318.645pt x 144.54pt>
+[19 <./screws_tilting_assembly.png> <./elastic_deformation_taskboard.png>]
+<snap_hook_placement.png, id=745, 318.645pt x 144.54pt>
 File: snap_hook_placement.png Graphic file (type png)
 <use snap_hook_placement.png>
-Package pdftex.def Info: snap_hook_placement.png  used on input line 835.
+Package pdftex.def Info: snap_hook_placement.png  used on input line 1116.
 (pdftex.def)             Requested size: 301.12305pt x 136.59982pt.
 
 
-[19 <./snap_hook_placement.png>]
-Overfull \hbox (5.3827pt too wide) in paragraph at lines 1066--1066
+[20 <./snap_hook_placement.png>]
+Overfull \hbox (5.3827pt too wide) in paragraph at lines 1421--1421
 []\T1/qhv/m/n/10 Quan-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1066--1066
+Underfull \hbox (badness 10000) in paragraph at lines 1421--1421
 []\T1/qtm/m/n/10 Thread in-sert M8 UD-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1066--1066
+Underfull \hbox (badness 10000) in paragraph at lines 1421--1421
 []\T1/qtm/m/n/10 Thread in-sert M6 UD-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1066--1066
+Underfull \hbox (badness 10000) in paragraph at lines 1421--1421
 []\T1/qtm/m/n/10 Splined shaft sleeve
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1066--1066
+Underfull \hbox (badness 10000) in paragraph at lines 1421--1421
 []\T1/qtm/m/n/10 BNC-Connector fe-male
  []
 
 
 
-[20]
-<peg_in_hole_taskboard_finished.png, id=754, 244.7325pt x 224.3655pt>
+[21]
+
+[22]
+<peg_in_hole_taskboard_finished.png, id=766, 244.7325pt x 224.3655pt>
 File: peg_in_hole_taskboard_finished.png Graphic file (type png)
 <use peg_in_hole_taskboard_finished.png>
 Package pdftex.def Info: peg_in_hole_taskboard_finished.png  used on input line
- 1114.
+ 1469.
 (pdftex.def)             Requested size: 301.12305pt x 276.07745pt.
 
 
-[21 <./peg_in_hole_taskboard_finished.png>]
+[23 <./peg_in_hole_taskboard_finished.png>]
 
-[22]
-<pick_and_place_taskboard_finished.png, id=765, 251.9595pt x 230.2785pt>
+[24]
+<pick_and_place_taskboard_finished.png, id=776, 251.9595pt x 230.2785pt>
 File: pick_and_place_taskboard_finished.png Graphic file (type png)
 <use pick_and_place_taskboard_finished.png>
 Package pdftex.def Info: pick_and_place_taskboard_finished.png  used on input l
-ine 1220.
+ine 1575.
 (pdftex.def)             Requested size: 301.12305pt x 275.23299pt.
-<pick_and_place_taskboard_housing_parts.png, id=766, 223.7085pt x 173.1195pt>
+<pick_and_place_taskboard_housing_parts.png, id=777, 223.7085pt x 173.1195pt>
 File: pick_and_place_taskboard_housing_parts.png Graphic file (type png)
 <use pick_and_place_taskboard_housing_parts.png>
 Package pdftex.def Info: pick_and_place_taskboard_housing_parts.png  used on in
-put line 1236.
+put line 1591.
 (pdftex.def)             Requested size: 301.12305pt x 233.04875pt.
 
 
-[23 <./pick_and_place_taskboard_finished.png>]
+[25 <./pick_and_place_taskboard_finished.png>]
 
 ! LaTeX Error: Unicode character   (U+202F)
                not set up for use with LaTeX.
@@ -1105,144 +1110,144 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.1254 ... the two flange surfaces is exactly 2 
+l.1609 ... the two flange surfaces is exactly 2 
                                                   mm.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-<pick_and_place_taskboard_feather_key.png, id=772, 200.7135pt x 186.2595pt>
+<pick_and_place_taskboard_feather_key.png, id=783, 200.7135pt x 186.2595pt>
 File: pick_and_place_taskboard_feather_key.png Graphic file (type png)
 <use pick_and_place_taskboard_feather_key.png>
 Package pdftex.def Info: pick_and_place_taskboard_feather_key.png  used on inpu
-t line 1281.
+t line 1636.
 (pdftex.def)             Requested size: 301.12305pt x 279.471pt.
 
 
-[24 <./pick_and_place_taskboard_housing_parts.png>]
-<pick_and_place_taskboard_shim_rings.png, id=778, 364.2408pt x 139.2402pt>
+[26 <./pick_and_place_taskboard_housing_parts.png>]
+<pick_and_place_taskboard_shim_rings.png, id=789, 364.2408pt x 139.2402pt>
 File: pick_and_place_taskboard_shim_rings.png Graphic file (type png)
 <use pick_and_place_taskboard_shim_rings.png>
 Package pdftex.def Info: pick_and_place_taskboard_shim_rings.png  used on input
- line 1318.
+ line 1673.
 (pdftex.def)             Requested size: 301.12305pt x 115.11678pt.
 
 
-[25 <./pick_and_place_taskboard_feather_key.png>]
-<pick_and_place_taskboard_shim_rings_finished.png, id=784, 233.5635pt x 106.105
+[27 <./pick_and_place_taskboard_feather_key.png>]
+<pick_and_place_taskboard_shim_rings_finished.png, id=797, 233.5635pt x 106.105
 5pt>
 File: pick_and_place_taskboard_shim_rings_finished.png Graphic file (type png)
 <use pick_and_place_taskboard_shim_rings_finished.png>
 Package pdftex.def Info: pick_and_place_taskboard_shim_rings_finished.png  used
- on input line 1349.
+ on input line 1704.
 (pdftex.def)             Requested size: 301.12305pt x 136.79733pt.
-<gear_assembly_taskboard_finished.png, id=785, 196.443pt x 181.0035pt>
+<gear_assembly_taskboard_finished.png, id=798, 196.443pt x 181.0035pt>
 File: gear_assembly_taskboard_finished.png Graphic file (type png)
 <use gear_assembly_taskboard_finished.png>
 Package pdftex.def Info: gear_assembly_taskboard_finished.png  used on input li
-ne 1361.
+ne 1716.
 (pdftex.def)             Requested size: 301.12305pt x 277.46196pt.
 
 
-[26 <./pick_and_place_taskboard_shim_rings.png> <./pick_and_place_taskboard_shi
+[28 <./pick_and_place_taskboard_shim_rings.png> <./pick_and_place_taskboard_shi
 m_rings_finished.png>]
-<gear_assembly_taskboard_two_gears.png, id=793, 574.7874pt x 195.129pt>
+<gear_assembly_taskboard_two_gears.png, id=805, 574.7874pt x 195.129pt>
 File: gear_assembly_taskboard_two_gears.png Graphic file (type png)
 <use gear_assembly_taskboard_two_gears.png>
 Package pdftex.def Info: gear_assembly_taskboard_two_gears.png  used on input l
-ine 1375.
+ine 1730.
 (pdftex.def)             Requested size: 301.12305pt x 102.22392pt.
 
 
-[27 <./gear_assembly_taskboard_finished.png> <./gear_assembly_taskboard_two_gea
+[29 <./gear_assembly_taskboard_finished.png> <./gear_assembly_taskboard_two_gea
 rs.png>]
-<gear_assembly_taskboard_helical_gear.png, id=801, 253.2735pt x 188.559pt>
+<gear_assembly_taskboard_helical_gear.png, id=812, 253.2735pt x 188.559pt>
 File: gear_assembly_taskboard_helical_gear.png Graphic file (type png)
 <use gear_assembly_taskboard_helical_gear.png>
 Package pdftex.def Info: gear_assembly_taskboard_helical_gear.png  used on inpu
-t line 1414.
+t line 1769.
 (pdftex.def)             Requested size: 301.12305pt x 224.20099pt.
 
 
-[28 <./gear_assembly_taskboard_helical_gear.png>]
-<gear_assembly_taskboard_three_gears.png, id=807, 256.23pt x 166.221pt>
+[30 <./gear_assembly_taskboard_helical_gear.png>]
+<gear_assembly_taskboard_three_gears.png, id=818, 256.23pt x 166.221pt>
 File: gear_assembly_taskboard_three_gears.png Graphic file (type png)
 <use gear_assembly_taskboard_three_gears.png>
 Package pdftex.def Info: gear_assembly_taskboard_three_gears.png  used on input
- line 1459.
+ line 1814.
 (pdftex.def)             Requested size: 301.12305pt x 195.35025pt.
 
 
-[29 <./gear_assembly_taskboard_three_gears.png>]
-<screw_nut_assembly_taskboard_finished.png, id=813, 1099.85907pt x 691.08188pt>
+[31 <./gear_assembly_taskboard_three_gears.png>]
+<screw_nut_assembly_taskboard_finished.png, id=824, 1099.85907pt x 691.08188pt>
 
 File: screw_nut_assembly_taskboard_finished.png Graphic file (type png)
 <use screw_nut_assembly_taskboard_finished.png>
 Package pdftex.def Info: screw_nut_assembly_taskboard_finished.png  used on inp
-ut line 1501.
+ut line 1856.
 (pdftex.def)             Requested size: 301.12305pt x 189.19922pt.
-<screw_nut_assembly_taskboard_vertical_screw_insertion.png, id=814, 246.7035pt 
+<screw_nut_assembly_taskboard_vertical_screw_insertion.png, id=825, 246.7035pt 
 x 151.4385pt>
 File: screw_nut_assembly_taskboard_vertical_screw_insertion.png Graphic file (t
 ype png)
 <use screw_nut_assembly_taskboard_vertical_screw_insertion.png>
 Package pdftex.def Info: screw_nut_assembly_taskboard_vertical_screw_insertion.
-png  used on input line 1514.
+png  used on input line 1869.
 (pdftex.def)             Requested size: 301.12305pt x 184.85405pt.
 
 
-[30 <./screw_nut_assembly_taskboard_finished.png>]
-<screw_nut_assembly_taskboard_nut_assembly.png, id=820, 454.8192pt x 189.8292pt
+[32 <./screw_nut_assembly_taskboard_finished.png>]
+<screw_nut_assembly_taskboard_nut_assembly.png, id=831, 454.8192pt x 189.8292pt
 >
 File: screw_nut_assembly_taskboard_nut_assembly.png Graphic file (type png)
 <use screw_nut_assembly_taskboard_nut_assembly.png>
 Package pdftex.def Info: screw_nut_assembly_taskboard_nut_assembly.png  used on
- input line 1551.
+ input line 1906.
 (pdftex.def)             Requested size: 301.12305pt x 125.68158pt.
 
 
-[31 <./screw_nut_assembly_taskboard_vertical_screw_insertion.png> <./screw_nut_
+[33 <./screw_nut_assembly_taskboard_vertical_screw_insertion.png> <./screw_nut_
 assembly_taskboard_nut_assembly.png>]
-<screw_nut_assembly_taskboard_multi_screw_assembly.png, id=827, 249.3315pt x 13
+<screw_nut_assembly_taskboard_multi_screw_assembly.png, id=839, 249.3315pt x 13
 1.7285pt>
 File: screw_nut_assembly_taskboard_multi_screw_assembly.png Graphic file (type 
 png)
 <use screw_nut_assembly_taskboard_multi_screw_assembly.png>
 Package pdftex.def Info: screw_nut_assembly_taskboard_multi_screw_assembly.png 
- used on input line 1585.
+ used on input line 1940.
 (pdftex.def)             Requested size: 301.12305pt x 159.10251pt.
 
 
-[32 <./screw_nut_assembly_taskboard_multi_screw_assembly.png>]
-<elastic_deformation_taskboard_finished.png, id=833, 386.6445pt x 294.6645pt>
+[34 <./screw_nut_assembly_taskboard_multi_screw_assembly.png>]
+<elastic_deformation_taskboard_finished.png, id=845, 386.6445pt x 294.6645pt>
 File: elastic_deformation_taskboard_finished.png Graphic file (type png)
 <use elastic_deformation_taskboard_finished.png>
 Package pdftex.def Info: elastic_deformation_taskboard_finished.png  used on in
-put line 1617.
+put line 1972.
 (pdftex.def)             Requested size: 301.12305pt x 229.49568pt.
-<snap_hook_placement_finished.png, id=834, 181.6605pt x 194.1435pt>
+<snap_hook_placement_finished.png, id=846, 181.6605pt x 194.1435pt>
 File: snap_hook_placement_finished.png Graphic file (type png)
 <use snap_hook_placement_finished.png>
 Package pdftex.def Info: snap_hook_placement_finished.png  used on input line 1
-636.
+991.
 (pdftex.def)             Requested size: 301.12305pt x 321.81892pt.
 
 
-[33 <./elastic_deformation_taskboard_finished.png>]
+[35 <./elastic_deformation_taskboard_finished.png>]
 
-[34 <./snap_hook_placement_finished.png>]
-<spring_placement_finished.png, id=846, 653.3208pt x 230.7822pt>
+[36 <./snap_hook_placement_finished.png>]
+<spring_placement_finished.png, id=857, 653.3208pt x 230.7822pt>
 File: spring_placement_finished.png Graphic file (type png)
 <use spring_placement_finished.png>
-Package pdftex.def Info: spring_placement_finished.png  used on input line 1674
+Package pdftex.def Info: spring_placement_finished.png  used on input line 2029
 .
 (pdftex.def)             Requested size: 301.12305pt x 106.36885pt.
 
 
-[35 <./spring_placement_finished.png>]
+[37 <./spring_placement_finished.png>]
 No file industrialassemblytaskboard.ind.
 
 
-[36] (./industrialassemblytaskboard.aux)
+[38] (./industrialassemblytaskboard.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-12-25>
@@ -1251,33 +1256,27 @@ L3 programming layer <2024-12-25>
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-
-Package rerunfilecheck Warning: File `industrialassemblytaskboard.out' has chan
-ged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `industrialassemblytaskboard.out':
-(rerunfilecheck)             Before: D5B597645C7BC1C636FC667F5BE6370A;29453
-(rerunfilecheck)             After:  0F4B7661B2E43BE4A9F8DE94742E0652;29470.
+Package rerunfilecheck Info: File `industrialassemblytaskboard.out' has not cha
+nged.
+(rerunfilecheck)             Checksum: 0F4B7661B2E43BE4A9F8DE94742E0652;29470.
  ) 
 Here is how much of TeX's memory you used:
- 17340 strings out of 473207
- 299797 string characters out of 5720461
- 715202 words of memory out of 5000000
- 40014 multiletter control sequences out of 15000+600000
+ 17351 strings out of 473207
+ 299940 string characters out of 5720461
+ 714187 words of memory out of 5000000
+ 40020 multiletter control sequences out of 15000+600000
  609072 words of font info for 74 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 72i,12n,79p,510b,604s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,12n,79p,510b,575s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qhvb.pfb><d:/texlive/
 2024/texmf-dist/fonts/type1/public/tex-gyre/qhvbi.pfb><d:/texlive/2024/texmf-di
 st/fonts/type1/public/tex-gyre/qhvr.pfb><d:/texlive/2024/texmf-dist/fonts/type1
 /public/tex-gyre/qtmb.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/tex-gy
 re/qtmr.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmri.pfb>
-Output written on industrialassemblytaskboard.pdf (40 pages, 2559984 bytes).
+Output written on industrialassemblytaskboard.pdf (42 pages, 2566140 bytes).
 PDF statistics:
- 928 PDF objects out of 1000 (max. 8388607)
- 792 compressed objects within 8 object streams
- 199 named destinations out of 1000 (max. 500000)
+ 940 PDF objects out of 1000 (max. 8388607)
+ 801 compressed objects within 9 object streams
+ 204 named destinations out of 1000 (max. 500000)
  1342 words of extra memory for PDF output out of 10000 (max. 10000000)
 

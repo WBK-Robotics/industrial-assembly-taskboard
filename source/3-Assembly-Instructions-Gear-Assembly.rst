@@ -19,12 +19,12 @@ Step 1: Prepare the Components
 .. list-table::
     :header-rows: 1
 
- * - 3D-printed parts:
- - Purchased components:
- * - 2 Gears Mounting × 1 (Material: PETG)
- - M8 Nut × 2
- * - Gear 1 × 2 (Material: PETG)
- - 30mm M8 Screw × 2
+    * - 3D-printed parts:
+      - Purchased components:
+    * - 2 Gears Mounting x 1 (Material: PETG)
+      - M8 Nut x 2
+    * - Gear 1 x 2 (Material: PETG)
+      - 30mm M8 Screw x 2
 
 Step 2: Manual Assembly of the 2 Gears Task
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -41,12 +41,12 @@ Step 1: Prepare the Components
 .. list-table::
     :header-rows: 1
 
- * - 3D-printed parts:
- - Purchased components:
- * - Helical Gear Assembly × 1 (Material: PETG)
- - M8 Nut × 2
- * - Helical Gear × 1 (Material: PETG)
- - 30mm M8 Screw × 2
+    * - 3D-printed parts:
+      - Purchased components:
+    * - Helical Gear Assembly x 1 (Material: PETG)
+      - M8 Nut x 2
+    * - Helical Gear x 1 (Material: PETG)
+      - 30mm M8 Screw x 2
 
 
 Step 2: Manual Assembly of the helical Gear Task
@@ -64,18 +64,18 @@ Step 1: Prepare the Components
 .. list-table::
     :header-rows: 1
 
- * - 3D-printed parts:
- - Purchased components:
- * - 3 Gears Mounting Part 1 × 1 (Material: PETG)
- - M8 Nut × 2
- * - 3 Gears Mounting Part 2 × 1 (Material: PETG)
- - 40mm M8 Screw × 2
- * - Shaft with key × 2 (Material: PETG)
- - 
- * - Gear 3 × 1 (Material: PETG)
- - 
- * - Gear 3 with Groove × 2 (Material: PETG)
- - 
+    * - 3D-printed parts:
+      - Purchased components:
+    * - 3 Gears Mounting Part 1 x 1 (Material: PETG)
+      - M8 Nut x 2
+    * - 3 Gears Mounting Part 2 x 1 (Material: PETG)
+      - 40mm M8 Screw x 2
+    * - Shaft with key x 2 (Material: PETG)
+      - 
+    * - Gear 3 x 1 (Material: PETG)
+      - 
+    * - Gear 3 with Groove x 2 (Material: PETG)
+      - 
 
 
 Step 2: Manual Assembly of the 3 Gears Task Assembly

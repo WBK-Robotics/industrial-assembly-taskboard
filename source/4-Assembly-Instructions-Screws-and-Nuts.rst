@@ -6,9 +6,9 @@ Each task includes the preparation of components, manual assembly steps, and fix
 Note that the assembly of this task requires a soldering iron to insert thread inserts into the 3D-printed parts.
 
 .. image:: images/screws_and_nuts_taskboard.png
-    :alt: Screws and Nuts Task Module
-    :align: center
-    :width: 400px
+    :alt: Screws and Nuts Task Module
+    :align: center
+    :width: 400px
 
 Task 1: Hexagon Socket Screw
 ----------------------------
@@ -17,18 +17,18 @@ Step 1: Prepare the Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
-    :header-rows: 1
+    :header-rows: 1
 
- * - 3D-printed parts:
- - Purchased components:
- * - Screw Assembly × 1 (Material: PETG)
- - 30mm M8 Screw × 2
- * -
- - 20mm M8 Screw × 1
- * -
- - M8 Nut × 2
- * -
- - M8 Thread Insert × 1
+    * - 3D-printed parts:
+      - Purchased components:
+    * - Screw Assembly x 1 (Material: PETG)
+      - 30mm M8 Screw x 2
+    * -
+      - 20mm M8 Screw x 1
+    * -
+      - M8 Nut x 2
+    * -
+      - M8 Thread Insert x 1
 
 Step 2: Manual Assembly of the Hexagonal Socket Screw Task
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -41,9 +41,9 @@ Proceed with the following steps:
 #. Allow cooling – Once in place, let the plastic cool and solidify, ensuring a strong mechanical bond.
 
 .. image:: images/screw_assembly_heat_insert.png
-    :alt: Screw Assembly
-    :align: center
-    :width: 200px
+    :alt: Screw Assembly
+    :align: center
+    :width: 200px
 
 Step 3: Manual Fixation of the Assembly on the Taskboard
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -58,16 +58,16 @@ Step 1: Prepare the Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
-    :header-rows: 1
+    :header-rows: 1
 
- * - 3D-printed parts:
- - Purchased components:
- * - Nut Assembly × 1 (Material: PETG)
- - M8 Nut × 3
- * -
- - 30mm M8 Screw × 3
- * -
- - M8 Thread Inserts × 1
+    * - 3D-printed parts:
+      - Purchased components:
+    * - Nut Assembly x 1 (Material: PETG)
+      - M8 Nut x 3
+    * -
+      - 30mm M8 Screw x 3
+    * -
+      - M8 Thread Inserts x 1
 
 Step 2: Manual Assembly of the Nut Assembly Task
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -82,9 +82,9 @@ Proceed with the following steps:
 Next, screw a 30mm M8 screw into the thread insert.
 
 .. image:: images/nut_assembly_heat_insert.png
-    :alt: Nut Assembly
-    :align: center
-    :width: 200px
+    :alt: Nut Assembly
+    :align: center
+    :width: 200px
 
 
 Step 3: Manual Fixation of the Assembly on the Taskboard
@@ -101,18 +101,18 @@ Step 1: Prepare the Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
-    :header-rows: 1
+    :header-rows: 1
 
- * - 3D-printed parts:
- - Purchased components:
- * - Screws Tilting Part1 × 1 (Material: PETG)
- - M8 Nut × 2
- * - Screws Tilting Part2 × 1 (Material: PETG)
- - 30mm M8 Screw × 2
- * -
- - 20mm M8 Screw × 4
- * -
- - M8 Thread Insert × 4
+    * - 3D-printed parts:
+      - Purchased components:
+    * - Screws Tilting Part1 x 1 (Material: PETG)
+      - M8 Nut x 2
+    * - Screws Tilting Part2 x 1 (Material: PETG)
+      - 30mm M8 Screw x 2
+    * -
+      - 20mm M8 Screw x 4
+    * -
+      - M8 Thread Insert x 4
 
 
 Step 2: Manual Assembly of the Hexagonal Socket Screw Task
@@ -129,7 +129,7 @@ Then place the Screws Tilting Part 2 on top of Part 1 lining up with the holes, 
 Additionally, place the four 20mm M8 screws on a horizontal surface next to the board, ensuring they are positioned for the robot to grasp.
 
 .. image:: images/screws_tilting_assembly.png
-    :alt: Screws Tilting Assembly
-    :align: center
-    :width: 400px
+    :alt: Screws Tilting Assembly
+    :align: center
+    :width: 400px
 

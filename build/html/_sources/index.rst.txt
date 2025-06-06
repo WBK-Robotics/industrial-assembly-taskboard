@@ -19,7 +19,7 @@ Why This Task Board?
    :align: center
    :width: 1000px
 
-Robotic assembly is far more complex than the basic "peg-in-hole" tasks often used in benchmarks like the NIST taskboard. 
+Robotic assembly is far more complex than the basic "peg-in-hole" tasks often used in benchmarks like the NIST task board. 
 While such benchmarks are valuable, they assume that the only thing more complex than a simple peg-in-hole task is the geometry of the peg and hole,
 or the manipulation of cables and belts.
 In reality, industrial assembly tasks involve a wide range of challenges, including precise tolerances, compliant assembly, 
@@ -57,7 +57,7 @@ This documentation is split into two main sections:
 Quick‑Start
 ~~~~~~~~~~~
 
-1. Read the :doc:`wbk_challenge_overview` to build the base taskboard and all
+1. Read the :doc:`wbk_challenge_overview` to build the base task board and all
 desired task modules.
 
 2. Choose a module and open its page in the :doc:`wbk_challenge_robot_tasks_overview`

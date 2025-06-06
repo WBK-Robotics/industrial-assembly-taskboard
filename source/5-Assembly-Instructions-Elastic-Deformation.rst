@@ -19,11 +19,11 @@ Step 1: Prepare the Components
     :header-rows: 1
 
  * - 3D-printed parts
- - Purchased components
- * - Snap Hook × 1 (Material: PETG)
- - M8 Nut × 2
- * - Snap Hook Assembly × 1 (Material: PETG)
- - 30mm M8 Screw × 2
+   - Purchased components
+ * - Snap Hook x 1 (Material: PETG)
+   - M8 Nut x 2
+ * - Snap Hook Assembly x 1 (Material: PETG)
+   - 30mm M8 Screw x 2
 
 
 Step 2: Manual fixation of the housing on the Task Board
@@ -48,13 +48,13 @@ Step 1: Prepare the Components
     :header-rows: 1
 
  * - 3D-printed parts
- - Purchased components
- * - Pressure Spring Assembly × 1 (Material: PETG)
- - M8 Nut × 2
+   - Purchased components
+ * - Pressure Spring Assembly x 1 (Material: PETG)
+   - M8 Nut x 2
  * -
- - 30mm M8 Screw × 2
+   - 30mm M8 Screw x 2
  * -
- - Spring WF20-80 × 1
+   - Spring WF20-80 x 1
 
 Step 2: Manual fixation of the housing on the Task Board
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -78,10 +78,10 @@ Place the circlip on a flat surface next to the Taskboard to allow the robot to 
     :header-rows: 1
 
  * - 3D-printed parts
- - Purchased components
- * - Circlip Assembly × 1 (Material: PETG)
- - M8 Nut × 2
+   - Purchased components
+ * - Circlip Assembly x 1 (Material: PETG)
+   - M8 Nut x 2
  * -
- - 30mm M8 Screw × 2
+   - 30mm M8 Screw x 2
  * -
- - 30 Circlip × 1
+   - 30 Circlip x 1
