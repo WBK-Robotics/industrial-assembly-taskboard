@@ -38,39 +38,27 @@ We provide all 3D-printable files in this repository for anyone to build their o
  We encourage users to extend the task board with their own modules and tasks that reflect real-world challenges.
  If you have ideas for new tasks, please contribute by opening a Pull Request with your files and task descriptions.
 
-What you’ll find here
----------------------
 
 This documentation is split into two main sections:
 
-* **Assembly Guide** – step‑by‑step hardware build instructions (3D‑printing,
- purchased fasteners, mounting sequence).
-
-* **Robot Task Guide** – formal task definitions (motion sequence, tolerances and
- success criteria) for benchmarking your robot or algorithm on each module.
+* **Assembly Guide** – step‑by‑step hardware build instructions (3D‑printing,purchased fasteners, mounting sequence).
+* **Robot Task Guide** – formal task definitions (motion sequence, tolerances and success criteria) for benchmarking your robot or algorithm on each module.
 
 .. note::
 
  If you are new to the benchmark, follow the quick‑start steps below. Power
  users can jump directly to the Assembly or Robot Task guides via the sidebar.
 
-Quick‑Start
-~~~~~~~~~~~
+   1. Read the :doc:`wbk_challenge_overview` to build the base task board and alldesired task modules.
 
-1. Read the :doc:`wbk_challenge_overview` to build the base task board and all
-desired task modules.
+   2. Choose a module and open its page in the :doc:`wbk_challenge_robot_tasks_overview` to understand the robot's motions and evaluation metrics.
+   
+   3. Implement your robot program, run experiments, and compare results!
 
-2. Choose a module and open its page in the :doc:`wbk_challenge_robot_tasks_overview`
-to understand the robot's motions and evaluation metrics.
-
-3. Implement your robot program, run experiments, and compare results!
 
 Contents
 --------
 
 .. toctree::
-   :maxdepth: 1
-   :caption: Guides
-
  wbk_challenge_overview
  wbk_challenge_robot_tasks_overview

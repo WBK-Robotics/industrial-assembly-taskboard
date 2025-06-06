@@ -16,7 +16,7 @@ How to use this guide
 
 .. tip::
 
- Start with :doc:`assembly_instructions_taskboard` to build the base board, then add tasks from the submodules as desired.
+ Start with :doc:`0-Assembly_Instructions_Taskboard` to build the base board, then add tasks from the submodules as desired.
 
 
 Build Instructions

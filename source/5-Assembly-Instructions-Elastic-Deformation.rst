@@ -16,14 +16,14 @@ Step 1: Prepare the Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
-    :header-rows: 1
+   :header-rows: 1
 
- * - 3D-printed parts
-   - Purchased components
- * - Snap Hook x 1 (Material: PETG)
-   - M8 Nut x 2
- * - Snap Hook Assembly x 1 (Material: PETG)
-   - 30mm M8 Screw x 2
+   * - 3D-printed parts
+     - Purchased components
+   * - Snap Hook x 1 (Material: PETG)
+     - M8 Nut x 2
+   * - Snap Hook Assembly x 1 (Material: PETG)
+     - 30mm M8 Screw x 2
 
 
 Step 2: Manual fixation of the housing on the Task Board
@@ -45,16 +45,16 @@ Step 1: Prepare the Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
-    :header-rows: 1
+   :header-rows: 1
 
- * - 3D-printed parts
-   - Purchased components
- * - Pressure Spring Assembly x 1 (Material: PETG)
-   - M8 Nut x 2
- * -
-   - 30mm M8 Screw x 2
- * -
-   - Spring WF20-80 x 1
+   * - 3D-printed parts
+     - Purchased components
+   * - Pressure Spring Assembly x 1 (Material: PETG)
+     - M8 Nut x 2
+   * -
+     - 30mm M8 Screw x 2
+   * -
+     - Spring WF20-80 x 1
 
 Step 2: Manual fixation of the housing on the Task Board
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -75,13 +75,13 @@ Align the two holes on the side of the Circlip Assembly component with any two s
 Place the circlip on a flat surface next to the Taskboard to allow the robot to grasp it.
 
 .. list-table::
-    :header-rows: 1
+   :header-rows: 1
 
- * - 3D-printed parts
-   - Purchased components
- * - Circlip Assembly x 1 (Material: PETG)
-   - M8 Nut x 2
- * -
-   - 30mm M8 Screw x 2
- * -
-   - 30 Circlip x 1
+   * - 3D-printed parts
+     - Purchased components
+   * - Circlip Assembly x 1 (Material: PETG)
+     - M8 Nut x 2
+   * -
+     - 30mm M8 Screw x 2
+   * -
+     - 30 Circlip x 1

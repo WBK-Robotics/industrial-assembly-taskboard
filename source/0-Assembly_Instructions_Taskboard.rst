@@ -1,13 +1,13 @@
 Assembling Instructions: Task board
-==================================
+===================================
 
 
 Step 1: Prepare the Components
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. list-table::
-    :header-rows: 1
-    :widths: 50 50
+   :header-rows: 1
+   :widths: 50 50
 
     * - 3D-printed parts:
       - Purchased hardware:

@@ -36,3 +36,37 @@ html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'style_nav_header_background': '#dbe3e6', 'logo_only': True}
 html_logo = "images/logo.png"
+
+
+# -- Options for Latex output -------------------------------------------------
+# https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-latex-output
+latex_elements = {
+    'papersize': 'a4paper',
+    'pointsize': '11pt',
+    'classoptions': ',dina4',
+    # Suppress the contents page
+    'tableofcontents': '',
+    # Add logo to the title page
+    'maketitle': r'''
+\begin{titlepage}
+    \begin{center}
+        \vspace*{2cm}
+        \includegraphics[width=0.9\textwidth]{logo_with_text.png}\par
+        \vspace{1cm}
+        {\large Jan Baumgärtner, Laurin Kreft, Alexander Puchta, Jürgen Fleischer \par}
+        \vfill
+        {\large \@date \par}
+    \end{center}
+\end{titlepage}
+'''
+}
+latex_elements['hyperref'] = r'''
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    citecolor=blue,
+    pdfborder={0 0 0}
+}
+'''
