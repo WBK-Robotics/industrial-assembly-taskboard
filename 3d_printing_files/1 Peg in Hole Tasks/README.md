@@ -2,7 +2,7 @@
 
 This folder contains 3D-printable files for the "Peg in Hole" tasks, which are part of the Industrial Assembly Task Board. These tasks are designed to evaluate a robot's ability to handle precise insertion operations, a fundamental skill in robotic assembly.
 
-![Peg in Hole Task Board](source/images/peg_in_hole_taskboard_finished.png)
+![Peg in Hole Task Board](../../source/images/peg_in_hole_taskboard_finished.png)
 
 
 ## Tasks Overview

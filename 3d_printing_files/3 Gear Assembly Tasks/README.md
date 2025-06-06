@@ -2,7 +2,7 @@
 
 This folder contains 3D-printable files for the "Gear Assembly" tasks, which are part of the Industrial Assembly Task Board. These tasks are designed to evaluate a robot's ability to handle and assemble gears with varying levels of complexity, including alignment, meshing, and rotational coordination.
 
-![Gear Assembly Taskboard](source/images/gear_assembly_taskboard_finished.png)
+![Gear Assembly Taskboard](../../source/images/gear_assembly_taskboard_finished.png)
 
 ## Tasks Overview
 
