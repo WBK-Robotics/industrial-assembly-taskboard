@@ -18,6 +18,7 @@ Step 1: Prepare the Components
 
 .. list-table::
     :header-rows: 1
+    :align: center
 
     * - 3D-printed parts:
       - Purchased components:
@@ -59,6 +60,7 @@ Step 1: Prepare the Components
 
 .. list-table::
     :header-rows: 1
+    :align: center
 
     * - 3D-printed parts:
       - Purchased components:
@@ -102,6 +104,7 @@ Step 1: Prepare the Components
 
 .. list-table::
     :header-rows: 1
+    :align: center
 
     * - 3D-printed parts:
       - Purchased components:

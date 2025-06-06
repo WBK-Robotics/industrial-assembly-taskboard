@@ -8,13 +8,14 @@ Step 1: Prepare the Components
 .. list-table::
    :header-rows: 1
    :widths: 50 50
+   :align: center
 
-    * - 3D-printed parts:
-      - Purchased hardware:
-    * - Taskboard x 1 (Material: PETG)
-      - M8 Nut x 4
-    * - Taskboard Foot x 4 (Material: PETG)
-      - 30mm M8 Screw x 4
+   * - 3D-printed parts:
+     - Purchased hardware:
+   * - Taskboard x 1 (Material: PETG)
+     - M8 Nut x 4
+   * - Taskboard Foot x 4 (Material: PETG)
+     - 30mm M8 Screw x 4
 
 
 Step 2: Position the Task Board

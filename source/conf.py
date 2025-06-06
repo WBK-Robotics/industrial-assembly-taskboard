@@ -43,7 +43,7 @@ html_logo = "images/logo.png"
 latex_elements = {
     'papersize': 'a4paper',
     'pointsize': '11pt',
-    'classoptions': ',dina4',
+    'classoptions': ',dina4,openany',  # Add 'openany' to allow chapters to start on any page
     # Suppress the contents page
     'tableofcontents': '',
     # Add logo to the title page
@@ -53,9 +53,8 @@ latex_elements = {
         \vspace*{2cm}
         \includegraphics[width=0.9\textwidth]{logo_with_text.png}\par
         \vspace{1cm}
-        {\large Jan Baumgärtner, Laurin Kreft, Alexander Puchta, Jürgen Fleischer \par}
+        {\LARGE Jan Baumgärtner, Laurin Kreft, Alexander Puchta, Jürgen Fleischer \par}
         \vfill
-        {\large \@date \par}
     \end{center}
 \end{titlepage}
 '''

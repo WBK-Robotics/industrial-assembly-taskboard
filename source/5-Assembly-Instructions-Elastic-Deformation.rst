@@ -17,6 +17,7 @@ Step 1: Prepare the Components
 
 .. list-table::
    :header-rows: 1
+   :align: center
 
    * - 3D-printed parts
      - Purchased components
@@ -46,6 +47,7 @@ Step 1: Prepare the Components
 
 .. list-table::
    :header-rows: 1
+   :align: center
 
    * - 3D-printed parts
      - Purchased components
@@ -76,6 +78,7 @@ Place the circlip on a flat surface next to the Taskboard to allow the robot to 
 
 .. list-table::
    :header-rows: 1
+   :align: center
 
    * - 3D-printed parts
      - Purchased components
