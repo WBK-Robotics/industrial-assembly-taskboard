@@ -2,7 +2,7 @@
 
 This folder contains 3D-printable files for the "Screws and Nuts" tasks, which are part of the Industrial Assembly Task Board. These tasks are designed to evaluate a robot's ability to handle and assemble screws and nuts in scenarios that simulate real-world industrial challenges, such as difficult accessibility and tilting.
 
-![Screws and Nuts Taskboard](../../source/images/screw_nut_assembly_taskboard_finished.png)
+![Screws and Nuts Taskboard](../../docs/source/images/screw_nut_assembly_taskboard_finished.png)
 
 ## Tasks Overview
 

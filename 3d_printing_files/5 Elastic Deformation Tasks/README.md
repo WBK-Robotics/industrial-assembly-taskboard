@@ -2,7 +2,7 @@
 
 This folder contains 3D-printable files for the "Elastic Deformation" tasks, which are part of the Industrial Assembly Task Board. These tasks are designed to evaluate a robot's ability to handle components that require elastic deformation during assembly, such as snap hooks, springs, and circlips. These tasks simulate real-world challenges where components must be flexed or compressed to fit into place.
 
-![Elastic Deformation Taskboard](../../source/images/elastic_deformation_taskboard_finished.png)
+![Elastic Deformation Taskboard](../../docs/source/images/elastic_deformation_taskboard_finished.png)
 
 ## Tasks Overview
 

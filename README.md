@@ -1,6 +1,6 @@
 # Industrial Assembly Task Board
 
-![Industrial Assembly Task Board Logo](source/images/logo_with_text.png)
+![Industrial Assembly Task Board Logo](docs/source/images/logo_with_text.png)
 
 The **Industrial Assembly Task Board** is a modular robotic benchmark developed by the wbk Institute of Production Science at KIT. This repository provides everything needed to build the hardware and evaluate robotic systems on a range of realistic assembly tasks.
 
@@ -21,4 +21,4 @@ All 3D-printable files are available in the folder 3d_printing_files.
 3. Implement your robot program, run experiments, and compare results.
 
 
-![Sample Task Boards](source/images/sample_taskboards.png)
+![Sample Task Boards](docs/source/images/sample_taskboards.png)

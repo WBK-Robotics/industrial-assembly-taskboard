@@ -2,7 +2,7 @@
 
 This folder contains 3D-printable files for the "Pick and Place" tasks, which are part of the Industrial Assembly Task Board. These tasks are designed to evaluate a robot's ability to handle and position various components accurately, a critical skill in industrial assembly operations.
 
-![Pick and Place Taskboard](../../source/images/pick_and_place_taskboard_finished.png)
+![Pick and Place Taskboard](../../docs/source/images/pick_and_place_taskboard_finished.png)
 
 ## Tasks Overview
 
