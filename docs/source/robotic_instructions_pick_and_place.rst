@@ -57,8 +57,8 @@ A feather key is a small, rectangular metal component used to connect rotating m
 ensuring torque transmission while allowing for easy assembly and disassembly. 
 Feather keys fit into matching grooves (keyways) on both the shaft and the mating part, providing a secure, non-permanent connection.
 
-In this task, a feather key is placed on a flat surface next to the Taskboard. T
-he robot must pick up the feather key and insert it vertically into the groove of a shaft mounted on the Taskboard.
+In this task, a feather key is placed on a flat surface next to the Taskboard.
+The robot must pick up the feather key and insert it vertically into the groove of a shaft mounted on the Taskboard.
 
 .. image:: images/pick_and_place_taskboard_feather_key.png
     :alt: Pick and Place Task Module - Feather Key

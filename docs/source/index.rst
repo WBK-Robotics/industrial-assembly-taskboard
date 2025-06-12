@@ -1,11 +1,10 @@
-
 .. image:: images/logo_with_text.png
    :alt: Industrial Assembly Task Board Logo
    :align: center
    :width: 1000px
 
 Welcome to the documentation for the *Industrial Assembly Task Board*, 
-a modular robotic benchmark developed by the wbk Institute of Production Science at Karlsruhe Institute of Technology. 
+a modular robotic benchmark developed by the wbk Institute of Production Science at KIT (Karlsruhe Institute of Technology). 
 This resource provides comprehensive instructions for constructing the task board hardware and detailed guidelines for evaluating robotic systems
 on a variety of benchmark tasks. 
 Whether you are referencing this material online or as a compiled document, 
@@ -19,8 +18,7 @@ Why This Task Board?
    :align: center
    :width: 1000px
 
-Robotic assembly is far more complex than the basic "peg-in-hole" tasks often used in benchmarks like the NIST task board. 
-While such benchmarks are valuable, they assume that the only thing more complex than a simple peg-in-hole task is the geometry of the peg and hole,
+Robotic assembly is far more complex than the basic "peg-in-hole" tasks often used in benchmarks like the NIST task board [1]. While such benchmarks are valuable, they assume that the only thing more complex than a simple peg-in-hole task is the geometry of the peg and hole,
 or the manipulation of cables and belts.
 In reality, industrial assembly tasks involve a wide range of challenges, including precise tolerances, compliant assembly, 
 and the need for advanced planning and adaptability since different parts of an assembly may interact in unexpected ways.
@@ -37,6 +35,10 @@ We provide all 3D-printable files in this repository for anyone to build their o
  Instead, it serves as a starting point for exploring the complexities of industrial assembly tasks.
  We encourage users to extend the task board with their own modules and tasks that reflect real-world challenges.
  If you have ideas for new tasks, please contribute by opening a Pull Request with your files and task descriptions.
+
+.. rubric:: References
+
+[1] National Institute of Standards and Technology (NIST) Assembly Task Board: https://www.nist.gov/el/intelligent-systems-division-73500/assembly-task-board
 
 
 This documentation is split into two main sections:

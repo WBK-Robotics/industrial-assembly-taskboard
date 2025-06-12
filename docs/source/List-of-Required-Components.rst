@@ -2,8 +2,9 @@ List of required Components
 ===========================
 
 The following is a list of non-3D-printed components needed to assemble the different tasks.
-The links and Misumi as a suggested supplier are merely recommendations. Equivalent components, with the measurements given from different suppliers, work just as well.
-Screws:
+The part numbers reference Misumi as a sample supplier but these are merely recommendations. 
+Equivalent components, with the measurements given from different suppliers, work just as well.
+
 
 .. list-table::
     :header-rows: 1
@@ -21,8 +22,8 @@ Screws:
       - 20mm length
       - 5
       - 
-    * - Screw M8-40mm SCB8-40
-      - 40mm length
+    * - Screw M8-40 mm SCB8-40
+      - 40 mm length
       - 2
       - 
     * - Thread insert M8 UD-48001
@@ -42,7 +43,7 @@ Screws:
       - 1
       - 
     * - Splined shaft sleeve 64821500
-      - N 15x1.25x10, 10 teeth, ID: 12.5mm, OD: 15mm, Sleeve OD: 38mm, L: 40mm
+      - N 15x1.25x10, 10 teeth, ID: 12.5mm, OD: 15mm, Sleeve OD: 38mm, L: 40 mm
       - 1
       - OD/Length can be modified in CAD
     * - Splined shaft 64811510

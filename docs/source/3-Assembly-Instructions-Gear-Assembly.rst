@@ -72,7 +72,7 @@ Step 1: Prepare the Components
     * - 3 Gears Mounting Part 1 x 1 (Material: PETG)
       - M8 Nut x 2
     * - 3 Gears Mounting Part 2 x 1 (Material: PETG)
-      - 40mm M8 Screw x 2
+      - 40 mm M8 Screw x 2
     * - Shaft with key x 2 (Material: PETG)
       - 
     * - Gear 3 x 1 (Material: PETG)
@@ -101,5 +101,5 @@ Next place the mounting part 1 on top of the assembled components, so that the t
     :width: 400px
 
 
-Place the assembled parts on the Taskboard holding them together, so that the two holes on the side of the assembly group line up with two holes on the Taskboard. Push the two 40mm M8 Screws through the holes and fixate them from the bottom of the board using the M8 Nuts.
+Place the assembled parts on the Taskboard holding them together, so that the two holes on the side of the assembly group line up with two holes on the Taskboard. Push the two 40 mm M8 Screws through the holes and fixate them from the bottom of the board using the M8 Nuts.
 Place the 3D-printed Gears, two with groove and one without next to the Taskboard on a flat surface graspable for the robot.
