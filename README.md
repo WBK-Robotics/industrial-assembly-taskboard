@@ -4,6 +4,8 @@
 
 The **Industrial Assembly Task Board** is a modular robotic benchmark developed by the wbk Institute of Production Science at KIT. This repository provides everything needed to build the hardware and evaluate robotic systems on a range of realistic assembly tasks.
 
+You can find the full documentation and explanations of the tasks in the [documentation](https://industrial-assembly-taskboard.readthedocs.io/en/latest/).
+
 ## Why This Task Board?
 
 Robotic assembly is more complex than simple "peg-in-hole" tasks. This task board introduces challenges like precise tolerances, compliant assembly, and advanced planning—reflecting real industrial scenarios. Its modular design lets you mix and match tasks to suit your research needs.
