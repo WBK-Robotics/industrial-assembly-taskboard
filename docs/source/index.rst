@@ -3,12 +3,12 @@
    :align: center
    :width: 1000px
 
-Welcome to the documentation for the *Industrial Assembly Task Board*, 
-a modular robotic benchmark developed by the wbk Institute of Production Science at KIT (Karlsruhe Institute of Technology). 
+The *Industrial Assembly Task Board* is a modular robotic benchmark developed by the wbk Institute of Production Science at KIT (Karlsruhe Institute of Technology). 
 This resource provides comprehensive instructions for constructing the task board hardware and detailed guidelines for evaluating robotic systems
 on a variety of benchmark tasks. 
 Whether you are referencing this material online or as a compiled document, 
 you will find all the necessary information to build, configure, and utilize the task board for research, development, or benchmarking purposes.
+If you are using a compiled document (such as PDF), you can always access the latest online version at: https://industrial-assembly-taskboard.readthedocs.io/en/latest/#.
 
 Why This Task Board?
 ---------------------
@@ -36,10 +36,6 @@ We provide all 3D-printable files in this repository for anyone to build their o
  We encourage users to extend the task board with their own modules and tasks that reflect real-world challenges.
  If you have ideas for new tasks, please contribute by opening a Pull Request with your files and task descriptions.
 
-.. rubric:: References
-
-[1] National Institute of Standards and Technology (NIST) Assembly Task Board: https://www.nist.gov/el/intelligent-systems-division-73500/assembly-task-board
-
 
 This documentation is split into two main sections:
 
@@ -64,3 +60,9 @@ Contents
 .. toctree::
  wbk_challenge_overview
  wbk_challenge_robot_tasks_overview
+
+
+.. rubric:: References
+
+[1] National Institute of Standards and Technology (NIST) Assembly Task Board: https://www.nist.gov/el/intelligent-systems-division-73500/assembly-task-board
+
