@@ -3,7 +3,7 @@
    :align: center
    :width: 1000px
 
-The *Industrial Assembly Task Board* is a modular robotic benchmark developed by the wbk Institute of Production Science at KIT (Karlsruhe Institute of Technology). 
+The *wbk Industrial Assembly Task Board* is a modular robotic benchmark developed by the wbk Institute of Production Science at KIT (Karlsruhe Institute of Technology). 
 This resource provides comprehensive instructions for constructing the task board hardware and detailed guidelines for evaluating robotic systems
 on a variety of benchmark tasks. 
 Whether you are referencing this material online or as a compiled document, 

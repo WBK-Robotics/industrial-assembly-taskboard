@@ -1,8 +1,8 @@
-# Industrial Assembly Task Board
+# wbk Industrial Assembly Task Board
 
 ![Industrial Assembly Task Board Logo](docs/source/images/logo_with_text.png)
 
-The **Industrial Assembly Task Board** is a modular robotic benchmark developed by the wbk Institute of Production Science at KIT. This repository provides everything needed to build the hardware and evaluate robotic systems on a range of realistic assembly tasks.
+The **wbk Industrial Assembly Task Board** is a modular robotic benchmark developed by the wbk Institute of Production Science at KIT. This repository provides everything needed to build the hardware and evaluate robotic systems on a range of realistic assembly tasks.
 
 You can find the full documentation and explanations of the tasks in the [documentation](https://industrial-assembly-taskboard.readthedocs.io/en/latest/).
 
