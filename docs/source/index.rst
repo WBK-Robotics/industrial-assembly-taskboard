@@ -8,7 +8,7 @@ This resource provides comprehensive instructions for constructing the task boar
 on a variety of benchmark tasks. 
 Whether you are referencing this material online or as a compiled document, 
 you will find all the necessary information to build, configure, and utilize the task board for research, development, or benchmarking purposes.
-If you are using a compiled document (such as PDF), you can always access the latest online version at: https://industrial-assembly-taskboard.readthedocs.io/en/latest/#.
+If you are using a compiled document (such as PDF), you can always access the latest online version at: https://industrial-assembly-taskboard.readthedocs.io/en/latest/ .
 
 Why This Task Board?
 ---------------------
