@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "From Toy Problems to Industrial Reality: The wbk Assembly Benchmark"
+authors:
+	- family-names: Baumgärtner
+		given-names: Jan
+	- family-names: Kreft
+		given-names: Laurin
+	- family-names: Puchta
+		given-names: Alexander
+	- family-names: Fleischer
+		given-names: Jürgen
+date-released: 2025
+doi: 10.35097/3c5yh8z8asafagby
+keywords:
+	- Robotic Assembly
+	- Industrial Automation
+	- Peg-in-Hole
+	- Pick-and-Place
+	- Gear Assembly
+	- Robotics
+	- Industrial Robotics
+publisher: Karlsruhe Institute of Technology
+url: https://www.radar-service.eu/radar/en/dataset/3c5yh8z8asafagby
+type: dataset

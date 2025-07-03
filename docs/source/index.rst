@@ -54,6 +54,23 @@ This documentation is split into two main sections:
    3. Implement your robot program, run experiments, and compare results!
 
 
+Citation
+--------
+
+If you use this task board in your research, please cite our paper:
+
+.. code-block:: bibtex
+
+	@misc{https://www.radar-service.eu/radar/en/dataset/3c5yh8z8asafagby.,
+		doi = {10.35097/3c5yh8z8asafagby},
+		author = {Baumgärtner, Jan and Kreft, Laurin and Puchta, Alexander and Fleischer, Jürgen},
+		keywords = {Robotic Assembly and Industrial Automation and Peg-in-Hole and Pick-and-Place and Gear Assembly and Robotics and Industrial Robotics},
+		title = {From Toy Problems to Industrial Reality: The wbk Assembly Benchmark},
+		publisher = {Karlsruhe Institute of Technology},
+		year = {2025}
+	}
+
+
 Contents
 --------
 
